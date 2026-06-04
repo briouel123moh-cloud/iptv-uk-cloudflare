@@ -12,12 +12,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'iptvuk-elite.com',
+        hostname: 'iptv-uk-iptv.co.uk',
         pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: 'www.iptvuk-elite.com',
+        hostname: 'www.iptv-uk-iptv.co.uk',
         pathname: '/**',
       },
     ],
@@ -35,36 +35,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   env: {
-    SITE_URL: 'https://www.iptvuk-elite.com',
+    SITE_URL: 'https://iptv-uk-iptv.co.uk',
   },
-
-  // Headers for performance & security that also help SEO trust signals
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          // Cache control for better performance
-          { key: 'Vary', value: 'Accept-Encoding' },
-        ],
-      },
-      {
-        // Long-term cache for static assets (Next.js builds include content hash)
-        source: '/_next/static/(.*)',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
-        ],
-      },
-      {
-        // Cache images for 7 days
-        source: '/:all*.(jpg|jpeg|png|webp|avif|svg|ico)',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=604800, stale-while-revalidate=86400' },
-        ],
-      },
-    ];
-  },
-
 };
 
 export default nextConfig;
