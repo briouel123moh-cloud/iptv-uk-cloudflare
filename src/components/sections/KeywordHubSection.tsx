@@ -1,0 +1,68 @@
+import Link from 'next/link';
+
+type KeywordHubSectionProps = {
+  title?: string;
+  subtitle?: string;
+};
+
+const buyingIntentLinks = [
+  { href: '/pricing/', label: 'Buy IPTV UK Plans & Prices' },
+  { href: '/iptv-firestick-uk/', label: 'Best IPTV for Firestick UK' },
+  { href: '/iptv-smart-tv-uk/', label: 'IPTV on Smart TV UK Setup' },
+  { href: '/channels/', label: 'IPTV UK Channel List 2026' },
+  { href: '/blog/iptv-free-trial-uk-2026/', label: 'IPTV Free Trial UK Guide' },
+  { href: '/blog/best-iptv-providers-uk-2026/', label: 'Best IPTV Providers UK 2026' },
+];
+
+const infoIntentLinks = [
+  { href: '/blog/is-iptv-legal-uk/', label: 'Is IPTV Legal in UK?' },
+  { href: '/blog/common-iptv-error-codes/', label: 'Common IPTV Error Codes & Fixes' },
+  { href: '/blog/best-internet-speed-4k-iptv/', label: 'Best Internet Speed for 4K IPTV' },
+  { href: '/blog/fix-iptv-buffering-bt-virgin/', label: 'Fix IPTV Buffering on BT & Virgin' },
+  { href: '/blog/m3u-playlist-guide-beginners/', label: 'M3U Playlist Guide for Beginners' },
+  { href: '/blog/tivimate-401-error-fix/', label: 'TiviMate 401 Error Fix' },
+];
+
+export default function KeywordHubSection({
+  title = 'Popular IPTV UK Topics',
+  subtitle = 'Explore buying guides, setup tutorials, troubleshooting, and legal information to help you choose the right IPTV UK subscription.',
+}: KeywordHubSectionProps) {
+  return (
+    <section className="py-14 md:py-20 bg-slate-900 border-t border-slate-800">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">{title}</h2>
+          <p className="text-slate-300">{subtitle}</p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <div className="rounded-2xl border border-emerald-500/25 bg-emerald-500/5 p-6">
+            <h3 className="text-lg font-semibold text-emerald-300 mb-4">Buying Intent Keywords</h3>
+            <ul className="space-y-3">
+              {buyingIntentLinks.map((item) => (
+                <li key={item.href}>
+                  <Link className="text-slate-200 hover:text-emerald-300 transition-colors" href={item.href}>
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="rounded-2xl border border-indigo-500/25 bg-indigo-500/5 p-6">
+            <h3 className="text-lg font-semibold text-indigo-300 mb-4">Informational Keywords</h3>
+            <ul className="space-y-3">
+              {infoIntentLinks.map((item) => (
+                <li key={item.href}>
+                  <Link className="text-slate-200 hover:text-indigo-300 transition-colors" href={item.href}>
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

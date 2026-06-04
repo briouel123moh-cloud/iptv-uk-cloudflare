@@ -1,0 +1,274 @@
+// Footer component with navigation, contact info
+// SEO: footer with proper semantic structure
+
+import Link from 'next/link';
+import { SITE_CONFIG } from '@/lib/site-config';
+
+const footerNavigation = {
+    main: [
+        { name: 'Home', href: '/' },
+        { name: 'Pricing', href: '/pricing' },
+        { name: 'IPTV UK Guide', href: '/iptv-uk-guide' },
+        { name: 'FAQ', href: '/faq' },
+        { name: 'Blog', href: '/blog' },
+        { name: 'About', href: '/about' },
+        { name: 'Contact', href: '/contact' },
+    ],
+    devices: [
+        { name: 'IPTV for Firestick UK', href: '/iptv-firestick-uk/' },
+        { name: 'IPTV for Smart TV UK', href: '/iptv-smart-tv-uk/' },
+        { name: 'IPTV for Android Box UK', href: '/iptv-android-box-uk/' },
+        { name: 'IPTV for iPhone UK', href: '/iptv-iphone-uk/' },
+        { name: 'IPTV vs Sky UK', href: '/iptv-vs-sky-uk/' },
+        { name: 'IPTV vs Virgin Media', href: '/iptv-vs-virgin-media-uk/' },
+        { name: 'Full Channel Catalog', href: '/catalog/' },
+    ],
+    setup: [
+        { name: 'Firestick Setup Guide', href: '/iptv-firestick-uk/' },
+        { name: 'Smart TV Setup Guide', href: '/setup/smart-tv/' },
+        { name: 'Xtream Codes API Guide', href: '/setup/xtream-codes/' },
+        { name: 'Android Box Setup', href: '/iptv-android-box-uk/' },
+        { name: 'iPhone/iPad Setup', href: '/iptv-iphone-uk/' },
+        { name: 'PC & Mac Setup', href: '/iptv-pc-mac-uk/' },
+    ],
+    sports: [
+        { name: 'Premier League IPTV UK', href: '/premier-league-iptv-uk/' },
+        { name: 'Sky Sports IPTV UK', href: '/sky-sports-iptv-uk/' },
+        { name: 'Champions League IPTV', href: '/champions-league-iptv-uk/' },
+        { name: 'Boxing & UFC IPTV UK', href: '/boxing-ufc-iptv-uk/' },
+        { name: 'F1 IPTV UK', href: '/f1-iptv-uk/' },
+        { name: 'TNT Sports IPTV UK', href: '/tnt-sports-iptv-uk/' },
+    ],
+    blog: [
+        { name: 'Best IPTV Providers UK', href: '/blog/best-iptv-providers-uk-2026/' },
+        { name: 'IPTV UK Reviews', href: '/blog/iptv-uk-reviews-2026/' },
+        { name: 'IPTV Free Trial UK', href: '/blog/iptv-free-trial-uk-2026/' },
+        { name: 'Best Internet Speed for IPTV', href: '/blog/best-internet-speed-4k-iptv/' },
+        { name: 'Fix IPTV Buffering (BT/Virgin)', href: '/blog/fix-iptv-buffering-bt-virgin/' },
+        { name: 'IPTV Legal UK Guide', href: '/blog/is-iptv-legal-uk/' },
+    ],
+    legal: [
+        { name: 'Privacy Policy', href: '/privacy' },
+        { name: 'Terms of Service', href: '/terms' },
+        { name: 'Refund Policy', href: '/refund' },
+        { name: 'DMCA Policy', href: '/dmca' },
+    ],
+};
+
+export default function Footer() {
+    const currentYear = new Date().getFullYear();
+
+    return (
+        <footer className="bg-slate-950 border-t border-slate-800">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-8 lg:gap-10">
+                    {/* Brand Column */}
+                    <div className="lg:col-span-2">
+                        <Link href="/" className="inline-flex items-center gap-2 text-2xl font-bold text-white mb-4">
+                            <span className="text-emerald-500">IPTV</span>
+                            <span>UK</span>
+                            <span className="text-xs font-normal bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded">
+                                Elite
+                            </span>
+                        </Link>
+                        {/* AEO: Clear brand description for AI extraction */}
+                        <p className="text-slate-400 mb-4 max-w-md">
+                            IPTV UK Elite is a premium IPTV subscription service, offering 45,000+ live
+                            channels, 100,000+ VOD content, and 4K quality streaming. Serving customers
+                            across London, Manchester, Birmingham, Glasgow, Liverpool, Leeds, and beyond.
+                        </p>
+                        {/* Contact Info */}
+                        <div className="space-y-2 text-slate-400">
+                            <p>
+                                <strong className="text-white">24/7 Support:</strong>{' '}
+                                <a
+                                    href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%20Elite%2C%20I%20need%20support%20with%20my%20IPTV%20service"
+                                    className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    title="Get IPTV UK Support via WhatsApp"
+                                >
+                                    WhatsApp
+                                </a>
+                            </p>
+                            <p>
+                                <strong className="text-white">Email:</strong>{' '}
+                                <a
+                                    href="mailto:contact@iptvuk-elite.com"
+                                    className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                                >
+                                    contact@iptvuk-elite.com
+                                </a>
+                            </p>
+                            <p>
+                                <strong className="text-white">Social:</strong>{' '}
+                                <a
+                                    href={SITE_CONFIG.socialProfiles.youtube}
+                                    className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    YouTube
+                                </a>
+                                {' · '}
+                                <a
+                                    href={SITE_CONFIG.socialProfiles.linkedin}
+                                    className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    LinkedIn
+                                </a>
+                            </p>
+                            <address className="not-italic text-sm text-slate-500 mt-3 leading-relaxed">
+                                IPTV UK Elite Ltd<br />
+                                124 City Road, London<br />
+                                EC1V 2NX, United Kingdom
+                            </address>
+                        </div>
+                    </div>
+
+                    {/* Quick Links */}
+                    <div>
+                        <h3 className="text-white font-semibold mb-4">Quick Links</h3>
+                        <ul className="space-y-2">
+                            {footerNavigation.main.map((item) => (
+                                <li key={item.name}>
+                                    <Link
+                                        href={item.href}
+                                        className="text-slate-400 hover:text-emerald-400 transition-colors"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Setup Guides */}
+                    <div>
+                        <h3 className="text-white font-semibold mb-4">Setup Guides</h3>
+                        <ul className="space-y-2">
+                            {footerNavigation.setup.map((item) => (
+                                <li key={item.name}>
+                                    <Link
+                                        href={item.href}
+                                        className="text-slate-400 hover:text-emerald-400 transition-colors"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Devices */}
+                    <div>
+                        <h3 className="text-white font-semibold mb-4">Devices & Comparisons</h3>
+                        <ul className="space-y-2">
+                            {footerNavigation.devices.map((item) => (
+                                <li key={item.name}>
+                                    <Link
+                                        href={item.href}
+                                        className="text-slate-400 hover:text-emerald-400 transition-colors"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Sports */}
+                    <div>
+                        <h3 className="text-white font-semibold mb-4">Sports & Channels</h3>
+                        <ul className="space-y-2">
+                            {footerNavigation.sports.map((item) => (
+                                <li key={item.name}>
+                                    <Link
+                                        href={item.href}
+                                        className="text-slate-400 hover:text-emerald-400 transition-colors"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Blog Keywords */}
+                    <div>
+                        <h3 className="text-white font-semibold mb-4">Popular Blog Guides</h3>
+                        <ul className="space-y-2">
+                            {footerNavigation.blog.map((item) => (
+                                <li key={item.name}>
+                                    <Link
+                                        href={item.href}
+                                        className="text-slate-400 hover:text-emerald-400 transition-colors"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Legal */}
+                    <div>
+                        <h3 className="text-white font-semibold mb-4">Legal</h3>
+                        <ul className="space-y-2">
+                            {footerNavigation.legal.map((item) => (
+                                <li key={item.name}>
+                                    <Link
+                                        href={item.href}
+                                        className="text-slate-400 hover:text-emerald-400 transition-colors"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+
+                        {/* Trust Badges */}
+                        <div className="mt-6 space-y-2">
+                            <div className="flex items-center gap-2 text-sm text-slate-400">
+                                <svg className="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                                30-Day Money Back Guarantee
+                            </div>
+                            <div className="flex items-center gap-2 text-sm text-slate-400">
+                                <svg className="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                                Secure Payment
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Bottom Bar */}
+                <div className="mt-12 pt-8 border-t border-slate-800">
+                    {/* Sister sites plain row */}
+                    <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6 text-sm text-slate-400">
+                        <a href={SITE_CONFIG.sisterSites.ireland} target="_blank" rel="noopener noreferrer" title="Best IPTV Service in Ireland – Emerald IPTV" className="hover:text-emerald-400 transition-colors">Best IPTV Ireland</a>
+                        <span className="text-slate-700">·</span>
+                        <a href={SITE_CONFIG.sisterSites.nordic} target="_blank" rel="noopener noreferrer" title="Premium Nordic IPTV Subscription" className="hover:text-emerald-400 transition-colors">Nordic IPTV Subscription</a>
+                        <span className="text-slate-700">·</span>
+                        <a href={SITE_CONFIG.sisterSites.germany} target="_blank" rel="noopener noreferrer" title="Best IPTV Provider in Germany" className="hover:text-emerald-400 transition-colors">IPTV Deutschland</a>
+                    </div>
+                    <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+                        <p className="text-slate-500 text-sm text-center md:text-left">
+                            © {currentYear} IPTV UK Elite. All rights reserved.
+                        </p>
+                        {/* GEO: UK city mentions for local SEO */}
+                        <p className="text-slate-600 text-xs text-center md:text-right">
+                            Serving IPTV customers in London, Manchester, Birmingham, Glasgow, Liverpool,
+                            Leeds, Sheffield, Edinburgh, Bristol, and across the UK.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    );
+}
