@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 import { SITE_CONFIG } from '@/lib/site-config';
 import { getFeedPosts } from '@/lib/feed';
 

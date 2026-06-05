@@ -14,6 +14,7 @@ import { RELATED_META } from '@/lib/related-meta';
 import { buildAlternates } from '@/lib/hreflang';
 import { CORE_BUYING_KEYWORDS, getCategoryKeywords } from '@/lib/seo-keywords';
 import { getInternalLinkTarget, getRecommendedImageAlt, getSeoFix } from '@/lib/seo-fixes';
+import { INDEXED_BLOG_SLUGS, isIndexedInternalHref } from '@/lib/indexed-routes';
 
 type BlogPost = {
     title: string;
@@ -2143,7 +2144,7 @@ For broader IPTV context, read the [Complete IPTV UK Guide 2026](/iptv-uk-guide/
 };
 
 export async function generateStaticParams() {
-    return Object.keys(blogPosts).map((slug) => ({
+    return INDEXED_BLOG_SLUGS.filter((slug) => blogPosts[slug]).map((slug) => ({
         slug,
     }));
 }
@@ -2478,6 +2479,10 @@ export default async function BlogPostPage(
                                             const isInternal = url.startsWith('/') || url.startsWith('https://www.iptvuk-elite.com');
                                             if (isInternal) {
                                                 const finalUrl = url.replace('https://www.iptvuk-elite.com', '');
+                                                if (!isIndexedInternalHref(finalUrl)) {
+                                                    return label;
+                                                }
+
                                                 return (
                                                     <Link key={i} href={finalUrl} className="text-emerald-400 hover:text-emerald-300 underline underline-offset-4 decoration-emerald-400/30 font-medium transition-colors">
                                                         {label}

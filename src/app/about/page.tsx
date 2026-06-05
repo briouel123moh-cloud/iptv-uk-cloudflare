@@ -60,9 +60,6 @@ const organizationSchema = {
         value: 10,
     },
     sameAs: [
-        SITE_CONFIG.sisterSites.ireland,
-        SITE_CONFIG.sisterSites.nordic,
-        SITE_CONFIG.sisterSites.germany,
         SITE_CONFIG.socialProfiles.youtube,
         SITE_CONFIG.socialProfiles.linkedin,
     ],

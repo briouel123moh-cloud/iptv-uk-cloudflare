@@ -13,7 +13,6 @@ import { getWhatsAppLink } from '@/lib/site-config';
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Pricing', href: '/pricing' },
-    { name: 'All Channels', href: '/channels' },
     { name: 'IPTV UK Guide', href: '/iptv-uk-guide' },
     { name: 'FAQ', href: '/faq' },
     { name: 'Blog', href: '/blog' },
