@@ -16,45 +16,41 @@ const footerNavigation = {
     ],
     devices: [
         { name: 'IPTV for Firestick UK', href: '/iptv-firestick-uk/' },
-        { name: 'IPTV for Smart TV UK', href: '/iptv-smart-tv-uk/' },
-        { name: 'IPTV for Android Box UK', href: '/iptv-android-box-uk/' },
         { name: 'IPTV for iPhone UK', href: '/iptv-iphone-uk/' },
-        { name: 'IPTV vs Sky UK', href: '/iptv-vs-sky-uk/' },
-        { name: 'IPTV vs Virgin Media', href: '/iptv-vs-virgin-media-uk/' },
-        { name: 'Full Channel Catalog', href: '/catalog/' },
+        { name: 'Smart TV IPTV Setup', href: '/blog/smart-tv-iptv-setup-guide-samsung-lg-and-android-tv/' },
+        { name: 'Samsung TV IPTV Setup', href: '/blog/install-iptv-samsung-tv-2026/' },
+        { name: 'IPTV Multiple Devices', href: '/blog/iptv-multiple-devices-uk/' },
+        { name: 'BBC IPTV UK', href: '/bbc-iptv-uk/' },
     ],
     setup: [
         { name: 'Firestick Setup Guide', href: '/iptv-firestick-uk/' },
-        { name: 'Smart TV Setup Guide', href: '/setup/smart-tv/' },
-        { name: 'Xtream Codes API Guide', href: '/setup/xtream-codes/' },
-        { name: 'Android Box Setup', href: '/iptv-android-box-uk/' },
         { name: 'iPhone/iPad Setup', href: '/iptv-iphone-uk/' },
-        { name: 'PC & Mac Setup', href: '/iptv-pc-mac-uk/' },
+        { name: 'Beginner IPTV Guide', href: '/blog/iptv-uk-beginners-guide/' },
+        { name: 'Best Smart TV Apps', href: '/blog/best-iptv-apps-smart-tv-2026/' },
+        { name: 'TiviMate No EPG Fix', href: '/blog/tivimate-no-epg-fix/' },
+        { name: 'What Is EPG?', href: '/blog/what-is-epg-guide/' },
     ],
     sports: [
-        { name: 'Premier League IPTV UK', href: '/premier-league-iptv-uk/' },
         { name: 'Sky Sports IPTV UK', href: '/sky-sports-iptv-uk/' },
-        { name: 'Champions League IPTV', href: '/champions-league-iptv-uk/' },
-        { name: 'Boxing & UFC IPTV UK', href: '/boxing-ufc-iptv-uk/' },
-        { name: 'F1 IPTV UK', href: '/f1-iptv-uk/' },
-        { name: 'TNT Sports IPTV UK', href: '/tnt-sports-iptv-uk/' },
+        { name: 'Sky Cinema IPTV', href: '/sky-cinema-iptv/' },
+        { name: 'Premier League IPTV UK', href: '/blog/iptv-premier-league-uk/' },
+        { name: 'Watch UFC PPV IPTV UK', href: '/blog/watch-ufc-ppv-iptv-uk/' },
+        { name: 'BBC IPTV UK', href: '/bbc-iptv-uk/' },
     ],
     blog: [
-        { name: 'Best IPTV Providers UK', href: '/blog/best-iptv-providers-uk-2026/' },
-        { name: 'IPTV UK Reviews', href: '/blog/iptv-uk-reviews-2026/' },
-        { name: 'IPTV Free Trial UK', href: '/blog/iptv-free-trial-uk-2026/' },
-        { name: 'Best Internet Speed for IPTV', href: '/blog/best-internet-speed-4k-iptv/' },
-        { name: 'Fix IPTV Buffering (BT/Virgin)', href: '/blog/fix-iptv-buffering-bt-virgin/' },
+        { name: 'Best IPTV UK 2026', href: '/blog/best-iptv-uk-2026/' },
+        { name: 'Best IPTV Providers UK', href: '/blog/best-iptv-uk-providers-2026/' },
         { name: 'IPTV Legal UK Guide', href: '/blog/is-iptv-legal-uk/' },
+        { name: 'IPTV UK Monthly Cost', href: '/blog/iptv-uk-monthly-cost/' },
+        { name: 'Free vs Premium IPTV Risks', href: '/blog/free-vs-premium-iptv-risks/' },
+        { name: 'Spot Fake IPTV Sellers', href: '/blog/spot-fake-iptv-sellers-uk/' },
     ],
     legal: [
-        { name: 'Privacy Policy', href: '/privacy' },
-        { name: 'Terms of Service', href: '/terms' },
         { name: 'Refund Policy', href: '/refund' },
         { name: 'DMCA Policy', href: '/dmca' },
+        { name: 'Contact', href: '/contact' },
     ],
 };
-
 export default function Footer() {
     const currentYear = new Date().getFullYear();
 
@@ -249,14 +245,6 @@ export default function Footer() {
 
                 {/* Bottom Bar */}
                 <div className="mt-12 pt-8 border-t border-slate-800">
-                    {/* Sister sites plain row */}
-                    <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6 text-sm text-slate-400">
-                        <a href={SITE_CONFIG.sisterSites.ireland} target="_blank" rel="noopener noreferrer" title="Best IPTV Service in Ireland – Emerald IPTV" className="hover:text-emerald-400 transition-colors">Best IPTV Ireland</a>
-                        <span className="text-slate-700">·</span>
-                        <a href={SITE_CONFIG.sisterSites.nordic} target="_blank" rel="noopener noreferrer" title="Premium Nordic IPTV Subscription" className="hover:text-emerald-400 transition-colors">Nordic IPTV Subscription</a>
-                        <span className="text-slate-700">·</span>
-                        <a href={SITE_CONFIG.sisterSites.germany} target="_blank" rel="noopener noreferrer" title="Best IPTV Provider in Germany" className="hover:text-emerald-400 transition-colors">IPTV Deutschland</a>
-                    </div>
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-slate-500 text-sm text-center md:text-left">
                             © {currentYear} IPTV UK Elite. All rights reserved.

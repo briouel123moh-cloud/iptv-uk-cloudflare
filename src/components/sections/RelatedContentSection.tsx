@@ -3,6 +3,7 @@
 // Used by both blog posts (via relatedSlugs + RELATED_META) and static pages (inline items).
 
 import Link from 'next/link';
+import { isIndexedInternalHref } from '@/lib/indexed-routes';
 
 export type RelatedItem = {
     /** Blog slug (e.g. 'fix-iptv-buffering-bt-virgin') OR absolute path (e.g. '/sky-sports-iptv/') */
@@ -31,6 +32,9 @@ export default function RelatedContentSection({
                     const href = item.slug.startsWith('/')
                         ? item.slug
                         : `/blog/${item.slug}/`;
+
+                    if (!isIndexedInternalHref(href)) return null;
+
                     return (
                         <Link
                             key={item.slug}

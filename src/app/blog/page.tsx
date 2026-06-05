@@ -12,6 +12,7 @@ import { SITE_CONFIG } from '@/lib/site-config';
 import KeywordHubSection from '@/components/sections/KeywordHubSection';
 import { CORE_BUYING_KEYWORDS } from '@/lib/seo-keywords';
 import { applySeoFixes } from '@/lib/seo-fixes';
+import { INDEXED_BLOG_SLUG_SET } from '@/lib/indexed-routes';
 
 export const metadata: Metadata = applySeoFixes("/blog/", {
     title: 'IPTV UK Blog 2026 – Expert IPTV UK Guides, Reviews & Setup Tips',
@@ -43,7 +44,7 @@ const blogPosts = [
         readTime: '13 min read',
     },
     {
-        slug: 'best-iptv-providers-uk-2026',
+        slug: 'best-iptv-uk-providers-2026',
         title: 'Best IPTV Providers UK 2026 – Top 5 Reviewed & Ranked',
         excerpt: 'Honest comparison of the 5 best IPTV providers in the UK for 2026. We tested channel count, uptime, customer support, and pricing so you choose right first time.',
         date: '2026-04-13',
@@ -612,6 +613,10 @@ const blogPosts = [
     },
 ];
 
+const indexedBlogPosts = blogPosts.filter(
+    (post) => INDEXED_BLOG_SLUG_SET.has(post.slug) || post.slug === 'best-iptv-uk-providers-2026',
+);
+
 export default function BlogPage() {
     const blogSchema = {
         '@context': 'https://schema.org',
@@ -656,7 +661,7 @@ export default function BlogPage() {
 
                 <div className="max-w-4xl mx-auto">
                     <div className="space-y-6">
-                        {blogPosts.map((post) => (
+                        {indexedBlogPosts.map((post) => (
                             <Link key={post.slug} href={`/blog/${post.slug}`}>
                                 <Card className="hover:border-emerald-500/50 transition-colors">
                                     <div className="flex flex-col md:flex-row md:items-center gap-4">

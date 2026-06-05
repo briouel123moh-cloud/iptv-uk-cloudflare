@@ -8,19 +8,19 @@ type KeywordHubSectionProps = {
 const buyingIntentLinks = [
   { href: '/pricing/', label: 'Buy IPTV UK Plans & Prices' },
   { href: '/iptv-firestick-uk/', label: 'Best IPTV for Firestick UK' },
-  { href: '/iptv-smart-tv-uk/', label: 'IPTV on Smart TV UK Setup' },
-  { href: '/channels/', label: 'IPTV UK Channel List 2026' },
-  { href: '/blog/iptv-free-trial-uk-2026/', label: 'IPTV Free Trial UK Guide' },
-  { href: '/blog/best-iptv-providers-uk-2026/', label: 'Best IPTV Providers UK 2026' },
+  { href: '/iptv-iphone-uk/', label: 'IPTV on iPhone & iPad UK' },
+  { href: '/sky-sports-iptv-uk/', label: 'Sky Sports IPTV UK Guide' },
+  { href: '/blog/best-iptv-uk-2026/', label: 'Best IPTV UK 2026' },
+  { href: '/blog/best-iptv-uk-providers-2026/', label: 'Best IPTV Providers UK 2026' },
 ];
 
 const infoIntentLinks = [
   { href: '/blog/is-iptv-legal-uk/', label: 'Is IPTV Legal in UK?' },
-  { href: '/blog/common-iptv-error-codes/', label: 'Common IPTV Error Codes & Fixes' },
-  { href: '/blog/best-internet-speed-4k-iptv/', label: 'Best Internet Speed for 4K IPTV' },
-  { href: '/blog/fix-iptv-buffering-bt-virgin/', label: 'Fix IPTV Buffering on BT & Virgin' },
-  { href: '/blog/m3u-playlist-guide-beginners/', label: 'M3U Playlist Guide for Beginners' },
-  { href: '/blog/tivimate-401-error-fix/', label: 'TiviMate 401 Error Fix' },
+  { href: '/blog/iptv-uk-beginners-guide/', label: 'IPTV UK Beginner Guide' },
+  { href: '/blog/iptv-uk-monthly-cost/', label: 'IPTV UK Monthly Cost' },
+  { href: '/blog/what-is-epg-guide/', label: 'What Is EPG? TV Guide Explained' },
+  { href: '/blog/free-vs-premium-iptv-risks/', label: 'Free vs Premium IPTV Risks' },
+  { href: '/blog/tivimate-no-epg-fix/', label: 'TiviMate No EPG Fix' },
 ];
 
 export default function KeywordHubSection({

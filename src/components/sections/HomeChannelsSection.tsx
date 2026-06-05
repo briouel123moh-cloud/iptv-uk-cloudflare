@@ -104,8 +104,8 @@ export default function HomeChannelsSection() {
 
                 {/* Link to all channels */}
                 <div className="text-center">
-                    <Button href="/channels" variant="outline" size="lg" className="border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-white transition-all">
-                        🔍 Browse Complete Channel List
+                    <Button href="/iptv-uk-guide/" variant="outline" size="lg" className="border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-white transition-all">
+                        🔍 Read the IPTV UK Channel Guide
                     </Button>
                 </div>
             </div>

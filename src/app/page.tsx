@@ -55,10 +55,6 @@ const HomeFAQPreviewSection = dynamic(
   () => import('@/components/sections/HomeFAQPreviewSection'),
   { ssr: true }
 );
-const HomeEuropeLinkSection = dynamic(
-  () => import('@/components/sections/HomeEuropeLinkSection'),
-  { ssr: true }
-);
 const KeywordHubSection = dynamic(
   () => import('@/components/sections/KeywordHubSection'),
   { ssr: true }
@@ -240,7 +236,6 @@ export default function HomePage() {
       <HomeTestimonialsSection />
       <HomeFAQPreviewSection />
       <KeywordHubSection />
-      <HomeEuropeLinkSection />
     </>
   );
 }

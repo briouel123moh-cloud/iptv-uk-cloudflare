@@ -2,13 +2,10 @@
 // SEO: Global meta tags, Open Graph, Twitter Cards
 // GEO: Organization schema for UK presence
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 import SiteLayout from '@/components/layout/SiteLayout';
 import { SITE_CONFIG } from '@/lib/site-config';
-
-const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 // SEO: Global metadata
 export const metadata: Metadata = {
@@ -142,9 +139,6 @@ const organizationSchema = {
   currenciesAccepted: 'GBP',
   paymentAccepted: 'PayPal, Credit Card, Bank Transfer, Cryptocurrency',
   sameAs: [
-    SITE_CONFIG.sisterSites.ireland,
-    SITE_CONFIG.sisterSites.nordic,
-    SITE_CONFIG.sisterSites.germany,
     SITE_CONFIG.socialProfiles.youtube,
     SITE_CONFIG.socialProfiles.linkedin,
   ],
@@ -227,14 +221,14 @@ export default function RootLayout({
   id="sa-dynamic-optimization"
   strategy="beforeInteractive"
   src="data:text/javascript;base64,dmFyIHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO3NjcmlwdC5zZXRBdHRyaWJ1dGUoIm5vd3Byb2NrZXQiLCAiIik7c2NyaXB0LnNldEF0dHJpYnV0ZSgibml0cm8tZXhjbHVkZSIsICIiKTtzY3JpcHQuc3JjID0gImh0dHBzOi8vZGFzaGJvYXJkLnNlYXJjaGF0bGFzLmNvbS9zY3JpcHRzL2R5bmFtaWNfb3B0aW1pemF0aW9uLmpzIjtzY3JpcHQuZGF0YXNldC51dWlkID0gIjUyMjQ3OTFlLTY5ZTgtNDRiMS05N2JjLWIyNmEzYzFhZjkxYSI7c2NyaXB0LmlkID0gInNhLWR5bmFtaWMtb3B0aW1pemF0aW9uLWxvYWRlciI7ZG9jdW1lbnQuaGVhZC5hcHBlbmRDaGlsZChzY3JpcHQpOw=="
-  {...{
-    "nowprocket": "true",
-    "nitro-exclude": "true",
-    "data-uuid": "5224791e-69e8-44b1-97bc-b26a3c1af91a"
-  } as any}
+  {...({
+    nowprocket: 'true',
+    'nitro-exclude': 'true',
+    'data-uuid': '5224791e-69e8-44b1-97bc-b26a3c1af91a',
+  } satisfies Record<string, string>)}
 />
       </head>
-      <body className={`${inter.className} antialiased`}>
+      <body className="antialiased">
         {/* GTM (noscript) — not render-blocking, stays here */}
         <noscript>
           <iframe
