@@ -9,7 +9,7 @@ export default function AboutBrandSection() {
         <section className="py-16 md:py-24 bg-slate-900">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <SectionTitle
-                    title="IPTV UK Elite: Trusted Premium UK IPTV Service Since 2019"
+                    title="IPTV UK: Trusted Premium UK IPTV Service Since 2019"
                     subtitle="Your trusted partner for premium IPTV entertainment in the United Kingdom since 2019."
                 />
 
@@ -50,11 +50,11 @@ export default function AboutBrandSection() {
                             <p className="text-slate-300 leading-relaxed">
                                 That frustration led James to spend months researching IPTV technology. By early 2019,
                                 he had built a small but reliable streaming platform for friends and family in Manchester.
-                                Word spread quickly — within a year, IPTV UK Elite had grown from a side project into a
+                                Word spread quickly — within a year, IPTV UK had grown from a side project into a
                                 proper business serving hundreds of UK customers.
                             </p>
                             <p className="text-slate-300 leading-relaxed">
-                                Today, IPTV UK Elite serves over 10,000 subscribers across the United Kingdom and beyond.
+                                Today, IPTV UK serves over 10,000 subscribers across the United Kingdom and beyond.
                                 The mission remains exactly the same as it was on day one: give people access to great TV
                                 without overpriced contracts or unnecessary complexity.
                             </p>
@@ -95,7 +95,7 @@ export default function AboutBrandSection() {
                             <h3 className="text-lg font-semibold text-white mb-1">James Carter</h3>
                             <p className="text-emerald-400 text-sm mb-3">Founder &amp; CEO</p>
                             <p className="text-slate-400 text-sm leading-relaxed">
-                                10+ years in streaming technology and network engineering. Founded IPTV UK Elite
+                                10+ years in streaming technology and network engineering. Founded IPTV UK
                                 after years of frustration with overpriced legacy TV providers. Based in Manchester.
                             </p>
                         </div>
@@ -161,7 +161,7 @@ export default function AboutBrandSection() {
                     <div className="p-6 rounded-xl bg-slate-800/50 border border-slate-700/50">
                         <h2 className="text-xl font-semibold text-white mb-4">Registered Office</h2>
                         <address className="text-slate-300 not-italic leading-relaxed">
-                            <strong className="text-white">IPTV UK Elite Ltd</strong><br />
+                            <strong className="text-white">IPTV UK</strong><br />
                             124 City Road<br />
                             London<br />
                             EC1V 2NX<br />
@@ -170,16 +170,16 @@ export default function AboutBrandSection() {
                         <p className="text-slate-400 text-sm mt-4">
                             <strong className="text-slate-300">Email:</strong>{' '}
                             <a
-                                href="mailto:contact@iptvuk-elite.com"
+                                href="mailto:contact@iptv-uk-iptv.co.uk"
                                 className="text-emerald-400 hover:text-emerald-300 transition-colors"
                             >
-                                contact@iptvuk-elite.com
+                                contact@iptv-uk-iptv.co.uk
                             </a>
                         </p>
                         <p className="text-slate-400 text-sm mt-1">
                             <strong className="text-slate-300">Support:</strong>{' '}
                             <a
-                                href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%20Elite%2C%20I%20need%20support%20with%20my%20IPTV%20service"
+                                href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%2C%20I%20need%20support%20with%20my%20IPTV%20service"
                                 className="text-emerald-400 hover:text-emerald-300 transition-colors"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -198,7 +198,7 @@ export default function AboutBrandSection() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Button
-                            href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%20Elite%2C%20I%20want%20a%20free%20trial"
+                            href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%2C%20I%20want%20a%20free%20trial"
                             variant="primary"
                             target="_blank"
                             rel="noopener noreferrer"

@@ -63,7 +63,7 @@ export default function HomeSportsSection() {
 
                 {/* AEO: Answer paragraph for "What sports can I watch on IPTV UK?" */}
                 <p className="text-center text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed">
-                    IPTV UK Elite offers the most comprehensive sports coverage in the UK market.
+                    IPTV UK offers the most comprehensive sports coverage in the UK market.
                     Stream every Premier League match, Champions League game, UFC pay-per-view event,
                     and Formula 1 race live. Our sports IPTV package includes Sky Sports, BT Sport,
                     ESPN, and all major sports networks – all included in your subscription at no extra cost.
@@ -72,8 +72,8 @@ export default function HomeSportsSection() {
                 {/* Premier League IPTV UK streaming image */}
                 <div className="mt-12 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-emerald-500/20">
                     <Image
-                        src="/images/premier-league-live-iptv-uk-elite-380-matches-sky-sports-tnt-sports-4k.webp"
-                        alt="Watch Premier League live via IPTV UK Elite — all 380 matches included Sky Sports and TNT Sports"
+                        src="/images/premier-league-live-iptv-uk-380-matches-sky-sports-tnt-sports-4k.webp"
+                        alt="Watch Premier League live via IPTV UK — all 380 matches included Sky Sports and TNT Sports"
                         width={1200}
                         height={675}
                         className="w-full h-auto object-cover"

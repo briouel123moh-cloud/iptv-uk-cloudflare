@@ -38,7 +38,7 @@ export default function CompetitorComparisonSection() {
                         {/* Our Column */}
                         <div className="p-6 text-center bg-emerald-600/90 text-white relative shadow-[inset_0_0_40px_rgba(0,0,0,0.2)]">
                             <div className="absolute top-0 right-0 bg-amber-400 text-slate-900 text-[10px] font-black px-3 py-1 uppercase tracking-widest rounded-bl-lg shadow-md">Winner</div>
-                            <div className="h-12 text-xl font-black mb-4">IPTV UK Elite</div>
+                            <div className="h-12 text-xl font-black mb-4">IPTV UK</div>
                             <div className="py-4 border-b border-emerald-500/50 font-bold text-lg text-amber-300 drop-shadow-sm">45,000+ (Verified)</div>
                             <div className="py-4 border-b border-emerald-500/50 font-bold">100,000+ (Daily Updates)</div>
                             <div className="py-4 border-b border-emerald-500/50 font-bold">99.9% (UK Optimized)</div>
@@ -53,7 +53,7 @@ export default function CompetitorComparisonSection() {
                     <p className="text-lg text-slate-400 leading-relaxed">
                         When searching for a <strong>Premium IPTV</strong> service, numbers matter. 
                         Compare verified plan details, support quality, and refund terms before subscribing.
-                        <strong> IPTV UK Elite</strong> focuses on transparent pricing, a broad UK channel lineup,
+                        <strong> IPTV UK</strong> focuses on transparent pricing, a broad UK channel lineup,
                         and a risk-free <strong>30-day guarantee</strong> so new customers can test service fit.
                     </p>
                 </div>

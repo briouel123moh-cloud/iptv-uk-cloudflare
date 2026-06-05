@@ -68,7 +68,7 @@ export default function HomeBenefitsSection() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* SEO: H2 with target keywords */}
                 <SectionTitle
-                    title="Why IPTV UK Elite Beats Every Competitor"
+                    title="Why IPTV UK Beats Every Competitor"
                     subtitle="More channels, zero buffering, VPN compatible, and 24/7 real human support — at a fraction of Sky's price."
                 />
 

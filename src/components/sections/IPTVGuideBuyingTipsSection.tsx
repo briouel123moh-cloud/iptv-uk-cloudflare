@@ -151,16 +151,16 @@ export default function IPTVGuideBuyingTipsSection() {
                             Ready to Try the Best IPTV UK Service?
                         </h3>
                         <p className="text-slate-300 mb-6 max-w-lg mx-auto">
-                            IPTV UK Elite meets all the criteria of a top-quality provider. Start with
+                            IPTV UK meets all the criteria of a top-quality provider. Start with
                             our free 24-hour trial – no credit card required.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Button
-                                href="https://wa.me/447418316577?text=Hi%2C%20I%20want%20to%20try%20IPTV UK Elite%20IPTV"
+                                href="https://wa.me/447418316577?text=Hi%2C%20I%20want%20to%20try%20IPTV UK%20IPTV"
                                 variant="primary"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                title="Try IPTV UK Elite Free via WhatsApp"
+                                title="Try IPTV UK Free via WhatsApp"
                             >
                                 Start Free Trial
                             </Button>

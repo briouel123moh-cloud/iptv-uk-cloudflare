@@ -28,7 +28,7 @@ export default function IPTVGuideHowItWorksSection() {
                             <div>
                                 <h3 className="text-xl font-semibold text-white mb-2">Choose Your IPTV Provider</h3>
                                 <p className="text-slate-300 leading-relaxed">
-                                    Select a reputable UK IPTV provider like IPTV UK Elite that offers reliable service,
+                                    Select a reputable UK IPTV provider like IPTV UK that offers reliable service,
                                     good channel selection, and responsive customer support. Look for providers that
                                     offer free trials so you can test the service before committing.
                                 </p>

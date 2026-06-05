@@ -15,7 +15,7 @@ export const metadata: Metadata = applySeoFixes("/bbc-iptv-uk/", {
         'Get all BBC channels on IPTV UK — BBC One, BBC Two, BBC Three, BBC Four & CBeebies in HD. Watch IPTV UK BBC coverage live and on-demand with 7-day catch-up. From £12/month. No contract.',
     alternates: {
         canonical: '/bbc-iptv-uk/',
-        ...buildAlternates('https://www.iptvuk-elite.com/bbc-iptv-uk/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/bbc-iptv-uk/'),
     },
 });
 
@@ -28,12 +28,12 @@ const faqSchema = {
             name: 'Can I watch BBC channels on IPTV in the UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. IPTV UK Elite includes BBC One, BBC Two, BBC Three, BBC Four, BBC News, BBC Parliament, CBBC, CBeebies, and BBC Alba — all streamed in HD quality directly over your internet connection.',
+                text: 'Yes. IPTV UK includes BBC One, BBC Two, BBC Three, BBC Four, BBC News, BBC Parliament, CBBC, CBeebies, and BBC Alba — all streamed in HD quality directly over your internet connection.',
             },
         },
         {
             '@type': 'Question',
-            name: 'What BBC content can I watch on IPTV UK Elite?',
+            name: 'What BBC content can I watch on IPTV UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
                 text: 'You can watch all live BBC programming including EastEnders, Match of the Day, Strictly Come Dancing, Doctor Who, BBC News at Ten, Panorama, Wimbledon, Six Nations rugby, BBC sports events, drama series, documentaries, and children\'s programming on CBBC and CBeebies.',
@@ -44,7 +44,7 @@ const faqSchema = {
             name: 'Does IPTV BBC work outside the UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK Elite delivers BBC channels to subscribers worldwide. Customers in Spain, France, Australia, Canada, and beyond use IPTV UK Elite to watch live BBC programming and other UK channels from wherever they are in the world.',
+                text: 'IPTV UK delivers BBC channels to subscribers worldwide. Customers in Spain, France, Australia, Canada, and beyond use IPTV UK to watch live BBC programming and other UK channels from wherever they are in the world.',
             },
         },
         {
@@ -52,7 +52,7 @@ const faqSchema = {
             name: 'What devices can I watch BBC on via IPTV?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK Elite supports Amazon Firestick, Samsung and LG Smart TVs, Android TV boxes, MAG boxes, Apple TV, iOS and Android smartphones and tablets, and any device with a compatible IPTV player such as TiviMate, GSE Smart IPTV, or IPTV Smarters.',
+                text: 'IPTV UK supports Amazon Firestick, Samsung and LG Smart TVs, Android TV boxes, MAG boxes, Apple TV, iOS and Android smartphones and tablets, and any device with a compatible IPTV player such as TiviMate, GSE Smart IPTV, or IPTV Smarters.',
             },
         },
         {
@@ -60,7 +60,7 @@ const faqSchema = {
             name: 'Is there a free trial to watch BBC on IPTV?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. IPTV UK Elite offers a completely free 24-hour trial with full access to all BBC channels and 45,000+ other live channels. No credit card required — contact us on WhatsApp to activate your trial.',
+                text: 'Yes. IPTV UK offers a completely free 24-hour trial with full access to all BBC channels and 45,000+ other live channels. No credit card required — contact us on WhatsApp to activate your trial.',
             },
         },
     ],
@@ -72,17 +72,17 @@ const articleSchema = {
     headline: 'Watch BBC on IPTV UK 2026',
     description:
         'Complete guide to watching BBC channels on IPTV UK in 2026. All BBC channels listed, pricing comparison, compatible devices, and setup guide.',
-    author: { '@type': 'Organization', name: 'IPTV UK Elite' },
+    author: { '@type': 'Organization', name: 'IPTV UK' },
     publisher: {
         '@type': 'Organization',
-        name: 'IPTV UK Elite',
-        logo: { '@type': 'ImageObject', url: 'https://www.iptvuk-elite.com/logo.webp' },
+        name: 'IPTV UK',
+        logo: { '@type': 'ImageObject', url: 'https://iptv-uk-iptv.co.uk/logo.webp' },
     },
     datePublished: '2026-01-01',
     dateModified: '2026-03-01',
     mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://www.iptvuk-elite.com/bbc-iptv-uk/',
+        '@id': 'https://iptv-uk-iptv.co.uk/bbc-iptv-uk/',
     },
 };
 
@@ -90,8 +90,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Watch BBC on IPTV UK 2026', item: 'https://www.iptvuk-elite.com/bbc-iptv-uk/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+        { '@type': 'ListItem', position: 2, name: 'Watch BBC on IPTV UK 2026', item: 'https://iptv-uk-iptv.co.uk/bbc-iptv-uk/' },
     ],
 };
 
@@ -113,7 +113,7 @@ export default function BBCIPTVUKPage() {
                             Watch BBC on IPTV UK 2026
                         </h1>
                         <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-                            All BBC channels — BBC One, BBC Two, BBC Three, BBC Four, BBC News, CBBC, CBeebies and more — streamed in HD through IPTV UK Elite. Watch live UK TV at home or anywhere in the world. From just £12/month.
+                            All BBC channels — BBC One, BBC Two, BBC Three, BBC Four, BBC News, CBBC, CBeebies and more — streamed in HD through IPTV UK. Watch live UK TV at home or anywhere in the world. From just £12/month.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Button href="https://wa.me/447418316577?text=Hi%2C%20I%20want%20to%20watch%20BBC%20on%20IPTV%20UK" variant="primary" size="lg" target="_blank" rel="noopener noreferrer" title="Watch sports with IPTV on WhatsApp">
@@ -178,16 +178,16 @@ export default function BBCIPTVUKPage() {
                         </div>
                         <div className="prose prose-invert prose-lg max-w-none text-slate-300 space-y-4">
                             <p>
-                                The BBC (British Broadcasting Corporation) operates some of the world's most respected television channels. From the flagship BBC One — home to prime-time dramas, national events, EastEnders, Strictly Come Dancing, and major live sport including Match of the Day — to the innovative BBC Three, relaunched as a linear channel in 2022 and now a home for youth-oriented drama and comedy, the BBC portfolio is among the richest in British broadcasting history.
+                                The BBC (British Broadcasting Corporation) operates some of the world&apos;s most respected television channels. From the flagship BBC One — home to prime-time dramas, national events, EastEnders, Strictly Come Dancing, and major live sport including Match of the Day — to the innovative BBC Three, relaunched as a linear channel in 2022 and now a home for youth-oriented drama and comedy, the BBC portfolio is among the richest in British broadcasting history.
                             </p>
                             <p>
-                                Watching BBC channels through IPTV UK Elite gives you live access to all of these channels without needing a traditional TV aerial or a paid subscription to a TV provider. IPTV delivers BBC streams over your broadband connection, making it possible to watch BBC One live regardless of whether you're in London, Edinburgh, or even living abroad as an expat.
+                                Watching BBC channels through IPTV UK gives you live access to all of these channels without needing a traditional TV aerial or a paid subscription to a TV provider. IPTV delivers BBC streams over your broadband connection, making it possible to watch BBC One live regardless of whether you&apos;re in London, Edinburgh, or even living abroad as an expat.
                             </p>
                             <p>
-                                BBC coverage includes some of the biggest sporting events of the year — Wimbledon tennis, Six Nations rugby, the London Marathon, FA Cup football, athletics championships, and cycling — alongside world-class documentary series, news programming, and entertainment. With IPTV UK Elite, you get all of this and 45,000+ additional channels from around the world in a single, affordable subscription.
+                                BBC coverage includes some of the biggest sporting events of the year — Wimbledon tennis, Six Nations rugby, the London Marathon, FA Cup football, athletics championships, and cycling — alongside world-class documentary series, news programming, and entertainment. With IPTV UK, you get all of this and 45,000+ additional channels from around the world in a single, affordable subscription.
                             </p>
                             <p>
-                                Setup is straightforward. Once you subscribe, you'll receive login credentials via WhatsApp. Enter these into your IPTV player of choice — TiviMate, IPTV Smarters, GSE Smart IPTV, or any M3U-compatible player — and you're watching live BBC within minutes. The service works on Firestick, Smart TVs, Android boxes, iOS, and Android devices.
+                                Setup is straightforward. Once you subscribe, you&apos;ll receive login credentials via WhatsApp. Enter these into your IPTV player of choice — TiviMate, IPTV Smarters, GSE Smart IPTV, or any M3U-compatible player — and you&apos;re watching live BBC within minutes. The service works on Firestick, Smart TVs, Android boxes, iOS, and Android devices.
                             </p>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ export default function BBCIPTVUKPage() {
                         <figure className="in-content-feature my-8 rounded-xl overflow-hidden">
                             <FallbackImage
                                 src="/images/pages/bbc-iptv-uk-feature.webp"
-                                alt={"BBC channels displayed on a television screen, featuring BBC One, Two, Three, Four, News, and Sport with program details and times, highlighting IPTV UK Elite's offerings for accessing live BBC content."}
+                                alt={"BBC channels displayed on a television screen, featuring BBC One, Two, Three, Four, News, and Sport with program details and times, highlighting IPTV UK's offerings for accessing live BBC content."}
                                 width={800}
                                 height={450}
                                 loading="lazy"
@@ -210,7 +210,7 @@ export default function BBCIPTVUKPage() {
                             />
                         </figure>
 
-                        <p className="text-slate-400 mb-10">Every BBC television channel, included as standard with all IPTV UK Elite plans.</p>
+                        <p className="text-slate-400 mb-10">Every BBC television channel, included as standard with all IPTV UK plans.</p>
                         <div className="grid sm:grid-cols-2 gap-4">
                             {[
                                 { name: 'BBC One', desc: 'Flagship channel — EastEnders, Match of the Day, Strictly, major live events, and national news.' },
@@ -244,13 +244,13 @@ export default function BBCIPTVUKPage() {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">IPTV BBC vs Traditional Methods</h2>
-                        <p className="text-slate-400 mb-10">Compare IPTV UK Elite with traditional ways of watching BBC in the UK.</p>
+                        <p className="text-slate-400 mb-10">Compare IPTV UK with traditional ways of watching BBC in the UK.</p>
                         <div className="overflow-x-auto">
                             <table className="w-full text-left border-collapse">
                                 <thead>
                                     <tr className="border-b border-slate-700">
                                         <th className="py-3 px-4 text-slate-400 font-medium">Feature</th>
-                                        <th className="py-3 px-4 text-emerald-400 font-semibold">IPTV UK Elite</th>
+                                        <th className="py-3 px-4 text-emerald-400 font-semibold">IPTV UK</th>
                                         <th className="py-3 px-4 text-slate-400 font-medium">Traditional (Aerial/Cable)</th>
                                     </tr>
                                 </thead>
@@ -315,10 +315,10 @@ export default function BBCIPTVUKPage() {
             <section className="py-16 md:py-20 bg-slate-900">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl mx-auto">
-                        <RelatedContentSection heading={"IPTV UK Elite Related Guides: Channels, Setup & More"} items={[
+                        <RelatedContentSection heading={"IPTV UK Related Guides: Channels, Setup & More"} items={[
     { slug: '/itv-iptv-uk/', title: 'ITV on IPTV UK 2026', description: 'Watch ITV1, ITV2, ITV3, ITV4 and ITVBe live on IPTV without any app restrictions.', category: 'Entertainment' },
     { slug: '/channel-4-iptv/', title: 'Channel 4 on IPTV UK 2026', description: 'Watch Channel 4, E4, Film4 and More4 on IPTV — no VPN, no geo-blocks.', category: 'Entertainment' },
-    { slug: 'iptv-channels-uk-2026', title: 'Full UK IPTV Channel List 2026', description: "Every channel included in IPTV UK Elite's 45,000+ channel lineup explained.", category: 'Guides' },
+    { slug: 'iptv-channels-uk-2026', title: 'Full UK IPTV Channel List 2026', description: "Every channel included in IPTV UK's 45,000+ channel lineup explained.", category: 'Guides' },
                         ]} />
                     </div>
                 </div>
@@ -331,11 +331,11 @@ export default function BBCIPTVUKPage() {
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 text-center">BBC IPTV UK – Frequently Asked Questions</h2>
                         <div className="space-y-6">
                             {[
-                                { q: 'Can I watch BBC channels on IPTV in the UK?', a: 'Yes. IPTV UK Elite includes BBC One, BBC Two, BBC Three, BBC Four, BBC News, BBC Parliament, CBBC, CBeebies, and BBC Alba — all streamed in HD quality directly over your internet connection.' },
-                                { q: 'What BBC content can I watch on IPTV UK Elite?', a: "You can watch all live BBC programming including EastEnders, Match of the Day, Strictly Come Dancing, Doctor Who, BBC News at Ten, Panorama, Wimbledon, Six Nations rugby, and children's programming on CBBC and CBeebies." },
-                                { q: 'Does IPTV BBC work outside the UK?', a: 'Yes. IPTV UK Elite delivers BBC channels to subscribers worldwide. Customers in Spain, France, Australia, Canada, and beyond use IPTV UK Elite to watch live BBC programming from wherever they are.' },
-                                { q: 'What devices can I watch BBC on via IPTV?', a: 'IPTV UK Elite supports Amazon Firestick, Samsung and LG Smart TVs, Android TV boxes, MAG boxes, Apple TV, iOS and Android smartphones and tablets, and any device with a compatible IPTV player such as TiviMate or IPTV Smarters.' },
-                                { q: 'Is there a free trial to watch BBC on IPTV?', a: 'Yes. IPTV UK Elite offers a completely free 24-hour trial with full access to all BBC channels and 45,000+ other live channels. No credit card required — contact us on WhatsApp to activate your trial.' },
+                                { q: 'Can I watch BBC channels on IPTV in the UK?', a: 'Yes. IPTV UK includes BBC One, BBC Two, BBC Three, BBC Four, BBC News, BBC Parliament, CBBC, CBeebies, and BBC Alba — all streamed in HD quality directly over your internet connection.' },
+                                { q: 'What BBC content can I watch on IPTV UK?', a: "You can watch all live BBC programming including EastEnders, Match of the Day, Strictly Come Dancing, Doctor Who, BBC News at Ten, Panorama, Wimbledon, Six Nations rugby, and children's programming on CBBC and CBeebies." },
+                                { q: 'Does IPTV BBC work outside the UK?', a: 'Yes. IPTV UK delivers BBC channels to subscribers worldwide. Customers in Spain, France, Australia, Canada, and beyond use IPTV UK to watch live BBC programming from wherever they are.' },
+                                { q: 'What devices can I watch BBC on via IPTV?', a: 'IPTV UK supports Amazon Firestick, Samsung and LG Smart TVs, Android TV boxes, MAG boxes, Apple TV, iOS and Android smartphones and tablets, and any device with a compatible IPTV player such as TiviMate or IPTV Smarters.' },
+                                { q: 'Is there a free trial to watch BBC on IPTV?', a: 'Yes. IPTV UK offers a completely free 24-hour trial with full access to all BBC channels and 45,000+ other live channels. No credit card required — contact us on WhatsApp to activate your trial.' },
                             ].map((item) => (
                                 <div key={item.q} className="bg-slate-800 rounded-xl p-6 border border-slate-700">
                                     <h3 className="text-white font-semibold text-lg mb-3">{item.q}</h3>

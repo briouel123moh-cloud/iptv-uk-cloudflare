@@ -45,12 +45,12 @@ export default function HomeDevicesSection() {
                 {/* SEO: H2 targeting device-related keywords */}
                 <SectionTitle
                     title="IPTV UK Compatible with All Your Devices"
-                    subtitle="Watch IPTV UK Elite IPTV on any device, anywhere. Our UK IPTV service works seamlessly on Firestick, Smart TV, mobile, and more."
+                    subtitle="Watch IPTV UK IPTV on any device, anywhere. Our UK IPTV service works seamlessly on Firestick, Smart TV, mobile, and more."
                 />
 
                 {/* AEO: Answer paragraph for "What devices work with IPTV UK?" */}
                 <p className="text-center text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed">
-                    IPTV UK Elite is compatible with all major streaming devices including Amazon Firestick,
+                    IPTV UK is compatible with all major streaming devices including Amazon Firestick,
                     Smart TVs (Samsung, LG, Sony), Android and iOS mobile devices, computers, MAG boxes, and
                     Formuler devices. Simply download our app or use M3U playlist integration to start watching
                     45,000+ channels on your preferred device.

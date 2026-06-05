@@ -14,10 +14,10 @@ export const metadata: Metadata = applySeoFixes("/refund/", {
         'Not happy with your IPTV UK subscription? Get a full refund within 30 days — no questions asked. Learn how our IPTV UK money-back guarantee works and how to claim it fast.',
     alternates: {
         canonical: '/refund/',
-        ...buildAlternates('https://www.iptvuk-elite.com/refund/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/refund/'),
     },
     openGraph: {
-        images: [`${SITE_CONFIG.baseUrl}/images/refund-policy-iptv-uk-elite.svg`],
+        images: [`${SITE_CONFIG.baseUrl}/images/refund-policy-iptv-uk.svg`],
     },
 });
 
@@ -25,18 +25,18 @@ export default function RefundPage() {
     const refundSchema = {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        name: 'Refund Policy – IPTV UK Elite',
+        name: 'Refund Policy – IPTV UK',
         url: `${SITE_CONFIG.baseUrl}/refund/`,
-        description: 'Refund policy and 30-day money-back guarantee terms for IPTV UK Elite.',
-        image: `${SITE_CONFIG.baseUrl}/images/refund-policy-iptv-uk-elite.svg`,
+        description: 'Refund policy and 30-day money-back guarantee terms for IPTV UK.',
+        image: `${SITE_CONFIG.baseUrl}/images/refund-policy-iptv-uk.svg`,
     };
 
     const breadcrumbSchema = {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Refund Policy', item: 'https://www.iptvuk-elite.com/refund/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+            { '@type': 'ListItem', position: 2, name: 'Refund Policy', item: 'https://iptv-uk-iptv.co.uk/refund/' },
         ],
     };
 
@@ -45,15 +45,15 @@ export default function RefundPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(refundSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h1 className="sr-only">Refund Policy – IPTV UK Elite</h1>
+                <h1 className="sr-only">Refund Policy – IPTV UK</h1>
                 <SectionTitle
-                    title="IPTV UK Elite Refund Policy: 30-Day Money-Back Guarantee"
+                    title="IPTV UK Refund Policy: 30-Day Money-Back Guarantee"
                     subtitle="30-Day Money-Back Guarantee"
                 />
                 <div className="max-w-4xl mx-auto mb-10 rounded-2xl overflow-hidden shadow-2xl">
                     <Image
-                        src="/images/refund-policy-iptv-uk-elite.svg"
-                        alt={"IPTV UK Elite refund policy graphic highlighting 30-day money-back guarantee terms and website update information."}
+                        src="/images/refund-policy-iptv-uk.svg"
+                        alt={"IPTV UK refund policy graphic highlighting 30-day money-back guarantee terms and website update information."}
                         width={1200}
                         height={675}
                         className="w-full h-auto object-cover"
@@ -65,7 +65,7 @@ export default function RefundPage() {
                 <div className="max-w-4xl mx-auto mb-12">
                     <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-6 text-center">
                         <div className="text-4xl mb-4">💰</div>
-                        <h2 className="text-2xl font-bold text-white mb-2">IPTV UK Elite Refund Policy: 30-Day Money-Back Guarantee</h2>
+                        <h2 className="text-2xl font-bold text-white mb-2">IPTV UK Refund Policy: 30-Day Money-Back Guarantee</h2>
                         <p className="text-slate-300">
                             Not satisfied with our service? Get a full refund within 30 days of purchase – no questions asked.
                         </p>
@@ -76,7 +76,7 @@ export default function RefundPage() {
                     <section>
                         <h2 className="text-2xl font-bold text-white mb-4">Our Commitment to Your Satisfaction</h2>
                         <p className="leading-relaxed">
-                            At IPTV UK Elite, we stand behind the quality of our service. We believe that
+                            At IPTV UK, we stand behind the quality of our service. We believe that
                             you should have the opportunity to experience our IPTV service risk-free. That&apos;s why
                             we offer a comprehensive 30-day money-back guarantee on all subscription plans.
                         </p>
@@ -111,7 +111,7 @@ export default function RefundPage() {
                         <h2 className="text-2xl font-bold text-white mb-4">How to Request a Refund</h2>
                         <p className="leading-relaxed mb-4">Requesting a refund is simple:</p>
                         <ol className="list-decimal pl-6 space-y-2">
-                            <li><strong className="text-white">Contact us via WhatsApp</strong> (fastest method) or email at contact@iptvuk-elite.com</li>
+                            <li><strong className="text-white">Contact us via WhatsApp</strong> (fastest method) or email at contact@iptv-uk-iptv.co.uk</li>
                             <li><strong className="text-white">Provide your order details</strong> including your email address and payment reference</li>
                             <li><strong className="text-white">State your reason for the refund</strong> (optional, but helps us improve)</li>
                             <li><strong className="text-white">Receive confirmation</strong> of your refund request within 24 hours</li>
@@ -174,7 +174,7 @@ export default function RefundPage() {
                         </p>
                         <ul className="list-disc pl-6 space-y-2">
                             <li><strong className="text-white">WhatsApp:</strong> Available 24/7 (fastest response)</li>
-                            <li><strong className="text-white">Email:</strong> contact@iptvuk-elite.com</li>
+                            <li><strong className="text-white">Email:</strong> contact@iptv-uk-iptv.co.uk</li>
                         </ul>
                         <p className="leading-relaxed mt-4">
                             We process all legitimate refund requests promptly and aim to resolve any concerns

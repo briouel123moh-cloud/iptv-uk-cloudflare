@@ -6,7 +6,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const CANONICAL_HOST = SITE_CONFIG.domain;
 const LEGACY_HOSTS = new Set([
-  'iptvuk-elite.com',
+  'iptv-uk-iptv.co.uk',
   'primestream-iptvuk.online',
   'www.primestream-iptvuk.online',
 ]);

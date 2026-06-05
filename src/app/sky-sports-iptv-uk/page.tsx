@@ -13,12 +13,12 @@ export const metadata: Metadata = applySeoFixes("/sky-sports-iptv-uk/", {
         'Watch every Sky Sports channel on IPTV UK — Sky Sports Main Event, Premier League, F1 & all 10 channels. IPTV UK Sky Sports costs a fraction of a Sky contract. No dish. From £12/month.',
     alternates: {
         canonical: '/sky-sports-iptv-uk/',
-        ...buildAlternates('https://www.iptvuk-elite.com/sky-sports-iptv-uk/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/sky-sports-iptv-uk/'),
     },
     openGraph: {
         title: 'Watch Sky Sports Without Sky 2026 – IPTV UK Alternative',
         description: 'Watch all 10 Sky Sports channels without Sky TV. IPTV delivers them all for £12/month.',
-        url: 'https://www.iptvuk-elite.com/sky-sports-iptv-uk/',
+        url: 'https://iptv-uk-iptv.co.uk/sky-sports-iptv-uk/',
         type: 'website',
     },
 });
@@ -32,7 +32,7 @@ const faqSchema = {
             name: 'Can I watch Sky Sports without a Sky subscription UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. Options include NOW TV Sports pass (£34.99/month), Sky Sports on Virgin Media (add-on), Sky Sports on BT TV (add-on), and IPTV UK Elite (£12/month). IPTV is the cheapest way to access all 10 Sky Sports channels without a Sky subscription or satellite dish.',
+                text: 'Yes. Options include NOW TV Sports pass (£34.99/month), Sky Sports on Virgin Media (add-on), Sky Sports on BT TV (add-on), and IPTV UK (£12/month). IPTV is the cheapest way to access all 10 Sky Sports channels without a Sky subscription or satellite dish.',
             },
         },
         {
@@ -40,7 +40,7 @@ const faqSchema = {
             name: 'What is the cheapest way to watch Sky Sports in the UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK Elite at £12/month is the cheapest way to access all Sky Sports channels in the UK. This compares to NOW TV Sports pass at £34.99/month, Sky Sports direct at £25+/month (on top of a Sky base package), Virgin Media sports add-on at £18/month, and BT TV sports add-on at £15/month.',
+                text: 'IPTV UK at £12/month is the cheapest way to access all Sky Sports channels in the UK. This compares to NOW TV Sports pass at £34.99/month, Sky Sports direct at £25+/month (on top of a Sky base package), Virgin Media sports add-on at £18/month, and BT TV sports add-on at £15/month.',
             },
         },
         {
@@ -48,7 +48,7 @@ const faqSchema = {
             name: 'Does IPTV include all Sky Sports channels?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. IPTV UK Elite includes all 10 Sky Sports channels: Sky Sports Main Event, Premier League, Football, Cricket, Golf, F1, Action, Arena, Mix, and Sky Sports News — all in HD and 4K quality.',
+                text: 'Yes. IPTV UK includes all 10 Sky Sports channels: Sky Sports Main Event, Premier League, Football, Cricket, Golf, F1, Action, Arena, Mix, and Sky Sports News — all in HD and 4K quality.',
             },
         },
         {
@@ -56,7 +56,7 @@ const faqSchema = {
             name: 'Can I watch Sky Sports F1 without Sky?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. Sky Sports F1 is included in IPTV UK Elite at no extra cost. Watch every Formula 1 race weekend — practice, qualifying, and race — in HD and 4K without a Sky subscription or satellite dish.',
+                text: 'Yes. Sky Sports F1 is included in IPTV UK at no extra cost. Watch every Formula 1 race weekend — practice, qualifying, and race — in HD and 4K without a Sky subscription or satellite dish.',
             },
         },
         {
@@ -64,7 +64,7 @@ const faqSchema = {
             name: 'Can I watch Sky Sports cricket without Sky UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. Sky Sports Cricket is included in IPTV UK Elite. Watch England home internationals, The Ashes, The Hundred, IPL, and international T20 cricket in full HD without a Sky subscription.',
+                text: 'Yes. Sky Sports Cricket is included in IPTV UK. Watch England home internationals, The Ashes, The Hundred, IPL, and international T20 cricket in full HD without a Sky subscription.',
             },
         },
         {
@@ -72,7 +72,7 @@ const faqSchema = {
             name: 'Is there a free trial to watch Sky Sports without Sky?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. IPTV UK Elite offers a free 24-hour trial with access to all 10 Sky Sports channels. Contact us via WhatsApp — no credit card required. Test every Sky Sports channel before committing.',
+                text: 'Yes. IPTV UK offers a free 24-hour trial with access to all 10 Sky Sports channels. Contact us via WhatsApp — no credit card required. Test every Sky Sports channel before committing.',
             },
         },
     ],
@@ -82,8 +82,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Watch Sky Sports Without Sky 2026', item: 'https://www.iptvuk-elite.com/sky-sports-iptv-uk/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+        { '@type': 'ListItem', position: 2, name: 'Watch Sky Sports Without Sky 2026', item: 'https://iptv-uk-iptv.co.uk/sky-sports-iptv-uk/' },
     ],
 };
 
@@ -159,7 +159,7 @@ export default function SkySportsIPTVUKPage() {
                         <div className="mb-8 rounded-2xl overflow-hidden shadow-xl">
                             <Image
                                 src="/images/sky-sports-channels-iptv-uk-guide.webp"
-                                alt="All Sky Sports channels available via IPTV UK Elite"
+                                alt="All Sky Sports channels available via IPTV UK"
                                 width={800}
                                 height={500}
                                 className="w-full h-auto object-cover"
@@ -172,7 +172,7 @@ export default function SkySportsIPTVUKPage() {
                         </div>
                         <div className="mt-8 space-y-4">
                             {[
-                                { method: 'IPTV UK Elite', cost: '£12/month', contract: 'No contract', note: 'Best value – all 10 Sky Sports channels plus 45,000+ more', highlight: true },
+                                { method: 'IPTV UK', cost: '£12/month', contract: 'No contract', note: 'Best value – all 10 Sky Sports channels plus 45,000+ more', highlight: true },
                                 { method: 'NOW TV Sports Pass', cost: '£34.99/month', contract: 'Monthly (auto-renewing)', note: 'Sky Sports channels only, limited 4K with extra Boost add-on', highlight: false },
                                 { method: 'Virgin Media (Sky Sports add-on)', cost: '£18/month add-on', contract: '18-month bundle required', note: 'Requires Virgin Media cable subscription', highlight: false },
                                 { method: 'BT TV (Sky Sports bolt-on)', cost: '£25/month add-on', contract: '24-month broadband bundle', note: 'Requires BT broadband subscription', highlight: false },
@@ -201,13 +201,13 @@ export default function SkySportsIPTVUKPage() {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">All 10 Sky Sports Channels Included</h2>
-                        <p className="text-slate-400 mb-10">Every Sky Sports channel available in IPTV UK Elite — no add-ons, no extras.</p>
+                        <p className="text-slate-400 mb-10">Every Sky Sports channel available in IPTV UK — no add-ons, no extras.</p>
                         <div className="overflow-x-auto">
                             <table className="w-full text-left border-collapse">
                                 <thead>
                                     <tr className="border-b border-slate-700">
                                         <th className="py-3 px-4 text-slate-400 font-medium">Channel</th>
-                                        <th className="py-3 px-4 text-slate-400 font-medium">What's Covered</th>
+                                        <th className="py-3 px-4 text-slate-400 font-medium">What&apos;s Covered</th>
                                         <th className="py-3 px-4 text-slate-400 font-medium">Quality</th>
                                     </tr>
                                 </thead>
@@ -263,12 +263,12 @@ export default function SkySportsIPTVUKPage() {
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 text-center">Sky Sports Without Sky – Frequently Asked Questions</h2>
                         <div className="space-y-6">
                             {[
-                                { q: 'Can I watch Sky Sports without a Sky subscription UK?', a: 'Yes. Options include NOW TV (£34.99/month), Virgin Media add-on, BT TV add-on, and IPTV UK Elite (£12/month). IPTV is the cheapest and most flexible option for all 10 Sky Sports channels.' },
-                                { q: 'What is the cheapest way to watch Sky Sports UK?', a: 'IPTV UK Elite at £12/month is the cheapest way to watch all Sky Sports channels — significantly cheaper than NOW TV Sports pass (£34.99/month) or any Sky bundle.' },
+                                { q: 'Can I watch Sky Sports without a Sky subscription UK?', a: 'Yes. Options include NOW TV (£34.99/month), Virgin Media add-on, BT TV add-on, and IPTV UK (£12/month). IPTV is the cheapest and most flexible option for all 10 Sky Sports channels.' },
+                                { q: 'What is the cheapest way to watch Sky Sports UK?', a: 'IPTV UK at £12/month is the cheapest way to watch all Sky Sports channels — significantly cheaper than NOW TV Sports pass (£34.99/month) or any Sky bundle.' },
                                 { q: 'Does IPTV include all Sky Sports channels?', a: 'Yes — all 10: Main Event, Premier League, Football, Cricket, Golf, F1, Action, Arena, Mix, and News. All in HD, with 4K available for Main Event, Premier League, and F1.' },
-                                { q: 'Can I watch Sky Sports F1 without Sky?', a: 'Yes. Sky Sports F1 is included in IPTV UK Elite. Watch every race weekend — practice, qualifying, race — in HD and 4K without a Sky subscription.' },
-                                { q: 'Can I watch Sky Sports cricket without Sky UK?', a: 'Yes. Sky Sports Cricket is included in every IPTV UK Elite subscription — England home tests, The Ashes, The Hundred, IPL, all in full HD.' },
-                                { q: 'Is there a free trial to watch Sky Sports without Sky?', a: 'Yes. IPTV UK Elite offers a free 24-hour trial with all 10 Sky Sports channels. No credit card needed — contact us via WhatsApp.' },
+                                { q: 'Can I watch Sky Sports F1 without Sky?', a: 'Yes. Sky Sports F1 is included in IPTV UK. Watch every race weekend — practice, qualifying, race — in HD and 4K without a Sky subscription.' },
+                                { q: 'Can I watch Sky Sports cricket without Sky UK?', a: 'Yes. Sky Sports Cricket is included in every IPTV UK subscription — England home tests, The Ashes, The Hundred, IPL, all in full HD.' },
+                                { q: 'Is there a free trial to watch Sky Sports without Sky?', a: 'Yes. IPTV UK offers a free 24-hour trial with all 10 Sky Sports channels. No credit card needed — contact us via WhatsApp.' },
                             ].map((item) => (
                                 <div key={item.q} className="bg-slate-800 rounded-xl p-6 border border-slate-700">
                                     <h3 className="text-white font-semibold text-lg mb-3">{item.q}</h3>

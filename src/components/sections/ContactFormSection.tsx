@@ -21,7 +21,7 @@ export default function ContactFormSection() {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         // Construct WhatsApp message
-        const message = `Hi IPTV UK Elite,\n\nName: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`;
+        const message = `Hi IPTV UK,\n\nName: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`;
         window.open(`https://wa.me/447418316577?text=${encodeURIComponent(message)}`, '_blank');
     };
 
@@ -36,7 +36,7 @@ export default function ContactFormSection() {
         <section className="py-16 md:py-24 bg-slate-900">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <SectionTitle
-                    title="Contact IPTV UK Elite"
+                    title="Contact IPTV UK"
                     subtitle="Have questions? Get in touch with our friendly support team. We're here to help 24/7."
                 />
 
@@ -53,11 +53,11 @@ export default function ContactFormSection() {
 
                         {/* WhatsApp CTA */}
                         <a
-                            href="https://wa.me/447418316577?text=Hi%2C%20I%20have%20a%20question%20about%20IPTV UK Elite%20IPTV"
+                            href="https://wa.me/447418316577?text=Hi%2C%20I%20have%20a%20question%20about%20IPTV UK%20IPTV"
                             className="flex items-center gap-4 p-6 rounded-xl bg-gradient-to-r from-green-600 to-green-500 text-white mb-6 hover:from-green-500 hover:to-green-400 transition-all group"
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="Chat with IPTV UK Elite on WhatsApp"
+                            title="Chat with IPTV UK on WhatsApp"
                         >
                             <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
                                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -79,8 +79,8 @@ export default function ContactFormSection() {
                             </div>
                             <div>
                                 <p className="text-white font-medium">Email</p>
-                                <a href="mailto:contact@iptvuk-elite.com" className="text-emerald-400 hover:text-emerald-300 transition-colors">
-                                    contact@iptvuk-elite.com
+                                <a href="mailto:contact@iptv-uk-iptv.co.uk" className="text-emerald-400 hover:text-emerald-300 transition-colors">
+                                    contact@iptv-uk-iptv.co.uk
                                 </a>
                             </div>
                         </div>

@@ -14,14 +14,14 @@ export async function GET() {
   <link href="${post.url}" />
   <id>${post.url}</id>
   <updated>${post.publishedAt}</updated>
-  <summary>Read the full article on IPTV UK Elite.</summary>
+  <summary>Read the full article on IPTV UK.</summary>
 </entry>`,
     )
     .join('\n');
 
   const atom = `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>IPTV UK Elite Blog</title>
+  <title>IPTV UK Blog</title>
   <id>${SITE_CONFIG.baseUrl}/blog/</id>
   <updated>${updated}</updated>
   <link href="${SITE_CONFIG.baseUrl}/atom.xml" rel="self"/>

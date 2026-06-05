@@ -4,7 +4,6 @@
 // CWV: Above-fold content optimized, no layout shift
 
 import Image from 'next/image';
-import Link from 'next/link';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 
@@ -131,7 +130,7 @@ export default function HomeHeroSection() {
                     {/* Hero image — keyword-optimised for IPTV UK streaming */}
                     <div className="mt-12 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-emerald-500/20">
                         <Image
-                            src="/images/best-iptv-uk-2026-uk-iptv-30000-channels-premier-league-sky-bt-movies-series-4k.webp"
+                            src="/images/best-iptv-uk-2026-uk-iptv-45000-channels-premier-league-sky-bt-movies-series-4k.webp"
                             alt="Best IPTV UK 2026 - UK IPTV with 45,000+ live channels including Premier League, Sky Sports, BT Sport, BBC, ITV, movies, series and world channels in 4K IPTV"
                             width={1200}
                             height={675}

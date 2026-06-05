@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     'iptv uk free trial',
     'iptv for firestick uk',
   ],
-  authors: [{ name: 'IPTV UK Elite' }],
-  creator: 'IPTV UK Elite',
-  publisher: 'IPTV UK Elite',
+  authors: [{ name: 'IPTV UK' }],
+  creator: 'IPTV UK',
+  publisher: 'IPTV UK',
   robots: {
     index: true,
     follow: true,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_GB',
     url: `${SITE_CONFIG.baseUrl}/`,
-    siteName: 'IPTV UK Elite',
+    siteName: 'IPTV UK',
     title: 'Buy IPTV UK Subscription | Premium UK IPTV Service from £12',
     description:
       'Buy IPTV UK subscription with 45,000+ live channels and VOD. Works on Firestick, Smart TV and all major devices. Free trial available.',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
         url: `${SITE_CONFIG.baseUrl}/og-image.webp`,
         width: 1200,
         height: 630,
-        alt: 'IPTV UK Elite 2026 - Best UK IPTV Subscription Service',
+        alt: 'IPTV UK 2026 - Best UK IPTV Subscription Service',
         type: 'image/webp',
       },
     ],
@@ -98,9 +98,9 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   '@id': `${SITE_CONFIG.baseUrl}/#business`,
-  name: 'IPTV UK Elite',
-  legalName: 'IPTV UK Elite Ltd',
-  alternateName: 'IPTV UK Elite',
+  name: 'IPTV UK',
+  legalName: 'IPTV UK',
+  alternateName: 'IPTV UK',
   url: SITE_CONFIG.baseUrl,
   logo: `${SITE_CONFIG.baseUrl}/logo.webp`,
   image: `${SITE_CONFIG.baseUrl}/og-image.webp`,
@@ -109,7 +109,7 @@ const organizationSchema = {
   foundingDate: '2019',
   priceRange: '£12 – £55',
   telephone: '+447418316577',
-  email: 'contact@iptvuk-elite.com',
+  email: 'contact@iptv-uk-iptv.co.uk',
   openingHours: 'Mo-Su 00:00-24:00',
   founder: {
     '@type': 'Person',
@@ -129,7 +129,7 @@ const organizationSchema = {
       contactType: 'customer support',
       availableLanguage: 'English',
       areaServed: 'GB',
-      email: 'contact@iptvuk-elite.com',
+      email: 'contact@iptv-uk-iptv.co.uk',
     },
   ],
   areaServed: {
@@ -149,7 +149,7 @@ const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   '@id': `${SITE_CONFIG.baseUrl}/#website`,
-  name: 'IPTV UK Elite',
+  name: 'IPTV UK',
   url: SITE_CONFIG.baseUrl,
 };
 
@@ -162,7 +162,7 @@ const serviceSchema = {
     '@type': 'LocalBusiness',
     '@id': `${SITE_CONFIG.baseUrl}/#business`
   },
-  description: 'Premium IPTV subscription service for the UK in 2026 with 45,000+ live channels, 120,000+ VOD, 4K quality, 30-day guarantee, and 24/7 support.',
+  description: 'Premium IPTV subscription service for the UK in 2026 with 45,000+ live channels, 100,000+ VOD, 4K quality, 30-day guarantee, and 24/7 support.',
   areaServed: {
     '@type': 'Country',
     name: 'United Kingdom'

@@ -79,7 +79,7 @@ export const metadata: Metadata = applySeoFixes("/", {
     url: `${SITE_CONFIG.baseUrl}/`,
     images: [
       {
-        url: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-uk-iptv-30000-channels-premier-league-sky-bt-movies-series-4k.webp`,
+        url: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-uk-iptv-45000-channels-premier-league-sky-bt-movies-series-4k.webp`,
         width: 1200,
         height: 675,
         alt: 'Best IPTV UK 2026 — 45,000+ UK IPTV channels, Sky Sports, Premier League, 4K'
@@ -99,17 +99,17 @@ const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   '@id': `${SITE_CONFIG.baseUrl}/#product`,
-  name: 'IPTV UK Elite Subscription',
+  name: 'IPTV UK Subscription',
   image: [
-    `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-uk-iptv-30000-channels-premier-league-sky-bt-movies-series-4k.webp`,
+    `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-uk-iptv-45000-channels-premier-league-sky-bt-movies-series-4k.webp`,
     `${SITE_CONFIG.baseUrl}/og-image.webp`,
-    `${SITE_CONFIG.baseUrl}/images/premier-league-live-iptv-uk-elite-380-matches-sky-sports-tnt-sports-4k.webp`
+    `${SITE_CONFIG.baseUrl}/images/premier-league-live-iptv-uk-380-matches-sky-sports-tnt-sports-4k.webp`
   ],
   description:
     'Premium IPTV UK subscription 2026 with 45,000+ live channels, 100,000+ VOD, 4K Ultra HD streaming, 99.9% uptime, and 24/7 support. Free 24-hour trial & 30-day money-back guarantee.',
   brand: {
     '@type': 'Brand',
-    name: 'IPTV UK Elite',
+    name: 'IPTV UK',
   },
   offers: {
     '@type': 'AggregateOffer',
@@ -150,7 +150,7 @@ const faqSchema = {
       name: 'What is IPTV UK and how does it work?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'IPTV UK (Internet Protocol Television United Kingdom) is a streaming service that delivers live TV channels, movies, and on-demand content over the internet instead of traditional satellite or cable. IPTV UK Elite provides access to 45,000+ live channels and 100,000+ VOD content that you can watch on any device with an internet connection.',
+        text: 'IPTV UK (Internet Protocol Television United Kingdom) is a streaming service that delivers live TV channels, movies, and on-demand content over the internet instead of traditional satellite or cable. IPTV UK provides access to 45,000+ live channels and 100,000+ VOD content that you can watch on any device with an internet connection.',
       },
     },
     {
@@ -158,7 +158,7 @@ const faqSchema = {
       name: 'Is IPTV UK legal?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'IPTV technology itself is completely legal and is used by major providers like BBC iPlayer, ITV Hub, and Sky Go. The legality depends on the content being streamed. IPTV UK Elite operates as a legitimate service provider. Users should ensure they comply with local laws regarding content consumption.',
+        text: 'IPTV technology itself is completely legal and is used by major providers like BBC iPlayer, ITV Hub, and Sky Go. The legality depends on the content being streamed. IPTV UK operates as a legitimate service provider. Users should ensure they comply with local laws regarding content consumption.',
       },
     },
     {
@@ -182,7 +182,7 @@ const faqSchema = {
       name: 'Do you offer a money-back guarantee?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, IPTV UK Elite offers a full 30-day money-back guarantee on all subscription plans. If you are not completely satisfied with our service for any reason, contact us within 30 days for a full refund, no questions asked.',
+        text: 'Yes, IPTV UK offers a full 30-day money-back guarantee on all subscription plans. If you are not completely satisfied with our service for any reason, contact us within 30 days for a full refund, no questions asked.',
       },
     },
   ],
@@ -194,11 +194,11 @@ const webPageSchema = {
   '@type': 'WebPage',
   '@id': `${SITE_CONFIG.baseUrl}/#webpage`,
   url: `${SITE_CONFIG.baseUrl}/`,
-  name: 'Best IPTV UK 2026 | 45,000+ Channels, 4K, Free Trial - IPTV UK Elite',
-  description: 'IPTV UK Elite: Best IPTV UK subscription 2026. 45,000+ live channels, 100,000+ VOD, 4K streaming & 30-day guarantee. Free 24-hour trial.',
+  name: 'Best IPTV UK 2026 | 45,000+ Channels, 4K, Free Trial - IPTV UK',
+  description: 'IPTV UK: Best IPTV UK subscription 2026. 45,000+ live channels, 100,000+ VOD, 4K streaming & 30-day guarantee. Free 24-hour trial.',
   primaryImageOfPage: {
     '@type': 'ImageObject',
-    url: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-uk-iptv-30000-channels-premier-league-sky-bt-movies-series-4k.webp`,
+    url: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-uk-iptv-45000-channels-premier-league-sky-bt-movies-series-4k.webp`,
     width: 1200,
     height: 675
   }

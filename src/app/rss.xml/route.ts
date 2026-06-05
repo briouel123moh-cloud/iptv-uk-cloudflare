@@ -21,7 +21,7 @@ export async function GET() {
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-  <title>IPTV UK Elite Blog</title>
+  <title>IPTV UK Blog</title>
   <link>${SITE_CONFIG.baseUrl}/blog/</link>
   <description>Latest IPTV UK guides, setup tutorials, and streaming news.</description>
   <language>en-gb</language>

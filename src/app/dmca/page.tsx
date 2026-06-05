@@ -15,7 +15,7 @@ export const metadata: Metadata = applySeoFixes("/dmca/", {
         'IPTV UK DMCA and copyright compliance policy. How to submit a takedown request. Our IPTV UK commitment to intellectual property rights and rightholder cooperation in the UK.',
     alternates: {
         canonical: '/dmca/',
-        ...buildAlternates('https://www.iptvuk-elite.com/dmca/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/dmca/'),
     },
     openGraph: {
         images: [`${SITE_CONFIG.baseUrl}/images/dmca-policy-copyright-compliance-uk.svg`],
@@ -26,9 +26,9 @@ export default function DMCAPage() {
     const dmcaSchema = {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        name: 'DMCA Policy – IPTV UK Elite',
+        name: 'DMCA Policy – IPTV UK',
         url: `${SITE_CONFIG.baseUrl}/dmca/`,
-        description: 'Copyright complaint and DMCA notice policy for IPTV UK Elite.',
+        description: 'Copyright complaint and DMCA notice policy for IPTV UK.',
         image: `${SITE_CONFIG.baseUrl}/images/dmca-policy-copyright-compliance-uk.svg`,
     };
 
@@ -36,8 +36,8 @@ export default function DMCAPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-            { '@type': 'ListItem', position: 2, name: 'DMCA Policy', item: 'https://www.iptvuk-elite.com/dmca/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+            { '@type': 'ListItem', position: 2, name: 'DMCA Policy', item: 'https://iptv-uk-iptv.co.uk/dmca/' },
         ],
     };
 
@@ -46,15 +46,15 @@ export default function DMCAPage() {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(dmcaSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h1 className="sr-only">DMCA Policy – IPTV UK Elite</h1>
+                <h1 className="sr-only">DMCA Policy – IPTV UK</h1>
                 <SectionTitle
-                    title="IPTV UK Elite DMCA Notice & Takedown Policy"
+                    title="IPTV UK DMCA Notice & Takedown Policy"
                     subtitle="Digital Millennium Copyright Act Notice and Takedown Policy"
                 />
                 <div className="max-w-4xl mx-auto mb-10 rounded-2xl overflow-hidden shadow-2xl">
                     <Image
                         src="/images/dmca-policy-copyright-compliance-uk.svg"
-                        alt={"IPTV UK Elite DMCA policy graphic highlighting copyright compliance and submission of infringement notices, updated April 2026."}
+                        alt={"IPTV UK DMCA policy graphic highlighting copyright compliance and submission of infringement notices, updated April 2026."}
                         width={1200}
                         height={675}
                         className="w-full h-auto object-cover"
@@ -69,7 +69,7 @@ export default function DMCAPage() {
                             Introduction
                         </h2>
                         <p className="text-slate-300 mb-6">
-                            IPTV UK Elite respects the intellectual property rights of others and expects our users to do the same.
+                            IPTV UK respects the intellectual property rights of others and expects our users to do the same.
                             In accordance with the Digital Millennium Copyright Act of 1998 (&quot;DMCA&quot;), we will respond expeditiously to
                             claims of copyright infringement that are reported to our designated copyright agent.
                         </p>
@@ -98,7 +98,7 @@ export default function DMCAPage() {
                         </p>
                         <div className="bg-slate-900/50 rounded-lg p-6 mb-6">
                             <p className="text-emerald-400 font-mono">
-                                Email: dmca@iptvuk-elite.com
+                                Email: dmca@iptv-uk-iptv.co.uk
                             </p>
                             <p className="text-slate-400 mt-2">
                                 Please include &quot;DMCA Notice&quot; in the subject line

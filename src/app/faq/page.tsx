@@ -14,7 +14,7 @@ export const metadata: Metadata = applySeoFixes("/faq/", {
         'Is IPTV UK legal? How much does IPTV UK cost? Which device works best? 25+ expert answers to every IPTV UK question — legality, pricing, Firestick setup, channels & 4K streaming.',
     alternates: {
         canonical: '/faq/',
-        ...buildAlternates('https://www.iptvuk-elite.com/faq/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/faq/'),
     },
 });
 
@@ -28,7 +28,7 @@ const faqSchema = {
             name: 'What is IPTV UK and how does it work?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK (Internet Protocol Television United Kingdom) is a streaming service that delivers live TV channels, movies, and on-demand content over the internet instead of traditional satellite or cable. IPTV UK Elite provides access to 45,000+ live channels and 100,000+ VOD content that you can watch on any device with an internet connection. The service works by streaming content through our secure servers directly to your device using an IPTV player app.',
+                text: 'IPTV UK (Internet Protocol Television United Kingdom) is a streaming service that delivers live TV channels, movies, and on-demand content over the internet instead of traditional satellite or cable. IPTV UK provides access to 45,000+ live channels and 100,000+ VOD content that you can watch on any device with an internet connection. The service works by streaming content through our secure servers directly to your device using an IPTV player app.',
             },
         },
         {
@@ -36,15 +36,15 @@ const faqSchema = {
             name: 'Is IPTV UK legal?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV technology itself is completely legal and is used by major providers like BBC iPlayer, ITV Hub, and Sky Go. The legality depends on the content being streamed. IPTV UK Elite operates as a legitimate service provider offering entertainment content. Users are responsible for ensuring they comply with local laws and regulations regarding content consumption in their jurisdiction.',
+                text: 'IPTV technology itself is completely legal and is used by major providers like BBC iPlayer, ITV Hub, and Sky Go. The legality depends on the content being streamed. IPTV UK operates as a legitimate service provider offering entertainment content. Users are responsible for ensuring they comply with local laws and regulations regarding content consumption in their jurisdiction.',
             },
         },
         {
             '@type': 'Question',
-            name: 'What makes IPTV UK Elite better than other UK IPTV providers?',
+            name: 'What makes IPTV UK better than other UK IPTV providers?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK Elite offers superior quality with 45,000+ channels (more than most competitors), 4K Ultra HD streaming, 99.9% guaranteed uptime, 24/7 WhatsApp support, and a genuine 30-day money-back guarantee. Our service has been rated 4.9/5 by over 2,500 UK customers, and we have been serving UK and international customers for over 5 years.',
+                text: 'IPTV UK offers superior quality with 45,000+ channels (more than most competitors), 4K Ultra HD streaming, 99.9% guaranteed uptime, 24/7 WhatsApp support, and a genuine 30-day money-back guarantee. Our service has been rated 4.9/5 by over 2,500 UK customers, and we have been serving UK and international customers for over 5 years.',
             },
         },
         {
@@ -60,7 +60,7 @@ const faqSchema = {
             name: 'What devices are compatible with IPTV UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK Elite works on virtually all streaming devices: Amazon Firestick (all models), Android TV boxes, Smart TVs (Samsung, LG, Sony, TCL, Hisense), Apple TV, iPhones, iPads, Android phones and tablets, Windows and Mac computers, MAG boxes, Formuler devices, and any device supporting M3U playlist format or IPTV apps.',
+                text: 'IPTV UK works on virtually all streaming devices: Amazon Firestick (all models), Android TV boxes, Smart TVs (Samsung, LG, Sony, TCL, Hisense), Apple TV, iPhones, iPads, Android phones and tablets, Windows and Mac computers, MAG boxes, Formuler devices, and any device supporting M3U playlist format or IPTV apps.',
             },
         },
         {
@@ -68,7 +68,7 @@ const faqSchema = {
             name: 'How do I set up IPTV on Firestick?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Setting up IPTV on Amazon Firestick is simple: 1) Subscribe to IPTV UK Elite and receive your login credentials via WhatsApp. 2) On your Firestick, go to Settings > My Fire TV > Developer Options and enable "Apps from Unknown Sources". 3) Download an IPTV player app (we recommend IPTV Smarters or TiviMate). 4) Enter your IPTV UK Elite login credentials. 5) Start watching! Our 24/7 support team can guide you through every step.',
+                text: 'Setting up IPTV on Amazon Firestick is simple: 1) Subscribe to IPTV UK and receive your login credentials via WhatsApp. 2) On your Firestick, go to Settings > My Fire TV > Developer Options and enable "Apps from Unknown Sources". 3) Download an IPTV player app (we recommend IPTV Smarters or TiviMate). 4) Enter your IPTV UK login credentials. 5) Start watching! Our 24/7 support team can guide you through every step.',
             },
         },
         {
@@ -84,7 +84,7 @@ const faqSchema = {
             name: 'Do you include an Electronic Program Guide (EPG)?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes, IPTV UK Elite includes a comprehensive Electronic Program Guide (EPG) that shows current and upcoming programs for all UK channels and most international channels. The EPG is updated automatically and allows you to see what is on now, schedule recordings (on supported apps), and browse programs up to 7 days in advance.',
+                text: 'Yes, IPTV UK includes a comprehensive Electronic Program Guide (EPG) that shows current and upcoming programs for all UK channels and most international channels. The EPG is updated automatically and allows you to see what is on now, schedule recordings (on supported apps), and browse programs up to 7 days in advance.',
             },
         },
         {
@@ -92,7 +92,7 @@ const faqSchema = {
             name: 'What channels are included with IPTV UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK Elite offers 45,000+ live channels including all UK Freeview channels (BBC One, BBC Two, ITV, Channel 4, Channel 5), Sky Sports (all channels), TNT Sports (all channels), Sky Cinema, international channels from 50+ countries, news channels (BBC News, Sky News, CNN), kids channels (Disney, Nickelodeon, Cartoon Network), and specialist channels for every interest. Our VOD library separately contains 100,000+ movies and TV series from international studios.',
+                text: 'IPTV UK offers 45,000+ live channels including all UK Freeview channels (BBC One, BBC Two, ITV, Channel 4, Channel 5), Sky Sports (all channels), TNT Sports (all channels), Sky Cinema, international channels from 50+ countries, news channels (BBC News, Sky News, CNN), kids channels (Disney, Nickelodeon, Cartoon Network), and specialist channels for every interest. Our VOD library separately contains 100,000+ movies and TV series from international studios.',
             },
         },
         {
@@ -116,7 +116,7 @@ const faqSchema = {
             name: 'Do you offer catch-up and recording features?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes, IPTV UK Elite includes 7-day catch-up TV for most UK channels, allowing you to watch programs you missed in the past week. Recording functionality is available on compatible apps like TiviMate, where you can schedule and record live TV to watch later. The 6-month and annual plans include enhanced recording features.',
+                text: 'Yes, IPTV UK includes 7-day catch-up TV for most UK channels, allowing you to watch programs you missed in the past week. Recording functionality is available on compatible apps like TiviMate, where you can schedule and record live TV to watch later. The 6-month and annual plans include enhanced recording features.',
             },
         },
         {
@@ -140,7 +140,7 @@ const faqSchema = {
             name: 'Do you offer a free trial?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes! IPTV UK Elite offers a completely free 24-hour trial with full access to all channels and features. No credit card is required for the trial. Simply contact us via WhatsApp to request your free trial, and we will set up your account within minutes.',
+                text: 'Yes! IPTV UK offers a completely free 24-hour trial with full access to all channels and features. No credit card is required for the trial. Simply contact us via WhatsApp to request your free trial, and we will set up your account within minutes.',
             },
         },
         {
@@ -156,7 +156,7 @@ const faqSchema = {
             name: 'How do I contact customer support?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Our friendly support team is available 24/7 via WhatsApp (fastest response), email at contact@iptvuk-elite.com, and our online contact form. WhatsApp is the quickest way to get help – most queries are resolved within minutes. We provide support in English and can assist with setup, technical issues, billing, and any other questions.',
+                text: 'Our friendly support team is available 24/7 via WhatsApp (fastest response), email at contact@iptv-uk-iptv.co.uk, and our online contact form. WhatsApp is the quickest way to get help – most queries are resolved within minutes. We provide support in English and can assist with setup, technical issues, billing, and any other questions.',
             },
         },
         {
@@ -181,7 +181,7 @@ const faqSchema = {
             name: 'Which IPTV is best in the UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV UK Elite is widely regarded as the best IPTV service in the UK, offering 45,000+ live channels, 100,000+ VOD, 4K Ultra HD quality, 99.9% uptime, and 24/7 WhatsApp support from £12/month. Key advantages: instant setup on Firestick and Smart TV, 7-day catch-up TV, 30-day money-back guarantee, and over 10,000 UK customers served since 2019.',
+                text: 'IPTV UK is widely regarded as the best IPTV service in the UK, offering 45,000+ live channels, 100,000+ VOD, 4K Ultra HD quality, 99.9% uptime, and 24/7 WhatsApp support from £12/month. Key advantages: instant setup on Firestick and Smart TV, 7-day catch-up TV, 30-day money-back guarantee, and over 10,000 UK customers served since 2019.',
             },
         },
         {
@@ -189,7 +189,7 @@ const faqSchema = {
             name: 'Is IPTV blocked in the UK on Firestick?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'IPTV is not blocked on Firestick in the UK — Amazon Firestick fully supports IPTV apps like IPTV Smarters and TiviMate. Some ISPs (Sky Broadband, Virgin Media) throttle streaming traffic, causing buffering. Solutions: use a VPN or connect via wired ethernet adapter. IPTV UK Elite provides full setup support to resolve ISP throttling.',
+                text: 'IPTV is not blocked on Firestick in the UK — Amazon Firestick fully supports IPTV apps like IPTV Smarters and TiviMate. Some ISPs (Sky Broadband, Virgin Media) throttle streaming traffic, causing buffering. Solutions: use a VPN or connect via wired ethernet adapter. IPTV UK provides full setup support to resolve ISP throttling.',
             },
         },
         {
@@ -197,7 +197,7 @@ const faqSchema = {
             name: 'Can I watch IPTV for free in the UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes — IPTV UK Elite offers a free 24-hour trial with full access to all 45,000+ channels, no credit card required. Contact us via WhatsApp to request your free trial and we will set it up within minutes. Paid plans start from £12/month after the trial.',
+                text: 'Yes — IPTV UK offers a free 24-hour trial with full access to all 45,000+ channels, no credit card required. Contact us via WhatsApp to request your free trial and we will set it up within minutes. Paid plans start from £12/month after the trial.',
             },
         },
     ],
@@ -207,8 +207,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-        { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://www.iptvuk-elite.com/faq/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+        { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://iptv-uk-iptv.co.uk/faq/' },
     ],
 };
 
