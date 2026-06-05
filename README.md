@@ -1,6 +1,6 @@
 # New IPTV Site — 39 Indexed Pages
 
-This folder is a standalone Next.js project containing the **39 pages indexed by Google** from iptvuk-elite.com.
+This folder is a standalone Next.js project containing the **39 pages indexed by Google** from iptv-uk-iptv.co.uk.
 Use it as the basis of a new GitHub repo to deploy on a new domain.
 
 ---

@@ -11,7 +11,7 @@
       <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Sitemap — IPTV UK Elite</title>
+        <title>Sitemap — IPTV UK</title>
         <style>
           * { box-sizing: border-box; margin: 0; padding: 0; }
           body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; color: #222; background: #f5f5f5; }
@@ -41,8 +41,8 @@
       </head>
       <body>
         <header>
-          <h1>IPTV UK Elite — Sitemap</h1>
-          <p>iptvuk-elite.com</p>
+          <h1>IPTV UK — Sitemap</h1>
+          <p>iptv-uk-iptv.co.uk</p>
         </header>
         <main>
           <div class="summary">
@@ -93,7 +93,7 @@
           </table>
         </main>
         <footer>
-          <p>sitemap.xml — IPTV UK Elite</p>
+          <p>sitemap.xml — IPTV UK</p>
         </footer>
       </body>
     </html>

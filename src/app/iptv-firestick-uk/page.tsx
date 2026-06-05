@@ -14,12 +14,12 @@ export const metadata: Metadata = applySeoFixes("/iptv-firestick-uk/", {
         'Set up IPTV UK on your Amazon Firestick in 5 minutes. Best IPTV UK for Firestick 2026 — 45,000+ channels, Sky Sports, Premier League & 4K. From £12/month. 2 free IPTV UK trials, no card.',
     alternates: {
         canonical: '/iptv-firestick-uk/',
-        ...buildAlternates('https://www.iptvuk-elite.com/iptv-firestick-uk/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-firestick-uk/'),
     },
     openGraph: {
         title: 'IPTV on Firestick UK 2026 – Setup Guide & Best Service',
         description: 'Set up IPTV on your Amazon Firestick UK in 5 minutes. 45,000+ channels in HD & 4K. From £12/month.',
-        url: 'https://www.iptvuk-elite.com/iptv-firestick-uk/',
+        url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/',
         type: 'website',
     },
 });
@@ -27,13 +27,13 @@ export const metadata: Metadata = applySeoFixes("/iptv-firestick-uk/", {
 const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://www.iptvuk-elite.com/iptv-firestick-uk/#service',
+    '@id': 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/#service',
     name: 'IPTV Service for Amazon Firestick UK',
     description: 'Premium IPTV subscription for Amazon Firestick UK. 45,000+ live channels in HD and 4K, 100,000+ VOD, 7-day catch-up. Works on all Firestick models.',
     provider: {
         '@type': 'Organization',
-        name: 'IPTV UK Elite',
-        '@id': 'https://www.iptvuk-elite.com/#business',
+        name: 'IPTV UK',
+        '@id': 'https://iptv-uk-iptv.co.uk/#business',
     },
     areaServed: { '@type': 'Country', name: 'United Kingdom' },
     serviceType: 'IPTV Streaming Subscription',
@@ -50,15 +50,15 @@ const serviceSchema = {
 const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'IPTV UK Elite – Firestick Subscription',
+    name: 'IPTV UK – Firestick Subscription',
     description: 'Premium IPTV subscription for Amazon Firestick UK. 45,000+ channels, HD & 4K quality, UK sports included.',
     image: PRODUCT_IMAGE,
-    brand: { '@type': 'Brand', name: 'IPTV UK Elite' },
+    brand: { '@type': 'Brand', name: 'IPTV UK' },
     offers: [
-        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://www.iptvuk-elite.com/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://www.iptvuk-elite.com/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://www.iptvuk-elite.com/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://www.iptvuk-elite.com/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
     ],
 };
 
@@ -66,8 +66,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-        { '@type': 'ListItem', position: 2, name: 'IPTV on Firestick UK', item: 'https://www.iptvuk-elite.com/iptv-firestick-uk/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+        { '@type': 'ListItem', position: 2, name: 'IPTV on Firestick UK', item: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/' },
     ],
 };
 
@@ -80,7 +80,7 @@ const faqSchema = {
             name: 'How do I get IPTV on my Firestick in the UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'To get IPTV on Firestick UK: enable Apps from Unknown Sources in Developer Options, install the Downloader app, download IPTV Smarters Pro APK, then enter your IPTV UK Elite credentials (server URL, username, password) to start streaming 45,000+ channels.',
+                text: 'To get IPTV on Firestick UK: enable Apps from Unknown Sources in Developer Options, install the Downloader app, download IPTV Smarters Pro APK, then enter your IPTV UK credentials (server URL, username, password) to start streaming 45,000+ channels.',
             },
         },
         {
@@ -93,10 +93,10 @@ const faqSchema = {
         },
         {
             '@type': 'Question',
-            name: 'Does IPTV UK Elite work on all Firestick models?',
+            name: 'Does IPTV UK work on all Firestick models?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. IPTV UK Elite works on all Amazon Firestick models including Firestick Lite, Firestick 4K, Firestick 4K Max, and Fire TV Cube. Any Firestick model capable of running apps supports IPTV streaming.',
+                text: 'Yes. IPTV UK works on all Amazon Firestick models including Firestick Lite, Firestick 4K, Firestick 4K Max, and Fire TV Cube. Any Firestick model capable of running apps supports IPTV streaming.',
             },
         },
         {
@@ -120,7 +120,7 @@ const faqSchema = {
             name: 'Is there a free trial for IPTV on Firestick?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. IPTV UK Elite offers a free 24-hour trial with full access to all 45,000+ channels on your Firestick. No credit card required. Contact us via WhatsApp to claim your free Firestick IPTV trial.',
+                text: 'Yes. IPTV UK offers a free 24-hour trial with full access to all 45,000+ channels on your Firestick. No credit card required. Contact us via WhatsApp to claim your free Firestick IPTV trial.',
             },
         },
     ],
@@ -187,7 +187,7 @@ export default function IPTVFirestickUKPage() {
                         <div className="mb-8 rounded-2xl overflow-hidden shadow-xl">
                             <Image
                                 src="/images/firestick-iptv-uk-channels-screen.webp"
-                                alt="Amazon Firestick showing IPTV UK Elite channels menu"
+                                alt="Amazon Firestick showing IPTV UK channels menu"
                                 width={800}
                                 height={500}
                                 className="w-full h-auto object-cover"
@@ -195,13 +195,13 @@ export default function IPTVFirestickUKPage() {
                         </div>
                         <div className="prose prose-invert prose-lg max-w-none text-slate-300 space-y-4">
                             <p>
-                                The Amazon Firestick is the UK's most popular streaming device — and for good reason. It's affordable, compact, plugs directly into any HDMI TV, and supports virtually every streaming app available. When paired with a premium IPTV subscription like IPTV UK Elite, the Firestick transforms into a complete television replacement capable of delivering thousands of live channels, catch-up TV, and on-demand movies far exceeding anything available through traditional pay-TV providers.
+                                The Amazon Firestick is the UK&apos;s most popular streaming device — and for good reason. It&apos;s affordable, compact, plugs directly into any HDMI TV, and supports virtually every streaming app available. When paired with a premium IPTV subscription like IPTV UK, the Firestick transforms into a complete television replacement capable of delivering thousands of live channels, catch-up TV, and on-demand movies far exceeding anything available through traditional pay-TV providers.
                             </p>
                             <p>
-                                Unlike Sky or Virgin Media, IPTV on Firestick requires no satellite dish, no engineer installation, and no lengthy contract. You already own the hardware — the Firestick you have right now is all you need. Simply install a compatible IPTV app, enter your subscription credentials, and within minutes you're watching Sky Sports, Premier League football, BBC, ITV, Channel 4, and over 30,000 channels from around the world in full HD or 4K.
+                                Unlike Sky or Virgin Media, IPTV on Firestick requires no satellite dish, no engineer installation, and no lengthy contract. You already own the hardware — the Firestick you have right now is all you need. Simply install a compatible IPTV app, enter your subscription credentials, and within minutes you&apos;re watching Sky Sports, Premier League football, BBC, ITV, Channel 4, and 45,000+ channels from around the world in full HD or 4K.
                             </p>
                             <p>
-                                IPTV UK Elite has been optimised specifically for Amazon Firestick performance. Our servers deliver streams at consistent bitrates to ensure buffer-free playback even on older Firestick models. With a UK broadband connection of 10 Mbps or above, you'll enjoy smooth HD streaming, and 25 Mbps or above unlocks full 4K Ultra HD quality on any content broadcast in that resolution.
+                                IPTV UK has been optimised specifically for Amazon Firestick performance. Our servers deliver streams at consistent bitrates to ensure buffer-free playback even on older Firestick models. With a UK broadband connection of 10 Mbps or above, you&apos;ll enjoy smooth HD streaming, and 25 Mbps or above unlocks full 4K Ultra HD quality on any content broadcast in that resolution.
                             </p>
                         </div>
                     </div>
@@ -213,7 +213,7 @@ export default function IPTVFirestickUKPage() {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Compatible Firestick Models</h2>
-                        <p className="text-slate-400 mb-10">IPTV UK Elite works perfectly on every Amazon Firestick and Fire TV device.</p>
+                        <p className="text-slate-400 mb-10">IPTV UK works perfectly on every Amazon Firestick and Fire TV device.</p>
                         <div className="grid sm:grid-cols-2 gap-4">
                             {[
                                 { name: 'Firestick 4K Max (2023)', desc: 'Best Firestick for IPTV. Wi-Fi 6E support, Dolby Vision, HDR10+, and blazing fast performance. Recommended.' },
@@ -263,8 +263,8 @@ export default function IPTVFirestickUKPage() {
                                 },
                                 {
                                     step: '04',
-                                    title: 'Enter Your IPTV UK Elite Credentials',
-                                    desc: 'Open IPTV Smarters Pro and select "Login with Xtream Codes API". Enter the Server URL, Username, and Password sent to you by IPTV UK Elite when you subscribed. Your full channel list will load within seconds.',
+                                    title: 'Enter Your IPTV UK Credentials',
+                                    desc: 'Open IPTV Smarters Pro and select "Login with Xtream Codes API". Enter the Server URL, Username, and Password sent to you by IPTV UK when you subscribed. Your full channel list will load within seconds.',
                                 },
                                 {
                                     step: '05',
@@ -301,7 +301,7 @@ export default function IPTVFirestickUKPage() {
                                 },
                                 {
                                     problem: 'Channels Not Loading',
-                                    fix: 'Force close and reopen the IPTV app. Check your subscription is active by logging into the portal. Ensure your internet is working. Contact IPTV UK Elite support via WhatsApp for a server status update.',
+                                    fix: 'Force close and reopen the IPTV app. Check your subscription is active by logging into the portal. Ensure your internet is working. Contact IPTV UK support via WhatsApp for a server status update.',
                                 },
                                 {
                                     problem: 'App Crashing on Firestick',
@@ -374,14 +374,14 @@ export default function IPTVFirestickUKPage() {
                             {[
                                 {
                                     q: 'How do I get IPTV on my Firestick in the UK?',
-                                    a: 'Enable Apps from Unknown Sources in Firestick Developer Options, install the Downloader app, download IPTV Smarters Pro, then enter your IPTV UK Elite credentials to stream 45,000+ channels instantly.',
+                                    a: 'Enable Apps from Unknown Sources in Firestick Developer Options, install the Downloader app, download IPTV Smarters Pro, then enter your IPTV UK credentials to stream 45,000+ channels instantly.',
                                 },
                                 {
                                     q: 'What is the best IPTV app for Firestick UK in 2026?',
-                                    a: 'IPTV Smarters Pro is the top choice for its easy setup and clean interface. TiviMate is excellent for advanced users wanting a premium EPG experience. Both work perfectly with IPTV UK Elite.',
+                                    a: 'IPTV Smarters Pro is the top choice for its easy setup and clean interface. TiviMate is excellent for advanced users wanting a premium EPG experience. Both work perfectly with IPTV UK.',
                                 },
                                 {
-                                    q: 'Does IPTV UK Elite work on all Firestick models?',
+                                    q: 'Does IPTV UK work on all Firestick models?',
                                     a: 'Yes — all Firestick models from the original to the latest Firestick 4K Max are supported. The Fire TV Cube is also fully compatible. We recommend the Firestick 4K Max for the best 4K IPTV experience.',
                                 },
                                 {
@@ -394,7 +394,7 @@ export default function IPTVFirestickUKPage() {
                                 },
                                 {
                                     q: 'Is there a free trial for IPTV on Firestick?',
-                                    a: 'Yes! IPTV UK Elite offers a free 24-hour trial with full access to all channels on your Firestick. No credit card needed. Contact us via WhatsApp to claim your trial immediately.',
+                                    a: 'Yes! IPTV UK offers a free 24-hour trial with full access to all channels on your Firestick. No credit card needed. Contact us via WhatsApp to claim your trial immediately.',
                                 },
                             ].map((item) => (
                                 <div key={item.q} className="bg-slate-800 rounded-xl p-6 border border-slate-700">

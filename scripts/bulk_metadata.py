@@ -11,10 +11,10 @@ import subprocess
 import sys
 from typing import Iterable
 
-BRAND = "IPTV UK Elite"
+BRAND = "IPTV UK"
 WEBSITE = "https://iptv-uk-ten.vercel.app"
-COPYRIGHT = "© 2026 IPTV UK Elite. All rights reserved."
-SOFTWARE = "IPTV UK Elite Metadata Injector"
+COPYRIGHT = "© 2026 IPTV UK. All rights reserved."
+SOFTWARE = "IPTV UK Metadata Injector"
 CREATOR_TOOL = "ExifTool via scripts/bulk_metadata.py"
 
 SUPPORTED_EXTENSIONS = {".webp", ".png", ".jpg", ".jpeg"}
@@ -34,7 +34,7 @@ DEFAULT_KEYWORDS = [
     "iptv uk no buffering",
     "reliable iptv uk",
     "iptv uk free trial",
-    "iptv uk elite",
+    "iptv uk",
 ]
 
 PATTERN_SETS = [
@@ -371,7 +371,7 @@ def build_metadata_for_file(image_path: Path) -> dict[str, str | list[str]]:
         description = str(matched_topics[0]["description"])
     else:
         pretty_name = to_title_case(stem)
-        title = f"{pretty_name} | IPTV UK Elite"
+        title = f"{pretty_name} | IPTV UK"
         description = (
             f"{pretty_name} image for IPTV UK users, featuring premium channels, sports, movies, and 4K streaming coverage."
         )

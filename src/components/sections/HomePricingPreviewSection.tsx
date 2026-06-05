@@ -71,7 +71,7 @@ export default function HomePricingPreviewSection() {
 
                 {/* AEO: Pricing answer paragraph */}
                 <p className="text-center text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed">
-                    IPTV UK Elite offers competitively priced subscription plans starting from just £12 per month.
+                    IPTV UK offers competitively priced subscription plans starting from just £12 per month.
                     Need to share with family? All plans are available with <strong className="text-emerald-400">1, 2, or 3 device connections</strong>.
                     All plans include full access to 45,000+ live channels, 100,000+ VOD content, 4K streaming quality,
                     and 24/7 customer support. We offer a 30-day money-back guarantee on all subscriptions.

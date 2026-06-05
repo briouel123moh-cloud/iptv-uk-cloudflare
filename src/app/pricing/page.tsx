@@ -16,12 +16,12 @@ export const metadata: Metadata = applySeoFixes("/pricing/", {
     keywords: [...CORE_BUYING_KEYWORDS, 'iptv uk', 'iptv uk price', 'iptv uk subscription', 'iptv uk plans', 'buy iptv uk', 'iptv uk monthly', 'iptv uk cost', 'cheap iptv uk', 'best iptv uk price', 'iptv uk 2026'],
     alternates: {
         canonical: '/pricing/',
-        ...buildAlternates('https://www.iptvuk-elite.com/pricing/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/pricing/'),
     },
     openGraph: {
         title: 'IPTV UK Prices 2026 – Best IPTV UK Plans from £12/Month',
         description: 'Best IPTV UK price 2026. Sky Sports, Premier League, 45,000+ channels. IPTV UK plans from £12. Free trial. 30-day money-back. Buy IPTV UK now.',
-        url: 'https://www.iptvuk-elite.com/pricing/',
+        url: 'https://iptv-uk-iptv.co.uk/pricing/',
     },
 });
 
@@ -46,11 +46,11 @@ const returnPolicy = {
 const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": "https://www.iptvuk-elite.com/pricing/#product",
-    "name": "IPTV UK Elite Subscription",
-    "image": "https://www.iptvuk-elite.com/og-image.webp",
+    "@id": "https://iptv-uk-iptv.co.uk/pricing/#product",
+    "name": "IPTV UK Subscription",
+    "image": "https://iptv-uk-iptv.co.uk/og-image.webp",
     "description": "Premium IPTV UK subscription with 45,000+ live channels, 100,000+ VOD, 4K Ultra HD streaming, 99.9% uptime, and 24/7 WhatsApp support. Choose from 1-month, 3-month, 6-month, or 12-month plans. 30-day money-back guarantee.",
-    "brand": { "@type": "Brand", "name": "IPTV UK Elite" },
+    "brand": { "@type": "Brand", "name": "IPTV UK" },
     "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
@@ -107,7 +107,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "1 Month Plan",
-            "url": "https://www.iptvuk-elite.com/pricing/",
+            "url": "https://iptv-uk-iptv.co.uk/pricing/",
             "priceCurrency": "GBP",
             "price": "12.00",
             "priceValidUntil": "2027-12-31",
@@ -125,7 +125,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "3 Month Plan",
-            "url": "https://www.iptvuk-elite.com/pricing/",
+            "url": "https://iptv-uk-iptv.co.uk/pricing/",
             "priceCurrency": "GBP",
             "price": "28.00",
             "priceValidUntil": "2027-12-31",
@@ -143,7 +143,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "6 Month Plan",
-            "url": "https://www.iptvuk-elite.com/pricing/",
+            "url": "https://iptv-uk-iptv.co.uk/pricing/",
             "priceCurrency": "GBP",
             "price": "42.00",
             "priceValidUntil": "2027-12-31",
@@ -161,7 +161,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "12 Month Plan",
-            "url": "https://www.iptvuk-elite.com/pricing/",
+            "url": "https://iptv-uk-iptv.co.uk/pricing/",
             "priceCurrency": "GBP",
             "price": "55.00",
             "priceValidUntil": "2027-12-31",
@@ -183,8 +183,8 @@ const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.iptvuk-elite.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://www.iptvuk-elite.com/pricing/" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iptv-uk-iptv.co.uk/" },
+        { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://iptv-uk-iptv.co.uk/pricing/" },
     ],
 };
 
@@ -197,7 +197,7 @@ const faqSchema = {
             "name": "How much does IPTV cost in the UK per month?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "IPTV UK Elite plans start from £12/month. Longer plans reduce the monthly equivalent cost and include the same core channel and VOD access.",
+                "text": "IPTV UK plans start from £12/month. Longer plans reduce the monthly equivalent cost and include the same core channel and VOD access.",
             },
         },
         {
@@ -238,8 +238,8 @@ export default function PricingPage() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
                 <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
                     <Image
-                        src="/images/iptv-uk-elite-pricing-plans-2026.webp"
-                        alt="IPTV UK Elite subscription plans 2026 — monthly from £12, quarterly £28, annual £55"
+                        src="/images/iptv-uk-pricing-plans-2026.webp"
+                        alt="IPTV UK subscription plans 2026 — monthly from £12, quarterly £28, annual £55"
                         width={1200}
                         height={675}
                         className="w-full h-auto object-cover"

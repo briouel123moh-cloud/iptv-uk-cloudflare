@@ -5,7 +5,7 @@ import { SITE_CONFIG } from '@/lib/site-config';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/blog/best-iptv-uk-providers-2026/", {
-    title: 'Best IPTV UK Providers 2026: IPTV UK Elite vs Competitors',
+    title: 'Best IPTV UK Providers 2026: IPTV UK vs Competitors',
     description: 'Detailed comparison framework for UK IPTV providers in 2026. Compare channel depth, uptime, support quality, trial policy, and refund terms.',
     alternates: {
         canonical: '/blog/best-iptv-uk-providers-2026/',
@@ -20,11 +20,11 @@ export default function BestProvidersBlog() {
     const articleSchema = {
         '@context': 'https://schema.org',
         '@type': 'Article',
-        headline: 'Best IPTV UK Providers 2026: IPTV UK Elite vs Competitors',
+        headline: 'Best IPTV UK Providers 2026: IPTV UK vs Competitors',
         url: `${SITE_CONFIG.baseUrl}/blog/best-iptv-uk-providers-2026/`,
         image: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-providers-2026-comparison.svg`,
-        author: { '@type': 'Organization', name: 'IPTV UK Elite' },
-        publisher: { '@type': 'Organization', name: 'IPTV UK Elite', logo: { '@type': 'ImageObject', url: `${SITE_CONFIG.baseUrl}/logo.svg` } },
+        author: { '@type': 'Organization', name: 'IPTV UK' },
+        publisher: { '@type': 'Organization', name: 'IPTV UK', logo: { '@type': 'ImageObject', url: `${SITE_CONFIG.baseUrl}/logo.svg` } },
     };
 
     return (
@@ -38,7 +38,7 @@ export default function BestProvidersBlog() {
                     <div className="mb-10 rounded-2xl overflow-hidden shadow-2xl">
                         <Image
                             src="/images/best-iptv-uk-providers-2026-comparison.svg"
-                            alt={"Best IPTV UK Providers 2026 comparison framework by IPTV UK Elite, highlighting key criteria for selecting IPTV services."}
+                            alt={"Best IPTV UK Providers 2026 comparison framework by IPTV UK, highlighting key criteria for selecting IPTV services."}
                             width={1200}
                             height={675}
                             className="w-full h-auto object-cover"
@@ -58,7 +58,7 @@ export default function BestProvidersBlog() {
                                 <thead className="bg-slate-50 dark:bg-slate-800">
                                     <tr>
                                         <th className="p-4 border border-slate-200 dark:border-slate-700">Feature</th>
-                                        <th className="p-4 border border-slate-200 dark:border-slate-700 text-emerald-600 font-black">IPTV UK Elite</th>
+                                        <th className="p-4 border border-slate-200 dark:border-slate-700 text-emerald-600 font-black">IPTV UK</th>
                                         <th className="p-4 border border-slate-200 dark:border-slate-700">Typical Market Provider</th>
                                     </tr>
                                 </thead>

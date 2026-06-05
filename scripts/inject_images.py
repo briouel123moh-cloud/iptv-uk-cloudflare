@@ -104,14 +104,14 @@ DEVICE_PAGES = [
         "iptv-firestick-uk-setup-step-by-step.webp",
         "How to install IPTV on Firestick UK — step-by-step setup guide 2026",
         "firestick-iptv-uk-channels-screen.webp",
-        "Amazon Firestick showing IPTV UK Elite channels menu",
+        "Amazon Firestick showing IPTV UK channels menu",
     ),
     (
         "iptv-smart-tv-uk",
         "iptv-smart-tv-uk-installation-guide.webp",
         "How to get IPTV on Smart TV UK — Samsung LG installation guide 2026",
         "samsung-lg-iptv-uk-channels.webp",
-        "Samsung Smart TV with IPTV UK Elite channels loaded",
+        "Samsung Smart TV with IPTV UK channels loaded",
     ),
     (
         "iptv-android-box-uk",
@@ -132,7 +132,7 @@ DEVICE_PAGES = [
         "iptv-fire-tv-cube-uk-setup.webp",
         "Fire TV Cube IPTV UK setup guide — hands-free streaming 2026",
         "fire-tv-cube-iptv-uk-channels.webp",
-        "Fire TV Cube with IPTV UK Elite channels and Alexa voice control",
+        "Fire TV Cube with IPTV UK channels and Alexa voice control",
     ),
     (
         "iptv-iphone-uk",
@@ -156,14 +156,14 @@ CHANNEL_PAGES = [
         "sky-sports-iptv-uk-premier-league-live.webp",
         "Sky Sports IPTV UK — watch Premier League live without a Sky subscription",
         "sky-sports-channels-iptv-uk-guide.webp",
-        "All Sky Sports channels available via IPTV UK Elite",
+        "All Sky Sports channels available via IPTV UK",
     ),
     (
         "sky-sports-iptv",
         "sky-sports-iptv-uk-premier-league-live.webp",
         "Sky Sports IPTV UK — watch Premier League live without a Sky subscription",
         "sky-sports-channels-iptv-uk-guide.webp",
-        "All Sky Sports channels on IPTV UK Elite",
+        "All Sky Sports channels on IPTV UK",
     ),
     (
         "sky-cinema-iptv",
@@ -184,7 +184,7 @@ CHANNEL_PAGES = [
         "bt-sport-iptv-uk-champions-league.webp",
         "BT Sport IPTV UK — watch Champions League without a BT subscription",
         "bt-sport-iptv-uk-channels.webp",
-        "BT Sport channels available on IPTV UK Elite",
+        "BT Sport channels available on IPTV UK",
     ),
     (
         "bt-sport-iptv",
@@ -212,14 +212,14 @@ CHANNEL_PAGES = [
         "itv-iptv-uk-channels-live.webp",
         "Watch ITV via IPTV UK — ITV1, ITV2, ITV3, ITV4 and ITVX live",
         "itv-iptv-uk-coronation-street-live.webp",
-        "All ITV channels live via IPTV UK Elite",
+        "All ITV channels live via IPTV UK",
     ),
     (
         "channel-4-iptv",
         "channel-4-iptv-uk-streaming-live.webp",
         "Channel 4 IPTV UK — watch C4 and E4 live without Channel 4 app",
         "channel-4-iptv-uk-all-channels.webp",
-        "Channel 4, E4, More4 and Film4 on IPTV UK Elite",
+        "Channel 4, E4, More4 and Film4 on IPTV UK",
     ),
 ]
 
@@ -260,7 +260,7 @@ COMPARISON_PAGES = [
         "iptv-vs-sky-uk-price-comparison.webp",
         "IPTV vs Sky UK price comparison 2026 — save £1,200 per year switching to IPTV",
         "iptv-vs-sky-uk-channels-table.webp",
-        "IPTV UK Elite vs Sky TV — channel count and price comparison table",
+        "IPTV UK vs Sky TV — channel count and price comparison table",
     ),
     (
         "iptv-vs-virgin-media-uk",
@@ -273,30 +273,30 @@ COMPARISON_PAGES = [
         "iptv-vs-now-tv-uk",
         "iptv-vs-now-tv-uk-comparison.webp",
         "IPTV UK vs NOW TV — channels, price and contract comparison 2026",
-        "iptv-uk-elite-vs-now-tv-value.webp",
-        "IPTV UK Elite vs NOW TV — which gives better value in 2026",
+        "iptv-uk-vs-now-tv-value.webp",
+        "IPTV UK vs NOW TV — which gives better value in 2026",
     ),
     (
         "iptv-vs-bt-tv",
         "iptv-vs-bt-tv-uk-comparison.webp",
         "IPTV vs BT TV UK — feature and price comparison guide 2026",
         "iptv-uk-vs-bt-sport-savings.webp",
-        "Cancel BT TV and switch to IPTV UK Elite — cost comparison",
+        "Cancel BT TV and switch to IPTV UK — cost comparison",
     ),
     (
         "iptv-vs-freeview",
         "iptv-vs-freeview-uk-comparison.webp",
         "IPTV vs Freeview UK — why IPTV offers more channels for less 2026",
-        "iptv-uk-elite-vs-freeview-channels.webp",
-        "IPTV UK 30,000+ channels vs Freeview 70 channels — comparison",
+        "iptv-uk-vs-freeview-channels.webp",
+        "IPTV UK 45,000+ channels vs Freeview 70 channels — comparison",
     ),
 ]
 
 STATIC_PAGES = [
     (
         "about",
-        "iptv-uk-elite-team-about.webp",
-        "IPTV UK Elite team — UK's premium IPTV service provider",
+        "iptv-uk-team-about.webp",
+        "IPTV UK team — UK's premium IPTV service provider",
     ),
     (
         "iptv-uk-guide",
@@ -305,8 +305,8 @@ STATIC_PAGES = [
     ),
     (
         "pricing",
-        "iptv-uk-elite-pricing-plans-2026.webp",
-        "IPTV UK Elite subscription plans 2026 — monthly, quarterly and annual pricing",
+        "iptv-uk-pricing-plans-2026.webp",
+        "IPTV UK subscription plans 2026 — monthly, quarterly and annual pricing",
     ),
     (
         "faq",
@@ -315,8 +315,8 @@ STATIC_PAGES = [
     ),
     (
         "contact",
-        "iptv-uk-elite-whatsapp-support.webp",
-        "Contact IPTV UK Elite — 24/7 WhatsApp and email support",
+        "iptv-uk-whatsapp-support.webp",
+        "Contact IPTV UK — 24/7 WhatsApp and email support",
     ),
 ]
 

@@ -21,7 +21,7 @@ export const metadata: Metadata = applySeoFixes("/blog/", {
     keywords: [...CORE_BUYING_KEYWORDS, 'iptv uk guides', 'iptv setup tutorials', 'iptv troubleshooting uk'],
     alternates: {
         canonical: '/blog/',
-        ...buildAlternates('https://www.iptvuk-elite.com/blog/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/blog/'),
     },
 });
 
@@ -558,7 +558,7 @@ const blogPosts = [
     {
         slug: 'best-iptv-services-for-live-sports-in-2026-tested-ranked',
         title: 'Best IPTV Services for Live Sports in 2026: Tested & Ranked',
-        excerpt: 'We tested and ranked the best IPTV services for live sports in 2026. Compare channel depth, stream stability, device support, and value — with IPTV UK Elite at the top.',
+        excerpt: 'We tested and ranked the best IPTV services for live sports in 2026. Compare channel depth, stream stability, device support, and value — with IPTV UK at the top.',
         date: '2026-04-20',
         category: 'Sports',
         readTime: '12 min read',
@@ -630,8 +630,8 @@ export default function BlogPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-            { '@type': 'ListItem', position: 2, name: 'IPTV UK Blog', item: 'https://www.iptvuk-elite.com/blog/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+            { '@type': 'ListItem', position: 2, name: 'IPTV UK Blog', item: 'https://iptv-uk-iptv.co.uk/blog/' },
         ],
     };
 
@@ -714,7 +714,7 @@ export default function BlogPage() {
                             Get the latest guides, tips, and news about IPTV in the UK delivered to your inbox.
                         </p>
                         <a
-                            href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%20Elite%2C%20I%20want%20to%20subscribe%20to%20IPTV%20UK%20news%20and%20get%20the%20latest%20updates"
+                            href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%2C%20I%20want%20to%20subscribe%20to%20IPTV%20UK%20news%20and%20get%20the%20latest%20updates"
                             className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-medium rounded-lg transition-colors"
                             target="_blank"
                             rel="noopener noreferrer"

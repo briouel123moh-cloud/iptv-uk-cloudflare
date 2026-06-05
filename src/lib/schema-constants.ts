@@ -38,5 +38,5 @@ export const OFFER_SHIPPING_DETAILS = {
     },
 } as const;
 
-export const PRODUCT_IMAGE = 'https://www.iptvuk-elite.com/og-image.webp';
+export const PRODUCT_IMAGE = 'https://iptv-uk-iptv.co.uk/og-image.webp';
 export const PRICE_VALID_UNTIL = '2027-12-31';

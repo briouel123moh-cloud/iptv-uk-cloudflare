@@ -15,7 +15,7 @@ export default function HomeVODSection() {
 
                 {/* AEO: Answer paragraph for "What VOD content is included with IPTV UK?" */}
                 <p className="text-center text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed">
-                    IPTV UK Elite includes over 100,000 movies and TV series in our Video on Demand library.
+                    IPTV UK includes over 100,000 movies and TV series in our Video on Demand library.
                     Watch the latest Hollywood blockbusters, popular Netflix and Amazon originals, classic films,
                     and complete TV series box sets. New content is added daily, so you&apos;ll never run out of
                     things to watch. All VOD content is available in HD and 4K quality where available.
