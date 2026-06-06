@@ -1042,7 +1042,10 @@ export function applySeoFixes(path: string, metadata: Metadata): Metadata {
   const resolvedDescription = fix?.metaDescription ?? metadata.description ?? undefined;
   // Always ensure OG images are present — prevents og:image being stripped when a page
   // defines a partial openGraph object (title/url/type) without an images field.
-  const openGraphImages = metadata.openGraph?.images ?? [DEFAULT_OG_IMAGE];
+  const openGraphImages =
+    metadata.openGraph?.images && (Array.isArray(metadata.openGraph.images) ? metadata.openGraph.images.length > 0 : true)
+      ? metadata.openGraph.images
+      : [DEFAULT_OG_IMAGE];
   const twitterImages = metadata.twitter?.images ?? extractTwitterImages(openGraphImages);
 
   return {

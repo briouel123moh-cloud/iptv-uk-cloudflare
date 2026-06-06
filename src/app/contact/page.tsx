@@ -10,7 +10,7 @@ import { applySeoFixes } from '@/lib/seo-fixes';
 export const metadata: Metadata = applySeoFixes("/contact/", {
     title: 'Contact IPTV UK – 24/7 WhatsApp Support | Reply in Under 5 Mins',
     description:
-        'Contact IPTV UK 24/7 — instant WhatsApp support, usually answered in under 5 minutes. Get help with IPTV UK setup, your free trial, billing or technical issues. We\'re always on.',
+        'Contact IPTV UK 24/7 — instant WhatsApp support, usually answered in under 5 minutes. Get help with IPTV UK setup, your free trial, billing or technical issues. We're always on.',
     alternates: {
         canonical: '/contact/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/contact/'),
