@@ -9,18 +9,27 @@ import { MERCHANT_RETURN_POLICY, OFFER_SHIPPING_DETAILS, PRODUCT_IMAGE, PRICE_VA
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/iptv-firestick-uk/", {
-    title: 'Best IPTV UK for Firestick 2026 – Setup in 5 Minutes, From £12',
+    title: 'IPTV UK on Firestick 2026 – Best Setup Guide | 2 Free Trials, 5-Min Install',
     description:
-        'Set up IPTV UK on your Amazon Firestick in 5 minutes. Best IPTV UK for Firestick 2026 — 45,000+ channels, Sky Sports, Premier League & 4K. From £12/month. 2 free IPTV UK trials, no card.',
+        'Best IPTV UK for Firestick 2026. Set up in 5 minutes — 45,000+ channels, Sky Sports, Premier League & 4K HD. 2 free IPTV UK trials per user, no card needed. From £12/month. 24/7 setup support.',
     alternates: {
         canonical: '/iptv-firestick-uk/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-firestick-uk/'),
     },
     openGraph: {
-        title: 'IPTV on Firestick UK 2026 – Setup Guide & Best Service',
-        description: 'Set up IPTV on your Amazon Firestick UK in 5 minutes. 45,000+ channels in HD & 4K. From £12/month.',
+        title: 'IPTV UK on Firestick 2026 – 2 Free Trials | Setup in 5 Minutes',
+        description: 'Best IPTV UK for Firestick — 45,000+ channels, Sky Sports & 4K. Setup in 5 minutes. 2 free IPTV UK trials per user, no card. From £12/month. 24/7 support.',
         url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/',
         type: 'website',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/best-iptv-firestick-uk-2026-hero.webp',
+                width: 1200,
+                height: 675,
+                alt: 'Best IPTV UK for Firestick 2026 — setup guide with 2 free trials and 45,000+ channels',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

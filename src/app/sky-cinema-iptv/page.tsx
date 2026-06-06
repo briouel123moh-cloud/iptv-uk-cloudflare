@@ -10,12 +10,26 @@ import { buildAlternates } from '@/lib/hreflang';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/sky-cinema-iptv/", {
-    title: 'Sky Cinema on IPTV UK 2026 – All Sky Cinema Channels, No Contract',
+    title: 'Sky Cinema on IPTV UK 2026 – All Channels, No Sky Contract | From £12',
     description:
-        'Watch all Sky Cinema channels via IPTV UK without a Sky contract. Sky Cinema Premiere, Action, Comedy, Drama & more — all included in every IPTV UK plan from £12/month. Latest movies, no commitment.',
+        'Watch all Sky Cinema channels on IPTV UK — Premiere, Action, Comedy, Drama & more — without a Sky subscription. Latest blockbusters in HD/4K. From £12/month. 2 free IPTV UK trials. No commitment.',
     alternates: {
         canonical: '/sky-cinema-iptv/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/sky-cinema-iptv/'),
+    },
+    openGraph: {
+        title: 'Sky Cinema on IPTV UK 2026 – All Sky Cinema Channels | 2 Free Trials',
+        description: 'Stream every Sky Cinema channel on IPTV UK — no Sky contract needed. Latest films, Premiere, Action, Comedy & more in HD/4K. From £12/month. 2 free trials.',
+        url: 'https://iptv-uk-iptv.co.uk/sky-cinema-iptv/',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/sky-cinema-iptv-channels-list.webp',
+                width: 1200,
+                height: 675,
+                alt: 'Sky Cinema channels on IPTV UK 2026 — Premiere, Action, Comedy & more without Sky contract',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

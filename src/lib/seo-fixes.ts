@@ -21,30 +21,30 @@ export type SeoFix = {
  */
 export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
   "/": {
-    pageTitle: "Buy IPTV UK Subscription: 45,000+ Channels & VOD from £12 | IPTV UK",
-    metaDescription: "IPTV UK: Get 45,000+ live UK channels & 100,000+ VOD in 4K. Plans from £12/month with 99.9% uptime & 24/7 WhatsApp support. Try free for 24 hours!",
-    ogTitle: "IPTV UK: 45,000+ Channels from £12 - Unlimited Entertainment",
-    twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month #IPTVUK",
+    pageTitle: "IPTV UK | #1 UK IPTV Service 2026 – 45,000+ Channels + 2 Free Trials",
+    metaDescription: "#1 IPTV UK provider 2026. Stream Sky Sports, Premier League & BBC with 45,000+ live channels from £12/month. 2 free IPTV UK trials per user. Instant activation. 30-day money-back. Try free now.",
+    ogTitle: "IPTV UK 2026 – 45,000+ Channels, Sky Sports + 2 Free Trials | From £12",
+    twitterTitle: "#1 IPTV UK 2026: 45k+ Channels & 2 Free Trials from £12 #IPTVUK",
   },
   "/about/": {
-    pageTitle: "About IPTV UK | UK IPTV Provider Since 2019",
-    metaDescription: "IPTV UK: Founded 2019, serving 10,000+ UK customers with 45,000+ channels, 4K streaming & 24/7 WhatsApp support. Learn our story.",
-    h1: "IPTV UK: Premium 45,000+ Live UK Channels & 24/7 Support",
-    h2: "IPTV UK: Trusted Premium UK IPTV Service Since 2019",
-    twitterTitle: "UK TV for £12! Get Premium IPTV Service Now #IPTVUK",
+    pageTitle: "About IPTV UK – UK's #1 Trusted IPTV Provider Since 2019 | 10,000+ Customers",
+    metaDescription: "Meet the team behind the UK's top-rated IPTV UK service. London-based since 2019. 10,000+ happy UK customers, 45,000+ channels, 4K streaming & 24/7 WhatsApp support.",
+    h1: "IPTV UK: The UK's Most Trusted IPTV Service Since 2019",
+    h2: "IPTV UK: Trusted, London-Based IPTV Service Since 2019",
+    twitterTitle: "Meet IPTV UK — The UK's #1 IPTV Provider Since 2019 #IPTVUK",
     linkFix: "https://iptv-uk-iptv.co.uk/contact/",
   },
   "/bbc-iptv-uk/": {
-    pageTitle: "Watch BBC Channels Online in HD | IPTV UK",
-    metaDescription: "Stream BBC channels in HD with IPTV UK. Enjoy 4K quality, 7-day catch-up, and 99.9% uptime. Subscriptions from £12/month. Try risk-free today.",
-    h2: "IPTV UK Related Guides: Channels, Setup & More",
-    twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month! #IPTVUK",
+    pageTitle: "BBC on IPTV UK 2026 – All BBC Channels in HD | No Licence, From £12",
+    metaDescription: "Watch BBC One, Two, Three, Four & CBeebies in HD on IPTV UK — plus 7-day BBC catch-up. No TV licence hassle. From £12/month. 2 free IPTV UK trials. No contract, no dish.",
+    h2: "Watch More UK Channels on IPTV UK — Sky, ITV, Channel 4 & More",
+    twitterTitle: "BBC Channels in HD on IPTV UK — From £12/Month | 2 Free Trials #IPTVUK",
   },
   "/blog/": {
-    pageTitle: "IPTV UK Blog: Guides, Tips & News",
-    metaDescription: "IPTV UK Blog: Expert guides, tips & news on IPTV UK services. Learn about pricing, legality, and setup to choose the best plan.",
-    h2: "Essential UK IPTV Guides, Tips & Tutorials",
-    twitterTitle: "UK IPTV Subs from £12! Unlock Premium TV Channels Now! #IPTVUK",
+    pageTitle: "IPTV UK Blog 2026 – Expert IPTV UK Guides, Reviews & Setup Tips",
+    metaDescription: "Read expert IPTV UK guides, reviews & tutorials. Best IPTV UK service, Firestick setup, buffering fixes, pricing & free trials. The UK's top IPTV blog, updated weekly.",
+    h2: "Essential IPTV UK Guides, Reviews & Setup Tutorials",
+    twitterTitle: "IPTV UK Blog 2026 — Expert Guides, Reviews & Tips #IPTVUK",
   },
   "/blog/4k-iptv-services-uk/": {
     pageTitle: "4K IPTV Services UK: What You Need for Ultra HD Streaming | IPTV UK",
@@ -611,15 +611,15 @@ export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
     twitterTitle: "UK IPTV from £12/month: Endless Entertainment Awaits! #IPTVUK",
   },
   "/contact/": {
-    pageTitle: "Contact IPTV UK | 24/7 WhatsApp Support",
-    metaDescription: "Contact IPTV UK 24/7 via WhatsApp for fast support, queries answered in minutes. Email contact@iptv-uk-iptv.co.uk for inquiries or free trial requests.",
-    twitterTitle: "UK IPTV Subs from £12/month: Unlimited Entertainment! #IPTVUK",
+    pageTitle: "Contact IPTV UK – 24/7 WhatsApp Support | Reply in Under 5 Mins",
+    metaDescription: "Contact IPTV UK 24/7 via WhatsApp — most queries answered in under 5 minutes. Get help with setup, free trial, billing or technical issues. We never sleep.",
+    twitterTitle: "IPTV UK 24/7 Support — WhatsApp Us Now, Reply in Minutes #IPTVUK",
   },
   "/dmca/": {
-    pageTitle: "DMCA Policy & Copyright Compliance | IPTV UK",
-    metaDescription: "IPTV UK DMCA: Submit copyright removal requests & understand our IP compliance. Learn how we cooperate with rightholders.",
+    pageTitle: "DMCA Policy – IPTV UK Copyright Compliance & Takedown Notices",
+    metaDescription: "IPTV UK DMCA and copyright compliance policy. How to submit a takedown request. Our commitment to intellectual property rights in the UK.",
     h2: "IPTV UK DMCA Notice & Takedown Policy",
-    twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month #IPTVUK",
+    twitterTitle: "IPTV UK DMCA & Copyright Policy — Full Compliance Details #IPTVUK",
   },
   "/f1-iptv-uk/": {
     pageTitle: "Watch Formula 1 Live in 4K: Every Race on Sky Sports F1 | IPTV UK",
@@ -628,9 +628,9 @@ export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
     twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month! #IPTVUK",
   },
   "/faq/": {
-    pageTitle: "IPTV UK FAQ: Your Questions Answered | IPTV UK",
-    metaDescription: "IPTV UK FAQs: Get answers on channels, 4K streaming, devices & setup. Learn about pricing, legality & 24/7 WhatsApp support. Start your trial.",
-    twitterTitle: "UK IPTV from £12 | Unlimited Entertainment #IPTVUK",
+    pageTitle: "IPTV UK FAQ 2026 – Is IPTV UK Legal? Costs? Setup? 25+ Expert Answers",
+    metaDescription: "All your IPTV UK questions answered: Is IPTV UK legal? How much does it cost? Which devices work? Firestick setup? 25+ expert FAQ answers — plus how to get 2 free trials.",
+    twitterTitle: "25+ IPTV UK Questions Answered — Legality, Cost & Setup 2026 #IPTVUK",
   },
   "/iptv-android-box-uk/": {
     pageTitle: "Best IPTV for Android Box UK: Setup & Apps | IPTV UK",
@@ -646,15 +646,15 @@ export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
     twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month! #IPTVUK",
   },
   "/iptv-firestick-uk/": {
-    pageTitle: "IPTV for Firestick UK: Setup Guide & Benefits | IPTV UK",
-    metaDescription: "IPTV UK: Set up Firestick IPTV in 5 mins. 45k+ channels, 4K, Sky Sports, TNT Sports. From £12/month. Free 24hr trial.",
-    twitterTitle: "IPTV UK: Premium Service from £12/Month #IPTVUK",
+    pageTitle: "IPTV UK on Firestick 2026 – Best Setup Guide | 2 Free Trials, 5-Min Install",
+    metaDescription: "Best IPTV UK for Firestick 2026. Set up in 5 minutes — 45,000+ channels, Sky Sports & 4K. 2 free IPTV UK trials per user, no card needed. From £12/month. 24/7 support.",
+    twitterTitle: "IPTV UK on Firestick — 2 Free Trials & 5-Min Setup 2026 #IPTVUK",
   },
   "/iptv-iphone-uk/": {
-    pageTitle: "IPTV for iPhone & iPad: UK Setup Guide | IPTV UK",
-    metaDescription: "IPTV for iPhone & iPad: Watch 45,000+ UK channels in 4K. Easy setup with top apps like IPTV Smarters. Risk-free 24-hour trial. From £12/month.",
-    h2: "IPTV Device Guides: Smart TV, Android Box & Mobile Data",
-    twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month #IPTVUK",
+    pageTitle: "IPTV UK on iPhone & iPad 2026 – Stream UK IPTV on iOS | 2 Free Trials",
+    metaDescription: "Stream IPTV UK on your iPhone or iPad — 45,000+ UK channels on the go. Best iOS IPTV apps 2026. 2 free IPTV UK trials per user. 5-min setup. From £12/month.",
+    h2: "IPTV UK Device Guides: Smart TV, Android Box & More",
+    twitterTitle: "IPTV UK on iPhone & iPad — 2 Free Trials, 5-Min Setup 2026 #IPTVUK",
   },
   "/iptv-mag-box-uk/": {
     pageTitle: "IPTV on MAG Box UK: Portal Setup Guide | IPTV UK",
@@ -675,10 +675,10 @@ export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
     twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month! #IPTVUK",
   },
   "/iptv-uk-guide/": {
-    pageTitle: "IPTV UK Guide: Setup, Devices & Legal Information | IPTV UK",
-    metaDescription: "IPTV UK Guide: Learn how IPTV works, setup on Firestick & Smart TV, legal aspects, and tips for choosing a provider. Read before subscribing.",
-    h2: "IPTV UK Explained: Live TV Streaming Over the Internet",
-    twitterTitle: "Upgrade to Premium IPTV UK Service from £12/Month #IPTVUK",
+    pageTitle: "IPTV UK Guide 2026 – Complete Setup, Buying & Legal Guide for UK IPTV",
+    metaDescription: "The ultimate IPTV UK guide 2026. What is IPTV UK, how to set it up, which IPTV UK service to choose, is it legal in the UK, and how to claim 2 free IPTV UK trials. Start here.",
+    h2: "IPTV UK Explained: How Internet TV Works in the UK",
+    twitterTitle: "Complete IPTV UK Guide 2026 — Setup, Legality & Free Trials #IPTVUK",
     linkFix: "https://iptv-uk-iptv.co.uk/pricing/",
   },
   "/iptv-vs-bt-tv/": {
@@ -728,9 +728,9 @@ export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
     twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month #IPTVUK",
   },
   "/pricing/": {
-    pageTitle: "IPTV Subscription Plans & Pricing UK | From £12/Month | IPTV UK",
-    metaDescription: "IPTV UK plans from £12/month. 45,000+ channels, 100,000+ VOD in 4K. 99.9% uptime, 24/7 support. Free 24hr trial.",
-    twitterTitle: "Upgrade to Premium IPTV UK Service from £12/Month! #IPTVUK",
+    pageTitle: "IPTV UK Prices 2026 – From £12/Month | 2 Free Trials + 30-Day Guarantee",
+    metaDescription: "Buy IPTV UK from £12/month. Sky Sports, Premier League & 45,000+ channels in 4K. 2 free IPTV UK trials per user — no card needed. 30-day money-back guarantee. Instant activation.",
+    twitterTitle: "IPTV UK from £12/Month — 2 Free Trials + 30-Day Guarantee 2026 #IPTVUK",
   },
   "/privacy/": {
     pageTitle: "Privacy Policy – IPTV UK",
@@ -739,10 +739,10 @@ export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
     twitterTitle: "UK IPTV Subs from £12: Endless Entertainment Awaits! #IPTVUK",
   },
   "/refund/": {
-    pageTitle: "IPTV UK Refund Policy: 30-Day Money-Back Guarantee",
-    metaDescription: "IPTV UK's 30-day money-back guarantee: Request a refund easily. Learn eligibility, process, and 5-7 day processing times.",
-    h2: "IPTV UK Refund Policy: 30-Day Money-Back Guarantee",
-    twitterTitle: "Get Premium UK IPTV from £12 | IPTV UK Subscription",
+    pageTitle: "IPTV UK Refund Policy – 30-Day Money-Back Guarantee | No Questions Asked",
+    metaDescription: "Not happy? Get a full IPTV UK refund within 30 days — no questions asked. Learn exactly how to claim your IPTV UK money-back guarantee quickly and easily.",
+    h2: "IPTV UK 30-Day Money-Back Guarantee — How It Works",
+    twitterTitle: "IPTV UK 30-Day Money-Back Guarantee — No Questions Asked #IPTVUK",
   },
   "/setup/smart-tv/": {
     pageTitle: "Smart TV IPTV Setup Guide (Samsung/LG) | IPTV UK",
@@ -765,15 +765,15 @@ export const SEO_FIXES_BY_PATH: Record<string, SeoFix> = {
     twitterTitle: "UK IPTV Subs from £12! Premium TV, Unlocked! #IPTVUK",
   },
   "/sky-cinema-iptv/": {
-    pageTitle: "Sky Cinema IPTV: 4K Streaming & 45,000+ Channels | IPTV UK",
-    metaDescription: "IPTV UK: Stream Sky Cinema channels (4K) without contract. Latest movies, from £12/month. Try 24 hours free.",
-    h2: "Comprehensive IPTV Guides: Sky Atlantic, BBC & VOD Content",
-    twitterTitle: "Unlock Premium UK TV: IPTV UK from £12/month! #IPTVUK",
+    pageTitle: "Sky Cinema on IPTV UK 2026 – All Channels, No Sky Contract | From £12",
+    metaDescription: "Watch all Sky Cinema channels on IPTV UK — Premiere, Action, Comedy & more — without a Sky subscription. Latest blockbusters in HD/4K. 2 free trials. From £12/month.",
+    h2: "More UK Premium Channels on IPTV — Sky Atlantic, BBC & Sports",
+    twitterTitle: "Sky Cinema on IPTV UK — All Channels, No Contract | 2 Free Trials #IPTVUK",
   },
   "/sky-sports-iptv-uk/": {
-    pageTitle: "Watch Sky Sports Without Sky Contract | IPTV UK",
-    metaDescription: "Watch Sky Sports channels without a Sky contract from £12/month. IPTV UK offers 4K streaming of Sky Sports 1-5, Main Event, F1 & more. Try 24 hours free.",
-    twitterTitle: "UK IPTV from £12! Premium Service, Endless Entertainment",
+    pageTitle: "Sky Sports on IPTV UK 2026 – All 10 Channels, No Sky Contract | From £12",
+    metaDescription: "Watch all 10 Sky Sports channels on IPTV UK — Premier League, F1 & more. No Sky dish. No contract. From £12/month. 2 free IPTV UK trials per user. Save £800+/year vs Sky.",
+    twitterTitle: "Sky Sports on IPTV UK — All 10 Channels, No Contract | 2 Free Trials #IPTVUK",
   },
   "/sky-sports-iptv/": {
     pageTitle: "Watch Sky Sports IPTV in 4K | IPTV UK",
@@ -1027,13 +1027,22 @@ function extractTwitterImages(images: NonNullable<Metadata["openGraph"]>["images
   });
 }
 
+const DEFAULT_OG_IMAGE = {
+  url: `${SITE_CONFIG.baseUrl}/og-image.webp`,
+  width: 1200,
+  height: 630,
+  alt: 'IPTV UK – Best UK IPTV Subscription Service 2026',
+  type: 'image/webp',
+};
+
 export function applySeoFixes(path: string, metadata: Metadata): Metadata {
   const fix = getSeoFix(path);
-  if (!fix) return metadata;
 
-  const resolvedTitle = fix.pageTitle ?? (typeof metadata.title === "string" ? metadata.title : undefined);
-  const resolvedDescription = fix.metaDescription ?? metadata.description ?? undefined;
-  const openGraphImages = metadata.openGraph?.images;
+  const resolvedTitle = fix?.pageTitle ?? (typeof metadata.title === "string" ? metadata.title : undefined);
+  const resolvedDescription = fix?.metaDescription ?? metadata.description ?? undefined;
+  // Always ensure OG images are present — prevents og:image being stripped when a page
+  // defines a partial openGraph object (title/url/type) without an images field.
+  const openGraphImages = metadata.openGraph?.images ?? [DEFAULT_OG_IMAGE];
   const twitterImages = metadata.twitter?.images ?? extractTwitterImages(openGraphImages);
 
   return {
@@ -1042,15 +1051,16 @@ export function applySeoFixes(path: string, metadata: Metadata): Metadata {
     description: resolvedDescription ?? metadata.description,
     openGraph: {
       ...metadata.openGraph,
-      title: fix.ogTitle ?? resolvedTitle ?? metadata.openGraph?.title,
-      description: fix.ogDescription ?? resolvedDescription ?? metadata.openGraph?.description,
+      title: fix?.ogTitle ?? resolvedTitle ?? metadata.openGraph?.title,
+      description: fix?.ogDescription ?? resolvedDescription ?? metadata.openGraph?.description,
       url: metadata.openGraph?.url ?? `${SITE_CONFIG.baseUrl}${path === "/" ? "/" : path}`,
+      images: openGraphImages,
     },
     twitter: {
       ...metadata.twitter,
       card: ((metadata.twitter as { card?: 'summary' | 'summary_large_image' | 'player' | 'app' } | undefined)?.card ?? "summary_large_image"),
-      title: fix.twitterTitle ?? fix.ogTitle ?? resolvedTitle ?? metadata.twitter?.title,
-      description: fix.twitterDescription ?? fix.ogDescription ?? resolvedDescription ?? metadata.twitter?.description,
+      title: fix?.twitterTitle ?? fix?.ogTitle ?? resolvedTitle ?? metadata.twitter?.title,
+      description: fix?.twitterDescription ?? fix?.ogDescription ?? resolvedDescription ?? metadata.twitter?.description,
       images: twitterImages,
     } as Twitter,
   };

@@ -9,12 +9,26 @@ import { SITE_CONFIG } from '@/lib/site-config';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/about/", {
-    title: 'About IPTV UK – Your Trusted IPTV UK Provider Since 2019',
+    title: 'About IPTV UK – UK\'s #1 Trusted IPTV Provider Since 2019 | 10,000+ Customers',
     description:
-        'Meet the team behind the UK\'s best IPTV UK service. 10,000+ happy UK customers, 45,000+ channels, 4K streaming & 24/7 WhatsApp support. London-based IPTV UK provider since 2019.',
+        'Meet the team behind the UK\'s top-rated IPTV UK service. London-based since 2019. 10,000+ happy UK customers, 45,000+ channels, 4K streaming & 24/7 WhatsApp support. Our story — and why IPTV UK is different.',
     alternates: {
         canonical: '/about/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/about/'),
+    },
+    openGraph: {
+        title: 'About IPTV UK – UK\'s Trusted IPTV Provider Since 2019 | 10,000+ Customers',
+        description: 'London-based IPTV UK provider since 2019. 10,000+ happy UK customers, 45,000+ channels, 4K streaming & 24/7 WhatsApp support. Meet the team behind IPTV UK.',
+        url: 'https://iptv-uk-iptv.co.uk/about/',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-team-about.webp',
+                width: 1200,
+                height: 675,
+                alt: 'IPTV UK team — London-based UK IPTV service since 2019 with 10,000+ happy customers',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

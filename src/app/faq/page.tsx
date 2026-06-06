@@ -9,12 +9,26 @@ import { buildAlternates } from '@/lib/hreflang';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/faq/", {
-    title: 'IPTV UK FAQ 2026 – Every Question About IPTV UK Answered (25+)',
+    title: 'IPTV UK FAQ 2026 – Is IPTV UK Legal? Costs? Setup? 25+ Expert Answers',
     description:
-        'Is IPTV UK legal? How much does IPTV UK cost? Which device works best? 25+ expert answers to every IPTV UK question — legality, pricing, Firestick setup, channels & 4K streaming.',
+        'Got IPTV UK questions? Get expert answers: Is IPTV UK legal? How much does IPTV UK cost? Which devices work? Firestick setup? 25+ IPTV UK FAQs answered — plus how to claim your 2 free trials.',
     alternates: {
         canonical: '/faq/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/faq/'),
+    },
+    openGraph: {
+        title: 'IPTV UK FAQ 2026 – Every IPTV UK Question Answered (25+)',
+        description: 'Is IPTV UK legal? What does IPTV UK cost? How do I set up on Firestick? 25+ expert answers — plus get 2 free IPTV UK trials. All your IPTV UK questions answered.',
+        url: 'https://iptv-uk-iptv.co.uk/faq/',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-faq-common-questions.webp',
+                width: 1200,
+                height: 675,
+                alt: 'IPTV UK FAQ 2026 — 25+ common questions about IPTV UK answered by experts',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

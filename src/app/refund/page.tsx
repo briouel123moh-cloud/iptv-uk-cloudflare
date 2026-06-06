@@ -9,15 +9,26 @@ import { SITE_CONFIG } from '@/lib/site-config';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/refund/", {
-    title: 'IPTV UK Refund Policy – 30-Day Money-Back Guarantee, No Questions',
+    title: 'IPTV UK Refund Policy – 30-Day Money-Back Guarantee | No Questions Asked',
     description:
-        'Not happy with your IPTV UK subscription? Get a full refund within 30 days — no questions asked. Learn how our IPTV UK money-back guarantee works and how to claim it fast.',
+        'Not happy with your IPTV UK subscription? Get a full refund within 30 days, no questions asked. Learn exactly how the IPTV UK 30-day money-back guarantee works and how to claim yours fast.',
     alternates: {
         canonical: '/refund/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/refund/'),
     },
     openGraph: {
-        images: [`${SITE_CONFIG.baseUrl}/images/refund-policy-iptv-uk.svg`],
+        title: 'IPTV UK Refund Policy – 30-Day Money-Back Guarantee, No Questions',
+        description: 'IPTV UK offers a full 30-day money-back guarantee, no questions asked. Find out exactly how to claim your refund quickly and easily.',
+        url: 'https://iptv-uk-iptv.co.uk/refund/',
+        images: [
+            {
+                url: `${SITE_CONFIG.baseUrl}/og-image.webp`,
+                width: 1200,
+                height: 630,
+                alt: 'IPTV UK refund policy — 30-day money-back guarantee, no questions asked',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 
