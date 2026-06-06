@@ -700,8 +700,8 @@ export default function BlogPage() {
 
                     <div className="mt-12">
                         <KeywordHubSection
-                            title="High-Intent IPTV UK Keyword Hubs"
-                            subtitle="Use these buying and informational clusters to quickly find the exact IPTV UK guide you need."
+                            title="Helpful IPTV UK Guides"
+                            subtitle="Find practical setup help, channel guides, pricing information, and troubleshooting articles in one place."
                         />
                     </div>
 

@@ -5,22 +5,18 @@ type KeywordHubSectionProps = {
   subtitle?: string;
 };
 
-const buyingIntentLinks = [
-  { href: '/pricing/', label: 'Buy IPTV UK Plans & Prices' },
-  { href: '/iptv-firestick-uk/', label: 'Best IPTV for Firestick UK' },
-  { href: '/iptv-iphone-uk/', label: 'IPTV on iPhone & iPad UK' },
-  { href: '/sky-sports-iptv-uk/', label: 'Sky Sports IPTV UK Guide' },
-  { href: '/blog/best-iptv-uk-2026/', label: 'Best IPTV UK 2026' },
-  { href: '/blog/best-iptv-uk-providers-2026/', label: 'Best IPTV Providers UK 2026' },
+const planAndChannelLinks = [
+  { href: '/pricing/', label: 'Plans & Prices' },
+  { href: '/sky-sports-iptv-uk/', label: 'Sky Sports Guide' },
+  { href: '/blog/best-iptv-uk-2026/', label: 'Best IPTV UK Guide' },
+  { href: '/blog/best-iptv-uk-providers-2026/', label: 'Provider Comparison' },
 ];
 
-const infoIntentLinks = [
-  { href: '/blog/is-iptv-legal-uk/', label: 'Is IPTV Legal in UK?' },
-  { href: '/blog/iptv-uk-beginners-guide/', label: 'IPTV UK Beginner Guide' },
-  { href: '/blog/iptv-uk-monthly-cost/', label: 'IPTV UK Monthly Cost' },
-  { href: '/blog/what-is-epg-guide/', label: 'What Is EPG? TV Guide Explained' },
-  { href: '/blog/free-vs-premium-iptv-risks/', label: 'Free vs Premium IPTV Risks' },
-  { href: '/blog/tivimate-no-epg-fix/', label: 'TiviMate No EPG Fix' },
+const setupAndHelpLinks = [
+  { href: '/iptv-firestick-uk/', label: 'Firestick Setup' },
+  { href: '/iptv-iphone-uk/', label: 'iPhone & iPad Setup' },
+  { href: '/blog/iptv-uk-beginners-guide/', label: 'Beginner Guide' },
+  { href: '/blog/tivimate-no-epg-fix/', label: 'Fix TiviMate EPG' },
 ];
 
 const freshnessSignals = [
@@ -43,8 +39,8 @@ const localSearchClusters = [
 ];
 
 export default function KeywordHubSection({
-  title = 'IPTV UK Keyword Hub: Plans, Devices, Channels & Setup',
-  subtitle = 'Use this IPTV UK hub to compare plans, check device setup, review sports and channel guides, and find troubleshooting advice before you start a trial.',
+  title = 'Helpful IPTV UK Guides',
+  subtitle = 'Choose the next guide based on what you want to do: compare plans, check channel options, set up your device, or fix a common app issue.',
 }: KeywordHubSectionProps) {
   return (
     <section className="py-14 md:py-20 bg-slate-900 border-t border-slate-800">
@@ -57,11 +53,14 @@ export default function KeywordHubSection({
           <p className="text-slate-300 leading-relaxed">{subtitle}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-8">
-          <div className="rounded-2xl border border-emerald-500/25 bg-emerald-500/5 p-6">
-            <h3 className="text-lg font-semibold text-emerald-300 mb-4">IPTV UK buying keywords</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <article className="rounded-2xl border border-emerald-500/25 bg-emerald-500/5 p-6 md:p-8">
+            <h3 className="text-xl font-semibold text-emerald-300 mb-3">Compare plans and channels</h3>
+            <p className="text-slate-300 leading-relaxed mb-5">
+              Review pricing, sports coverage, channel options, and provider comparisons before choosing a subscription.
+            </p>
             <ul className="space-y-3">
-              {buyingIntentLinks.map((item) => (
+              {planAndChannelLinks.map((item) => (
                 <li key={item.href}>
                   <Link className="text-slate-200 hover:text-emerald-300 transition-colors" href={item.href}>
                     {item.label}
@@ -69,12 +68,15 @@ export default function KeywordHubSection({
                 </li>
               ))}
             </ul>
-          </div>
+          </article>
 
-          <div className="rounded-2xl border border-indigo-500/25 bg-indigo-500/5 p-6">
-            <h3 className="text-lg font-semibold text-indigo-300 mb-4">IPTV UK informational keywords</h3>
+          <article className="rounded-2xl border border-indigo-500/25 bg-indigo-500/5 p-6 md:p-8">
+            <h3 className="text-xl font-semibold text-indigo-300 mb-3">Set up your device</h3>
+            <p className="text-slate-300 leading-relaxed mb-5">
+              Follow step-by-step setup help for popular devices and solve common player issues quickly.
+            </p>
             <ul className="space-y-3">
-              {infoIntentLinks.map((item) => (
+              {setupAndHelpLinks.map((item) => (
                 <li key={item.href}>
                   <Link className="text-slate-200 hover:text-indigo-300 transition-colors" href={item.href}>
                     {item.label}
@@ -82,7 +84,7 @@ export default function KeywordHubSection({
                 </li>
               ))}
             </ul>
-          </div>
+          </article>
         </div>
 
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
