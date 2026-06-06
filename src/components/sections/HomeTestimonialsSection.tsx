@@ -10,7 +10,7 @@ const testimonials = [
         name: 'James Wilson',
         location: 'London, UK',
         rating: 5,
-        text: 'Best IPTV service I\'ve used in the UK. The Premier League coverage is excellent - never misses a match. Zero buffering even during big games. Highly recommend IPTV UK Elite!',
+        text: 'Best IPTV service I\'ve used in the UK. The Premier League coverage is excellent - never misses a match. Zero buffering even during big games. Highly recommend IPTV UK!',
     },
     {
         name: 'Sarah Thompson',
@@ -22,13 +22,13 @@ const testimonials = [
         name: 'David Brown',
         location: 'Birmingham, UK',
         rating: 5,
-        text: 'Been with IPTV UK Elite for 8 months now. The customer support on WhatsApp is incredibly fast - they helped me set up my Firestick in minutes. Great value for money.',
+        text: 'Been with IPTV UK for 8 months now. The customer support on WhatsApp is incredibly fast - they helped me set up my Firestick in minutes. Great value for money.',
     },
     {
         name: 'Emma Roberts',
         location: 'Glasgow, Scotland',
         rating: 5,
-        text: 'As a UK expat, I was struggling to find reliable UK IPTV abroad. IPTV UK Elite works perfectly - I can watch all my favourite UK shows and sports from anywhere.',
+        text: 'As a UK expat, I was struggling to find reliable UK IPTV abroad. IPTV UK works perfectly - I can watch all my favourite UK shows and sports from anywhere.',
     },
     {
         name: 'Michael Clarke',
@@ -49,7 +49,7 @@ export default function HomeTestimonialsSection() {
         <section className="py-16 md:py-24 bg-slate-900">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <SectionTitle
-                    title="What UK Customers Say About IPTV UK Elite"
+                    title="What UK Customers Say About IPTV UK"
                     subtitle="Join thousands of satisfied customers across the UK enjoying premium IPTV streaming."
                 />
 

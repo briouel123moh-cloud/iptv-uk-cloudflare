@@ -18,7 +18,7 @@ export const metadata: Metadata = applySeoFixes("/iptv-uk-guide/", {
         'Everything you need to know about IPTV UK in 2026. Best IPTV UK services, Firestick & Smart TV setup guides, IPTV UK legality explained, and money-saving tips. The ultimate IPTV UK guide.',
     alternates: {
         canonical: '/iptv-uk-guide/',
-        ...buildAlternates('https://www.iptvuk-elite.com/iptv-uk-guide/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-uk-guide/'),
     },
 });
 
@@ -31,22 +31,22 @@ const articleSchema = {
         'Comprehensive guide covering everything about IPTV in the United Kingdom including how it works, device compatibility, legal considerations, and tips for choosing the best IPTV provider.',
     image: {
         '@type': 'ImageObject',
-        url: 'https://www.iptvuk-elite.com/og-image.webp',
+        url: 'https://iptv-uk-iptv.co.uk/og-image.webp',
         width: 1200,
         height: 630,
     },
-    url: 'https://www.iptvuk-elite.com/iptv-uk-guide/',
+    url: 'https://iptv-uk-iptv.co.uk/iptv-uk-guide/',
     author: {
         '@type': 'Person',
         name: 'James Carter',
-        url: 'https://www.iptvuk-elite.com/about/',
+        url: 'https://iptv-uk-iptv.co.uk/about/',
     },
     publisher: {
         '@type': 'Organization',
-        name: 'IPTV UK Elite',
+        name: 'IPTV UK',
         logo: {
             '@type': 'ImageObject',
-            url: 'https://www.iptvuk-elite.com/logo.webp',
+            url: 'https://iptv-uk-iptv.co.uk/logo.webp',
             width: 200,
             height: 60,
         },
@@ -55,7 +55,7 @@ const articleSchema = {
     dateModified: '2026-04-01',
     mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://www.iptvuk-elite.com/iptv-uk-guide/',
+        '@id': 'https://iptv-uk-iptv.co.uk/iptv-uk-guide/',
     },
 };
 
@@ -63,8 +63,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-        { '@type': 'ListItem', position: 2, name: 'IPTV UK Guide', item: 'https://www.iptvuk-elite.com/iptv-uk-guide/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+        { '@type': 'ListItem', position: 2, name: 'IPTV UK Guide', item: 'https://iptv-uk-iptv.co.uk/iptv-uk-guide/' },
     ],
 };
 
@@ -76,7 +76,7 @@ export default function IPTVUKGuidePage() {
         <>
             <h1 className="text-3xl md:text-4xl font-bold text-white text-center py-8 container mx-auto px-4">Complete IPTV UK Guide 2026</h1>
             <h2 className="text-xl md:text-2xl text-slate-300 text-center -mt-2 mb-8 container mx-auto px-4">
-                {seoFix?.h2 ?? 'IPTV UK Elite Explained: Live TV Streaming Over the Internet'}
+                {seoFix?.h2 ?? 'IPTV UK Explained: Live TV Streaming Over the Internet'}
             </h2>
             <script
                 type="application/ld+json"

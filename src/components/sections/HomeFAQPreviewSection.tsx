@@ -11,11 +11,11 @@ import Link from 'next/link';
 const faqs = [
     {
         question: 'What is IPTV UK and how does it work?',
-        answer: 'IPTV UK (Internet Protocol Television United Kingdom) is a streaming service that delivers live TV channels, movies, and on-demand content over the internet instead of traditional satellite or cable. IPTV UK Elite provides access to 45,000+ live channels and 100,000+ VOD content that you can watch on any device with an internet connection.',
+        answer: 'IPTV UK (Internet Protocol Television United Kingdom) is a streaming service that delivers live TV channels, movies, and on-demand content over the internet instead of traditional satellite or cable. IPTV UK provides access to 45,000+ live channels and 100,000+ VOD content that you can watch on any device with an internet connection.',
     },
     {
         question: 'Is IPTV UK legal?',
-        answer: 'IPTV technology itself is completely legal and is used by major providers like BBC iPlayer, ITV Hub, and Sky Go. The legality depends on the content being streamed. IPTV UK Elite operates as a legitimate service provider. Users should ensure they comply with local laws regarding content consumption.',
+        answer: 'IPTV technology itself is completely legal and is used by major providers like BBC iPlayer, ITV Hub, and Sky Go. The legality depends on the content being streamed. IPTV UK operates as a legitimate service provider. Users should ensure they comply with local laws regarding content consumption.',
     },
     {
         question: 'What internet speed do I need for IPTV UK?',
@@ -27,7 +27,7 @@ const faqs = [
     },
     {
         question: 'Do you offer a money-back guarantee?',
-        answer: 'Yes, IPTV UK Elite offers a full 30-day money-back guarantee on all subscription plans. If you are not completely satisfied with our service for any reason, contact us within 30 days for a full refund, no questions asked.',
+        answer: 'Yes, IPTV UK offers a full 30-day money-back guarantee on all subscription plans. If you are not completely satisfied with our service for any reason, contact us within 30 days for a full refund, no questions asked.',
     },
 ];
 

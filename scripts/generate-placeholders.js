@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 // Generate branded SVG placeholder images for all targeted pages.
 // Run: node scripts/generate-placeholders.js
 // Outputs: public/images/blog/{slug}-hero.svg, public/images/blog/{slug}-feature.svg
@@ -16,7 +17,7 @@ function makeSvg(label, variant = 'hero', w = 800, h = 450) {
   <text x="50%" y="45%" font-family="system-ui,sans-serif" font-size="16"
     fill="#64748b" text-anchor="middle" dominant-baseline="middle">${label}</text>
   <text x="50%" y="58%" font-family="system-ui,sans-serif" font-size="12"
-    fill="#475569" text-anchor="middle" dominant-baseline="middle">${subText} · IPTV UK Elite</text>
+    fill="#475569" text-anchor="middle" dominant-baseline="middle">${subText} · IPTV UK</text>
 </svg>`;
 }
 

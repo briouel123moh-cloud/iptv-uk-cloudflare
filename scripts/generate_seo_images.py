@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate SEO-optimised branded WebP images for IPTV UK Elite.
+Generate SEO-optimised branded WebP images for IPTV UK.
 All images use the site's colour palette: slate-900 bg, emerald-500 accent.
 """
 
@@ -103,7 +103,7 @@ def make_image(filename: str, title: str, subtitle: str = "", w: int = 1200, h: 
     strip_h = max(36, h // 14)
     d.rectangle([0, h - strip_h, w, h], fill=EMERALD_D)
     cta_font = get_font_reg(max(13, w // 58))
-    cta_txt  = "iptvuk-elite.com  •  30,000+ Channels  •  Free Trial Available"
+    cta_txt  = "iptv-uk-iptv.co.uk  •  45,000+ Channels  •  Free Trial Available"
     d.text((bx, h - strip_h + strip_h//4), cta_txt, font=cta_font, fill=EMERALD)
 
     path = os.path.join(OUT, filename)
@@ -113,9 +113,9 @@ def make_image(filename: str, title: str, subtitle: str = "", w: int = 1200, h: 
 # ── Image manifest ────────────────────────────────────────────────────────────
 IMAGES = [
     # ── Homepage ────────────────────────────────────────────────────────────
-    ("iptv-uk-elite-hero-streaming.webp",          1200, 675,
+    ("iptv-uk-hero-streaming.webp",          1200, 675,
      "UK's #1 Premium IPTV Service",
-     "30,000+ channels • Sky Sports • Premier League • 4K streaming"),
+     "45,000+ channels • Sky Sports • Premier League • 4K streaming"),
     ("iptv-uk-channels-sports-entertainment.webp", 800,  500,
      "30,000+ UK IPTV Channels",
      "Sky Sports, BBC, ITV, Channel 4 and every UK channel included"),
@@ -124,7 +124,7 @@ IMAGES = [
      "Amazon Firestick setup guide — all UK channels"),
     ("iptv-smart-tv-uk-living-room.webp",          600,  400,
      "IPTV on Smart TV UK",
-     "Samsung & LG Smart TV with 30,000+ channels"),
+     "Samsung & LG Smart TV with 45,000+ channels"),
     ("iptv-android-box-uk-streaming.webp",         600,  400,
      "IPTV Android Box UK",
      "4K streaming on Android TV box"),
@@ -135,19 +135,19 @@ IMAGES = [
      "Watch Premier League via IPTV UK",
      "All 380 matches live — Sky Sports & TNT Sports included"),
     ("iptv-uk-pricing-plans.webp",                 800,  500,
-     "IPTV UK Elite Pricing Plans",
+     "IPTV UK Pricing Plans",
      "From £12/mo • No contract • Cancel anytime"),
 
     # ── Device pages ────────────────────────────────────────────────────────
     ("iptv-firestick-uk-setup-step-by-step.webp",  1200, 675,
      "How to Install IPTV on Firestick UK",
-     "Step-by-step setup guide 2026 — IPTV UK Elite"),
+     "Step-by-step setup guide 2026 — IPTV UK"),
     ("firestick-iptv-uk-channels-screen.webp",     800,  500,
      "Firestick IPTV UK Channels",
      "All UK channels on Amazon Firestick"),
     ("best-iptv-app-firestick-uk-2026.webp",       600,  400,
      "Best IPTV App for Firestick UK 2026",
-     "Top-rated IPTV app — IPTV UK Elite"),
+     "Top-rated IPTV app — IPTV UK"),
 
     ("iptv-smart-tv-uk-installation-guide.webp",   1200, 675,
      "IPTV on Smart TV UK — Installation Guide",
@@ -197,7 +197,7 @@ IMAGES = [
      "Watch Sky Sports live on iPhone"),
     ("ios-iptv-app-uk-settings.webp",              600,  400,
      "iOS IPTV App UK Settings",
-     "Configure IPTV UK Elite on iPhone"),
+     "Configure IPTV UK on iPhone"),
 
     ("iptv-pc-mac-uk-software-setup.webp",         1200, 675,
      "IPTV on PC & Mac UK — Software Guide",
@@ -236,7 +236,7 @@ IMAGES = [
      "Watch BT Sport without a BT subscription"),
     ("bt-sport-iptv-uk-channels.webp",             800,  500,
      "BT Sport IPTV UK Channels",
-     "All BT Sport channels on IPTV UK Elite"),
+     "All BT Sport channels on IPTV UK"),
 
     ("tnt-sports-iptv-uk-live-streaming.webp",     1200, 675,
      "TNT Sports IPTV UK — Live Streaming",
@@ -264,7 +264,7 @@ IMAGES = [
      "Watch C4, E4, More4 & Film4 live"),
     ("channel-4-iptv-uk-all-channels.webp",        800,  500,
      "Channel 4 IPTV UK — All Channels",
-     "C4, E4, More4, Film4 on IPTV UK Elite"),
+     "C4, E4, More4, Film4 on IPTV UK"),
 
     # ── Sport pages ─────────────────────────────────────────────────────────
     ("premier-league-iptv-uk-live-matches.webp",   1200, 675,
@@ -300,7 +300,7 @@ IMAGES = [
      "IPTV vs Sky UK — Price Comparison 2026",
      "Save £1,200/year switching from Sky to IPTV UK"),
     ("iptv-vs-sky-uk-channels-table.webp",         800,  500,
-     "IPTV UK Elite vs Sky TV — Channels & Price",
+     "IPTV UK vs Sky TV — Channels & Price",
      "Side-by-side comparison table 2026"),
 
     ("iptv-vs-virgin-media-uk-comparison.webp",    1200, 675,
@@ -313,39 +313,39 @@ IMAGES = [
     ("iptv-vs-now-tv-uk-comparison.webp",          1200, 675,
      "IPTV UK vs NOW TV — Full Comparison",
      "Channels, price and contract comparison 2026"),
-    ("iptv-uk-elite-vs-now-tv-value.webp",         800,  500,
-     "IPTV UK Elite vs NOW TV — Which is Better?",
+    ("iptv-uk-vs-now-tv-value.webp",         800,  500,
+     "IPTV UK vs NOW TV — Which is Better?",
      "Value comparison 2026"),
 
     ("iptv-vs-bt-tv-uk-comparison.webp",           1200, 675,
      "IPTV vs BT TV UK — Feature & Price Guide",
      "Comparison guide 2026"),
     ("iptv-uk-vs-bt-sport-savings.webp",           800,  500,
-     "Cancel BT TV & Switch to IPTV UK Elite",
+     "Cancel BT TV & Switch to IPTV UK",
      "Cost comparison and savings guide"),
 
     ("iptv-vs-freeview-uk-comparison.webp",        1200, 675,
      "IPTV vs Freeview UK — 2026 Comparison",
-     "Why IPTV offers 30,000+ channels vs Freeview's 70"),
-    ("iptv-uk-elite-vs-freeview-channels.webp",    800,  500,
-     "IPTV UK 30,000+ Channels vs Freeview 70",
+     "Why IPTV offers 45,000+ channels vs Freeview's 70"),
+    ("iptv-uk-vs-freeview-channels.webp",    800,  500,
+     "IPTV UK 45,000+ Channels vs Freeview 70",
      "Full channel comparison 2026"),
 
     # ── Static pages ────────────────────────────────────────────────────────
-    ("iptv-uk-elite-team-about.webp",              1200, 675,
-     "About IPTV UK Elite",
+    ("iptv-uk-team-about.webp",              1200, 675,
+     "About IPTV UK",
      "UK's premium IPTV service — our team & story"),
     ("iptv-uk-guide-setup-buying-tips.webp",       1200, 675,
      "Complete IPTV UK Guide 2026",
      "Setup, devices, buying tips & legal info"),
-    ("iptv-uk-elite-pricing-plans-2026.webp",      1200, 675,
-     "IPTV UK Elite Subscription Plans 2026",
+    ("iptv-uk-pricing-plans-2026.webp",      1200, 675,
+     "IPTV UK Subscription Plans 2026",
      "Monthly, quarterly & annual pricing — from £12/mo"),
     ("iptv-uk-faq-common-questions.webp",          1200, 675,
      "IPTV UK — Frequently Asked Questions",
      "Complete answers to the most common IPTV questions"),
-    ("iptv-uk-elite-whatsapp-support.webp",        1200, 675,
-     "Contact IPTV UK Elite — 24/7 Support",
+    ("iptv-uk-whatsapp-support.webp",        1200, 675,
+     "Contact IPTV UK — 24/7 Support",
      "WhatsApp & email support — always available"),
 ]
 
@@ -381,23 +381,23 @@ BLOG_SLUGS = [
     ("iptv-premier-league-uk",           "Watch Premier League on IPTV UK",           "Every match live — Sky Sports & TNT Sports included"),
     ("install-iptv-smart-tv-uk",         "How to Install IPTV on Smart TV UK",        "Samsung, LG & Sony setup guide 2026"),
     ("iptv-uk-no-buffering",             "IPTV UK — Zero Buffering Guide",            "How to stop buffering on your UK IPTV service"),
-    ("iptv-football-streams-uk",         "IPTV Football Streams UK 2026",             "Watch all football leagues via IPTV UK Elite"),
+    ("iptv-football-streams-uk",         "IPTV Football Streams UK 2026",             "Watch all football leagues via IPTV UK"),
     ("4k-iptv-services-uk",              "Best 4K IPTV Services UK 2026",             "Ultra HD streaming guide — tested and reviewed"),
     ("iptv-android-box-uk",              "IPTV on Android Box UK Guide",              "Best Android TV boxes for UK IPTV 2026"),
     ("iptv-uk-vs-virgin-media",          "IPTV UK vs Virgin Media — 2026",            "Cost, channels and contract comparison"),
-    ("iptv-uk-24-7-support",             "IPTV UK 24/7 Customer Support Guide",       "How IPTV UK Elite support works — always on"),
-    ("iptv-channels-uk-2026",            "IPTV UK Channel List 2026",                 "30,000+ channels — full breakdown"),
+    ("iptv-uk-24-7-support",             "IPTV UK 24/7 Customer Support Guide",       "How IPTV UK support works — always on"),
+    ("iptv-channels-uk-2026",            "IPTV UK Channel List 2026",                 "45,000+ channels — full breakdown"),
     ("spot-fake-iptv-sellers-uk",        "How to Spot Fake IPTV Sellers UK",          "Warning signs & how to avoid IPTV scams"),
     ("iptv-multiple-devices-uk",         "IPTV on Multiple Devices UK",               "How many screens can you use simultaneously?"),
     ("iptv-uk-movies-series",            "IPTV UK Movies & TV Series Library",        "40,000+ VOD titles — films & box sets"),
-    ("iptv-uk-payment-methods",          "IPTV UK Payment Methods 2026",              "How to pay for IPTV UK Elite safely"),
+    ("iptv-uk-payment-methods",          "IPTV UK Payment Methods 2026",              "How to pay for IPTV UK safely"),
     ("fastest-iptv-activation-uk",       "Fastest IPTV Activation UK 2026",           "Get your IPTV subscription active in minutes"),
     ("resell-iptv-uk-plans",             "Resell IPTV UK — Reseller Plans 2026",      "How to become an IPTV reseller in the UK"),
     ("world-cup-2026-iptv-uk",           "Watch World Cup 2026 via IPTV UK",          "Every match live — FIFA World Cup 2026 guide"),
     ("euro-2026-iptv-uk-guide",          "Watch Euro 2026 via IPTV UK",               "Every Euro 2026 match live on UK IPTV"),
     ("formula-1-f1-iptv-uk",             "Formula 1 IPTV UK — Full Coverage 2026",   "Every 2026 F1 race on Sky Sports F1 via IPTV"),
     ("watch-ufc-ppv-iptv-uk",            "Watch UFC PPV via IPTV UK",                 "All UFC events included — no extra PPV charge"),
-    ("boxing-ppv-iptv-uk-guide",         "Boxing PPV IPTV UK Guide",                  "Watch all boxing PPV events via IPTV UK Elite"),
+    ("boxing-ppv-iptv-uk-guide",         "Boxing PPV IPTV UK Guide",                  "Watch all boxing PPV events via IPTV UK"),
     ("tivimate-401-error-fix",           "Fix TiviMate 401 Error UK",                 "Step-by-step guide to fix TiviMate 401 error"),
     ("tivimate-no-epg-fix",              "Fix TiviMate No EPG Issue UK",              "How to fix missing EPG in TiviMate 2026"),
     ("install-iptv-samsung-tv-2026",     "Install IPTV on Samsung TV UK 2026",        "Step-by-step Samsung Tizen setup guide"),

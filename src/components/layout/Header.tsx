@@ -38,7 +38,7 @@ export default function Header() {
                         <span className="text-emerald-500">IPTV</span>
                         <span>UK</span>
                         <span className="text-xs md:text-sm font-normal bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded">
-                            Elite
+                            2026
                         </span>
                     </Link>
 
@@ -58,7 +58,7 @@ export default function Header() {
                     {/* Desktop CTAs */}
                     <div className="hidden lg:flex items-center gap-3">
                         <Button
-                            href={getWhatsAppLink("Hi IPTV UK Elite, I want a free trial")}
+                            href={getWhatsAppLink("Hi IPTV UK, I want a free trial")}
                             variant="outline"
                             size="sm"
                             external
@@ -67,11 +67,11 @@ export default function Header() {
                             Free Trial
                         </Button>
                         <Button
-                            href={getWhatsAppLink("Hi IPTV UK Elite, I want to order")}
+                            href={getWhatsAppLink("Hi IPTV UK, I want to order")}
                             variant="primary"
                             size="sm"
                             external
-                            title="Order IPTV UK Elite via WhatsApp"
+                            title="Order IPTV UK via WhatsApp"
                         >
                             Get IPTV Now
                         </Button>
@@ -117,7 +117,7 @@ export default function Header() {
                             ))}
                             <div className="flex flex-col gap-2 mt-4 px-4">
                                 <Button
-                                    href={getWhatsAppLink("Hi IPTV UK Elite, I want a free trial")}
+                                    href={getWhatsAppLink("Hi IPTV UK, I want a free trial")}
                                     variant="outline"
                                     fullWidth
                                     external
@@ -126,11 +126,11 @@ export default function Header() {
                                     Free Trial
                                 </Button>
                                 <Button
-                                    href={getWhatsAppLink("Hi IPTV UK Elite, I want to order")}
+                                    href={getWhatsAppLink("Hi IPTV UK, I want to order")}
                                     variant="primary"
                                     fullWidth
                                     external
-                                    title="Order IPTV UK Elite via WhatsApp"
+                                    title="Order IPTV UK via WhatsApp"
                                 >
                                     Get IPTV Now
                                 </Button>

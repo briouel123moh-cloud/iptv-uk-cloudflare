@@ -64,12 +64,12 @@ export default function Footer() {
                             <span className="text-emerald-500">IPTV</span>
                             <span>UK</span>
                             <span className="text-xs font-normal bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded">
-                                Elite
+                                2026
                             </span>
                         </Link>
                         {/* AEO: Clear brand description for AI extraction */}
                         <p className="text-slate-400 mb-4 max-w-md">
-                            IPTV UK Elite is a premium IPTV subscription service, offering 45,000+ live
+                            IPTV UK is a premium IPTV subscription service, offering 45,000+ live
                             channels, 100,000+ VOD content, and 4K quality streaming. Serving customers
                             across London, Manchester, Birmingham, Glasgow, Liverpool, Leeds, and beyond.
                         </p>
@@ -78,7 +78,7 @@ export default function Footer() {
                             <p>
                                 <strong className="text-white">24/7 Support:</strong>{' '}
                                 <a
-                                    href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%20Elite%2C%20I%20need%20support%20with%20my%20IPTV%20service"
+                                    href="https://wa.me/447418316577?text=Hi%20IPTV%20UK%2C%20I%20need%20support%20with%20my%20IPTV%20service"
                                     className="text-emerald-400 hover:text-emerald-300 transition-colors"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -90,10 +90,10 @@ export default function Footer() {
                             <p>
                                 <strong className="text-white">Email:</strong>{' '}
                                 <a
-                                    href="mailto:contact@iptvuk-elite.com"
+                                    href="mailto:contact@iptv-uk-iptv.co.uk"
                                     className="text-emerald-400 hover:text-emerald-300 transition-colors"
                                 >
-                                    contact@iptvuk-elite.com
+                                    contact@iptv-uk-iptv.co.uk
                                 </a>
                             </p>
                             <p>
@@ -117,7 +117,7 @@ export default function Footer() {
                                 </a>
                             </p>
                             <address className="not-italic text-sm text-slate-500 mt-3 leading-relaxed">
-                                IPTV UK Elite Ltd<br />
+                                IPTV UK<br />
                                 124 City Road, London<br />
                                 EC1V 2NX, United Kingdom
                             </address>
@@ -247,7 +247,7 @@ export default function Footer() {
                 <div className="mt-12 pt-8 border-t border-slate-800">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-slate-500 text-sm text-center md:text-left">
-                            © {currentYear} IPTV UK Elite. All rights reserved.
+                            © {currentYear} IPTV UK. All rights reserved.
                         </p>
                         {/* GEO: UK city mentions for local SEO */}
                         <p className="text-slate-600 text-xs text-center md:text-right">

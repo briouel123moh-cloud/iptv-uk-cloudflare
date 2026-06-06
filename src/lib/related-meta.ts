@@ -183,7 +183,7 @@ export const RELATED_META: Record<string, RelatedItem> = {
     'iptv-vs-freeview-play': {
         slug: 'iptv-vs-freeview-play',
         title: 'IPTV vs Freeview Play',
-        description: 'Freeview Play has 70 channels; IPTV UK Elite has 45,000+. The full cost comparison.',
+        description: 'Freeview Play has 70 channels; IPTV UK has 45,000+. The full cost comparison.',
         category: 'Comparisons',
     },
     'iptv-vs-sky-bitrate-quality': {
@@ -257,13 +257,13 @@ export const RELATED_META: Record<string, RelatedItem> = {
     'iptv-uk-24-7-support': {
         slug: 'iptv-uk-24-7-support',
         title: 'IPTV UK 24/7 Support',
-        description: 'How IPTV UK Elite\'s round-the-clock WhatsApp support works — what\'s covered and response times.',
+        description: 'How IPTV UK\'s round-the-clock WhatsApp support works — what\'s covered and response times.',
         category: 'Guides',
     },
     'fastest-iptv-activation-uk': {
         slug: 'fastest-iptv-activation-uk',
         title: 'Fastest IPTV Activation UK',
-        description: 'From payment to streaming in under 5 minutes — IPTV UK Elite\'s instant activation explained.',
+        description: 'From payment to streaming in under 5 minutes — IPTV UK\'s instant activation explained.',
         category: 'Guides',
     },
 
@@ -271,7 +271,7 @@ export const RELATED_META: Record<string, RelatedItem> = {
     'iptv-expats-australia-guide': {
         slug: 'iptv-expats-australia-guide',
         title: 'IPTV for UK Expats in Australia',
-        description: 'Watch BBC, ITV, Sky Sports, and Premier League from Australia with IPTV UK Elite.',
+        description: 'Watch BBC, ITV, Sky Sports, and Premier League from Australia with IPTV UK.',
         category: 'Guides',
     },
     'iptv-expats-uk-tv-abroad': {

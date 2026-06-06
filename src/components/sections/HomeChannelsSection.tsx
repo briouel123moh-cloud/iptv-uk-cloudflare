@@ -44,7 +44,7 @@ export default function HomeChannelsSection() {
 
                 {/* AEO: Answer paragraph for channel queries */}
                 <p className="text-center text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed">
-                    IPTV UK Elite includes every major UK channel including BBC One, BBC Two, ITV,
+                    IPTV UK includes every major UK channel including BBC One, BBC Two, ITV,
                     Channel 4, and Channel 5, plus comprehensive sports packages
                     (Premier League, Champions League, UFC, F1), and over 100,000 on-demand movies and series
                     updated daily. All in stunning 4K and Full HD quality.
@@ -54,7 +54,7 @@ export default function HomeChannelsSection() {
                 <div className="mb-12">
                     <Image
                         src="/images/iptv-uk-guide-setup-buying-tips.webp"
-                        alt="UK IPTV channels 2026 — Sky Sports, TNT Sports, BBC, ITV and 45,000+ live channels in 4K quality on IPTV UK Elite"
+                        alt="UK IPTV channels 2026 — Sky Sports, TNT Sports, BBC, ITV and 45,000+ live channels in 4K quality on IPTV UK"
                         title="IPTV UK Channels 2026 — Sky Sports, TNT Sports, BBC & 45,000+ Live Channels"
                         width={1200}
                         height={630}

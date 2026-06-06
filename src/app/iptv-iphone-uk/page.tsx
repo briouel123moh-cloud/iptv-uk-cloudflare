@@ -16,12 +16,12 @@ export const metadata: Metadata = applySeoFixes("/iptv-iphone-uk/", {
         'Stream IPTV UK on your iPhone or iPad anywhere in the UK. Best iOS IPTV UK apps 2026 — IPTV Smarters, GSE & more. Watch 45,000+ UK channels on iOS. 5-minute setup. From £12/month.',
     alternates: {
         canonical: '/iptv-iphone-uk/',
-        ...buildAlternates('https://www.iptvuk-elite.com/iptv-iphone-uk/'),
+        ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-iphone-uk/'),
     },
     openGraph: {
         title: 'IPTV on iPhone & iPad UK 2026 – Best iOS Apps & Setup',
         description: 'Watch IPTV on your iPhone or iPad in the UK. 45,000+ channels on the go. From £12/month.',
-        url: 'https://www.iptvuk-elite.com/iptv-iphone-uk/',
+        url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/',
         type: 'website',
     },
 });
@@ -29,13 +29,13 @@ export const metadata: Metadata = applySeoFixes("/iptv-iphone-uk/", {
 const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://www.iptvuk-elite.com/iptv-iphone-uk/#service',
+    '@id': 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/#service',
     name: 'IPTV Service for iPhone and iPad UK',
     description: 'Premium IPTV subscription for iPhone and iPad in the UK. 45,000+ live channels in HD and 4K via dedicated iOS app.',
     provider: {
         '@type': 'Organization',
-        name: 'IPTV UK Elite',
-        '@id': 'https://www.iptvuk-elite.com/#business',
+        name: 'IPTV UK',
+        '@id': 'https://iptv-uk-iptv.co.uk/#business',
     },
     areaServed: { '@type': 'Country', name: 'United Kingdom' },
     serviceType: 'IPTV Streaming Subscription',
@@ -52,15 +52,15 @@ const serviceSchema = {
 const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'IPTV UK Elite – iPhone & iPad Subscription',
+    name: 'IPTV UK – iPhone & iPad Subscription',
     description: 'IPTV for iPhone and iPad UK. Watch live TV, sports and VOD on iOS. 45,000+ channels. Xtream Codes compatible.',
     image: PRODUCT_IMAGE,
-    brand: { '@type': 'Brand', name: 'IPTV UK Elite' },
+    brand: { '@type': 'Brand', name: 'IPTV UK' },
     offers: [
-        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://www.iptvuk-elite.com/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://www.iptvuk-elite.com/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://www.iptvuk-elite.com/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://www.iptvuk-elite.com/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
     ],
 };
 
@@ -73,7 +73,7 @@ const faqSchema = {
             name: 'What is the best IPTV app for iPhone UK in 2026?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'The best IPTV apps for iPhone UK in 2026 are IPTV Smarters Pro (best overall), GSE Smart IPTV (best for M3U playlists), and Flex IPTV (best UI). All are available on the iOS App Store and support IPTV UK Elite subscriptions.',
+                text: 'The best IPTV apps for iPhone UK in 2026 are IPTV Smarters Pro (best overall), GSE Smart IPTV (best for M3U playlists), and Flex IPTV (best UI). All are available on the iOS App Store and support IPTV UK subscriptions.',
             },
         },
         {
@@ -105,7 +105,7 @@ const faqSchema = {
             name: 'Is there a free IPTV trial for iPhone UK?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Yes. IPTV UK Elite offers a free 24-hour trial that works on iPhone and iPad. Contact us via WhatsApp to claim your iOS trial — no App Store purchase or credit card required.',
+                text: 'Yes. IPTV UK offers a free 24-hour trial that works on iPhone and iPad. Contact us via WhatsApp to claim your iOS trial — no App Store purchase or credit card required.',
             },
         },
     ],
@@ -115,8 +115,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.iptvuk-elite.com/' },
-        { '@type': 'ListItem', position: 2, name: 'IPTV on iPhone & iPad UK', item: 'https://www.iptvuk-elite.com/iptv-iphone-uk/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
+        { '@type': 'ListItem', position: 2, name: 'IPTV on iPhone & iPad UK', item: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/' },
     ],
 };
 
@@ -179,7 +179,7 @@ export default function IPTVIPhoneUKPage() {
                     <figure className="hero-image-container my-8 rounded-xl overflow-hidden max-w-4xl mx-auto">
                         <FallbackImage
                             src="/images/pages/iptv-iphone-uk-hero.webp"
-                            alt={"Hand holding iPhone displaying live football match from IPTV UK Elite, with player controls and match details visible, in a cozy living room setting."}
+                            alt={"Hand holding iPhone displaying live football match from IPTV UK, with player controls and match details visible, in a cozy living room setting."}
                             width={800}
                             height={450}
                             className="w-full h-auto bg-slate-800"
@@ -204,10 +204,10 @@ export default function IPTVIPhoneUKPage() {
                         </div>
                         <div className="prose prose-invert prose-lg max-w-none text-slate-300 space-y-4">
                             <p>
-                                With iPhone and iPad IPTV, your entire television subscription fits in your pocket. Whether you're commuting to work, waiting at the airport, or relaxing in the garden, IPTV UK Elite delivers live UK channels, international sports, and on-demand content directly to your iOS device over WiFi or mobile data.
+                                With iPhone and iPad IPTV, your entire television subscription fits in your pocket. Whether you&apos;re commuting to work, waiting at the airport, or relaxing in the garden, IPTV UK delivers live UK channels, international sports, and on-demand content directly to your iOS device over WiFi or mobile data.
                             </p>
                             <p>
-                                The iOS App Store contains several excellent IPTV players that work seamlessly with IPTV UK Elite. Unlike Android, iOS does not require sideloading or enabling unknown sources — simply download an app from the App Store, enter your subscription credentials, and begin watching. The setup process takes under five minutes on any iPhone or iPad model.
+                                The iOS App Store contains several excellent IPTV players that work seamlessly with IPTV UK. Unlike Android, iOS does not require sideloading or enabling unknown sources — simply download an app from the App Store, enter your subscription credentials, and begin watching. The setup process takes under five minutes on any iPhone or iPad model.
                             </p>
                             <p>
                                 One of the biggest advantages of iPhone IPTV is AirPlay compatibility. Using AirPlay 2, you can instantly mirror your IPTV stream from your iPhone to any Apple TV, Samsung Smart TV, LG Smart TV, or Sony Bravia with AirPlay 2 built in. This means your phone becomes a remote control and portable TV in one — watch on the go, then cast to the big screen when you get home.
@@ -233,13 +233,13 @@ export default function IPTVIPhoneUKPage() {
                             />
                         </figure>
 
-                        <p className="text-slate-400 mb-10">All available on the iOS App Store. All compatible with IPTV UK Elite.</p>
+                        <p className="text-slate-400 mb-10">All available on the iOS App Store. All compatible with IPTV UK.</p>
                         <div className="grid sm:grid-cols-2 gap-4">
                             {[
                                 { name: 'IPTV Smarters Pro', rating: '★★★★★', desc: 'Best overall iOS IPTV app. Supports Xtream Codes, M3U, and MAC address login. Clean interface, EPG, multi-screen support, and favourites. Free to download.' },
                                 { name: 'GSE Smart IPTV', rating: '★★★★☆', desc: 'Excellent for M3U playlist management. Supports AirPlay natively. Great for users who prefer managing channel lists manually with custom categories.' },
                                 { name: 'Flex IPTV', rating: '★★★★☆', desc: 'Beautiful iOS-native interface. Smooth channel switching, EPG support, and AirPlay. Recommended for users who value aesthetics alongside functionality.' },
-                                { name: 'OTT Navigator', rating: '★★★★☆', desc: 'Feature-rich IPTV player with an excellent EPG and channel organisation system. Supports Xtream Codes and M3U. Great for large channel lists like IPTV UK Elite.' },
+                                { name: 'OTT Navigator', rating: '★★★★☆', desc: 'Feature-rich IPTV player with an excellent EPG and channel organisation system. Supports Xtream Codes and M3U. Great for large channel lists like IPTV UK.' },
                             ].map((app) => (
                                 <div key={app.name} className="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-emerald-500/50 transition-colors">
                                     <div className="flex items-center justify-between mb-2">
@@ -263,9 +263,9 @@ export default function IPTVIPhoneUKPage() {
                         <div className="space-y-6">
                             {[
                                 { step: '01', title: 'Download an IPTV App from the App Store', desc: 'Open the Apple App Store on your iPhone or iPad. Search for "IPTV Smarters Pro" and download it for free. No payment required for the app itself.' },
-                                { step: '02', title: 'Subscribe to IPTV UK Elite', desc: 'Contact IPTV UK Elite via WhatsApp and select your subscription plan (1, 3, 6, or 12 months). You\'ll receive your Server URL, Username, and Password instantly.' },
+                                { step: '02', title: 'Subscribe to IPTV UK', desc: 'Contact IPTV UK via WhatsApp and select your subscription plan (1, 3, 6, or 12 months). You\'ll receive your Server URL, Username, and Password instantly.' },
                                 { step: '03', title: 'Open the App and Log In', desc: 'Launch IPTV Smarters Pro. Tap "Login with Xtream Codes API". Enter your Server URL (provided by us), your Username, and your Password. Tap the login button.' },
-                                { step: '04', title: 'Wait for Channels to Load', desc: 'Your full channel list with over 30,000 channels and the EPG programme guide will load within 30–60 seconds. Channels are organised by category: UK, Sports, Entertainment, News, International, etc.' },
+                                { step: '04', title: 'Wait for Channels to Load', desc: 'Your full channel list with 45,000+ channels and the EPG programme guide will load within 30–60 seconds. Channels are organised by category: UK, Sports, Entertainment, News, International, etc.' },
                                 { step: '05', title: 'Watch Live or Cast to TV', desc: 'Start watching directly on your iPhone, or tap the AirPlay icon to cast to your Smart TV or Apple TV. Use the EPG to browse upcoming programmes and never miss a live event.' },
                             ].map((item) => (
                                 <div key={item.step} className="flex gap-6 bg-slate-900 rounded-xl p-6 border border-slate-700">
@@ -338,7 +338,7 @@ export default function IPTVIPhoneUKPage() {
                                 { q: 'Can I watch IPTV on my iPad UK?', a: 'Yes. All iOS IPTV apps work on iPad. The larger screen makes iPad especially great for watching sports and movies. AirPlay lets you cast from iPad to any compatible Smart TV.' },
                                 { q: 'Can I cast IPTV from iPhone to my TV?', a: 'Yes — use AirPlay 2 to cast to Apple TV or any AirPlay 2 Smart TV (Samsung, LG, Sony 2019+). Many IPTV apps also support Chromecast casting.' },
                                 { q: 'Does IPTV work on iPhone with mobile data?', a: 'Yes. IPTV works on 4G and 5G. HD streaming uses around 2–3 GB per hour. 5G easily supports 4K streams. Use WiFi calling or monitor data usage if on a limited plan.' },
-                                { q: 'Is there a free IPTV trial for iPhone UK?', a: 'Yes. IPTV UK Elite offers a free 24-hour iOS trial. Contact us via WhatsApp to receive your trial credentials instantly — no credit card or App Store purchase needed.' },
+                                { q: 'Is there a free IPTV trial for iPhone UK?', a: 'Yes. IPTV UK offers a free 24-hour iOS trial. Contact us via WhatsApp to receive your trial credentials instantly — no credit card or App Store purchase needed.' },
                             ].map((item) => (
                                 <div key={item.q} className="bg-slate-800 rounded-xl p-6 border border-slate-700">
                                     <h3 className="text-white font-semibold text-lg mb-3">{item.q}</h3>
