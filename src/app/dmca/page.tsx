@@ -18,7 +18,18 @@ export const metadata: Metadata = applySeoFixes("/dmca/", {
         ...buildAlternates('https://iptv-uk-iptv.co.uk/dmca/'),
     },
     openGraph: {
-        images: [`${SITE_CONFIG.baseUrl}/images/dmca-policy-copyright-compliance-uk.svg`],
+        title: 'DMCA Policy – IPTV UK Copyright Compliance & Takedown Notices',
+        description: 'IPTV UK DMCA and copyright compliance policy. How to submit a copyright takedown request and our commitment to intellectual property rights.',
+        url: 'https://iptv-uk-iptv.co.uk/dmca/',
+        images: [
+            {
+                url: `${SITE_CONFIG.baseUrl}/og-image.webp`,
+                width: 1200,
+                height: 630,
+                alt: 'IPTV UK DMCA policy — copyright compliance and takedown notices',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

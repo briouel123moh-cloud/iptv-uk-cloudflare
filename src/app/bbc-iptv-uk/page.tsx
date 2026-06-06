@@ -10,12 +10,26 @@ import { buildAlternates } from '@/lib/hreflang';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/bbc-iptv-uk/", {
-    title: 'Watch BBC on IPTV UK 2026 – BBC One, Two, Three, Four & Catch-Up in HD',
+    title: 'BBC on IPTV UK 2026 – All BBC Channels in HD | No Licence, From £12',
     description:
-        'Get all BBC channels on IPTV UK — BBC One, BBC Two, BBC Three, BBC Four & CBeebies in HD. Watch IPTV UK BBC coverage live and on-demand with 7-day catch-up. From £12/month. No contract.',
+        'Watch BBC One, Two, Three, Four & CBeebies in HD on IPTV UK — plus 7-day BBC catch-up. No TV licence hassle. IPTV UK BBC channels from £12/month. 2 free IPTV UK trials. No contract, no dish.',
     alternates: {
         canonical: '/bbc-iptv-uk/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/bbc-iptv-uk/'),
+    },
+    openGraph: {
+        title: 'BBC on IPTV UK 2026 – BBC One, Two, Three & Catch-Up in HD',
+        description: 'Watch every BBC channel on IPTV UK in HD — BBC One, Two, Three, Four & CBeebies. 7-day catch-up. From £12/month. 2 free IPTV UK trials. No contract.',
+        url: 'https://iptv-uk-iptv.co.uk/bbc-iptv-uk/',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/bbc-iptv-uk-channels-streaming.webp',
+                width: 1200,
+                height: 675,
+                alt: 'BBC channels on IPTV UK — BBC One, BBC Two, BBC Three streaming in HD 2026',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

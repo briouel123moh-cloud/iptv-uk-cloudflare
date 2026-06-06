@@ -8,12 +8,26 @@ import { buildAlternates } from '@/lib/hreflang';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/contact/", {
-    title: 'Contact IPTV UK – WhatsApp Support 24/7, Reply in Minutes',
+    title: 'Contact IPTV UK – 24/7 WhatsApp Support | Reply in Under 5 Mins',
     description:
-        'Need help with your IPTV UK subscription? Contact our IPTV UK support team 24/7 via WhatsApp — most queries answered in minutes. Free IPTV UK trial setup help available instantly.',
+        'Contact IPTV UK 24/7 — instant WhatsApp support, usually answered in under 5 minutes. Get help with IPTV UK setup, your free trial, billing or technical issues. We're always on.',
     alternates: {
         canonical: '/contact/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/contact/'),
+    },
+    openGraph: {
+        title: 'Contact IPTV UK – 24/7 WhatsApp Support, Reply in Minutes',
+        description: 'IPTV UK support is available 24/7 via WhatsApp. Get help with setup, free trials, billing or technical issues — most queries answered in minutes.',
+        url: 'https://iptv-uk-iptv.co.uk/contact/',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-whatsapp-support.webp',
+                width: 1200,
+                height: 675,
+                alt: 'IPTV UK 24/7 WhatsApp support — get help with your IPTV UK subscription in minutes',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

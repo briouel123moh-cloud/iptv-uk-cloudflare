@@ -17,11 +17,25 @@ import { INDEXED_BLOG_SLUG_SET } from '@/lib/indexed-routes';
 export const metadata: Metadata = applySeoFixes("/blog/", {
     title: 'IPTV UK Blog 2026 – Expert IPTV UK Guides, Reviews & Setup Tips',
     description:
-        'Read the latest IPTV UK guides, reviews and tutorials. How to choose the best IPTV UK service, Firestick setup, troubleshooting buffering, IPTV UK pricing compared, and the truth about UK IPTV in 2026.',
+        'Read expert IPTV UK guides, reviews & tutorials. Best IPTV UK service, Firestick setup, buffering fixes, pricing comparisons, free trials & the truth about IPTV UK in 2026. New guides every week.',
     keywords: [...CORE_BUYING_KEYWORDS, 'iptv uk guides', 'iptv setup tutorials', 'iptv troubleshooting uk'],
     alternates: {
         canonical: '/blog/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/blog/'),
+    },
+    openGraph: {
+        title: 'IPTV UK Blog 2026 – Expert Guides, Reviews & Setup Tips',
+        description: 'Expert IPTV UK guides, reviews & setup tutorials. Best IPTV UK service 2026, Firestick setup, free trials & more. Read the UK\'s top IPTV blog.',
+        url: 'https://iptv-uk-iptv.co.uk/blog/',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-blog-guides-tips-news.webp',
+                width: 1200,
+                height: 675,
+                alt: 'IPTV UK blog 2026 — expert guides, reviews and setup tips for IPTV UK subscribers',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

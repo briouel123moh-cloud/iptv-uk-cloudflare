@@ -11,18 +11,27 @@ import { MERCHANT_RETURN_POLICY, OFFER_SHIPPING_DETAILS, PRODUCT_IMAGE, PRICE_VA
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/iptv-iphone-uk/", {
-    title: 'Best IPTV UK for iPhone & iPad 2026 – Stream IPTV UK on iOS Anywhere',
+    title: 'IPTV UK on iPhone & iPad 2026 – Stream UK IPTV on iOS | 2 Free Trials',
     description:
-        'Stream IPTV UK on your iPhone or iPad anywhere in the UK. Best iOS IPTV UK apps 2026 — IPTV Smarters, GSE & more. Watch 45,000+ UK channels on iOS. 5-minute setup. From £12/month.',
+        'Stream IPTV UK on your iPhone or iPad anywhere. Best iOS IPTV UK apps 2026 — IPTV Smarters, GSE & more. Watch 45,000+ channels on the go. 5-minute setup. 2 free IPTV UK trials. From £12/month.',
     alternates: {
         canonical: '/iptv-iphone-uk/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-iphone-uk/'),
     },
     openGraph: {
-        title: 'IPTV on iPhone & iPad UK 2026 – Best iOS Apps & Setup',
-        description: 'Watch IPTV on your iPhone or iPad in the UK. 45,000+ channels on the go. From £12/month.',
+        title: 'IPTV UK on iPhone & iPad 2026 – Best iOS Apps | 2 Free Trials',
+        description: 'Watch IPTV UK on your iPhone or iPad — 45,000+ channels on the go. Best iOS IPTV apps 2026. 2 free IPTV UK trials. 5-min setup. From £12/month.',
         url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/',
         type: 'website',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/watch-iptv-iphone-ipad-uk-hero.webp',
+                width: 1200,
+                height: 675,
+                alt: 'IPTV UK on iPhone and iPad 2026 — stream 45,000+ UK channels on iOS with 2 free trials',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

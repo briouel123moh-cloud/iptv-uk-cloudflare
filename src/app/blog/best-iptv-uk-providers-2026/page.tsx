@@ -5,14 +5,25 @@ import { SITE_CONFIG } from '@/lib/site-config';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/blog/best-iptv-uk-providers-2026/", {
-    title: 'Best IPTV UK Providers 2026: IPTV UK vs Competitors',
-    description: 'Detailed comparison framework for UK IPTV providers in 2026. Compare channel depth, uptime, support quality, trial policy, and refund terms.',
+    title: 'Best IPTV UK Providers 2026 – Tested & Ranked | IPTV UK vs Competitors',
+    description: 'We tested and ranked the best IPTV UK providers in 2026. Compare IPTV UK vs competitors on channel count, uptime, support, trial policy & refund terms. See who wins.',
     alternates: {
         canonical: '/blog/best-iptv-uk-providers-2026/',
         ...buildAlternates(`${SITE_CONFIG.baseUrl}/blog/best-iptv-uk-providers-2026/`),
     },
     openGraph: {
-        images: [`${SITE_CONFIG.baseUrl}/images/best-iptv-uk-providers-2026-comparison.svg`],
+        title: 'Best IPTV UK Providers 2026 – Tested & Ranked',
+        description: 'Tested & ranked: Best IPTV UK providers 2026. IPTV UK vs competitors — channels, uptime, support quality, trial policy & refund terms compared.',
+        url: `${SITE_CONFIG.baseUrl}/blog/best-iptv-uk-providers-2026/`,
+        images: [
+            {
+                url: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-hero.webp`,
+                width: 1200,
+                height: 675,
+                alt: 'Best IPTV UK providers 2026 — tested and ranked comparison of top UK IPTV services',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 
@@ -20,11 +31,16 @@ export default function BestProvidersBlog() {
     const articleSchema = {
         '@context': 'https://schema.org',
         '@type': 'Article',
-        headline: 'Best IPTV UK Providers 2026: IPTV UK vs Competitors',
+        headline: 'Best IPTV UK Providers 2026: Tested & Ranked — IPTV UK vs Competitors',
         url: `${SITE_CONFIG.baseUrl}/blog/best-iptv-uk-providers-2026/`,
-        image: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-providers-2026-comparison.svg`,
+        image: {
+            '@type': 'ImageObject',
+            url: `${SITE_CONFIG.baseUrl}/images/best-iptv-uk-2026-hero.webp`,
+            width: 1200,
+            height: 675,
+        },
         author: { '@type': 'Organization', name: 'IPTV UK' },
-        publisher: { '@type': 'Organization', name: 'IPTV UK', logo: { '@type': 'ImageObject', url: `${SITE_CONFIG.baseUrl}/logo.svg` } },
+        publisher: { '@type': 'Organization', name: 'IPTV UK', logo: { '@type': 'ImageObject', url: `${SITE_CONFIG.baseUrl}/logo.webp` } },
     };
 
     return (

@@ -10,18 +10,27 @@ import { CORE_BUYING_KEYWORDS } from '@/lib/seo-keywords';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/pricing/", {
-    title: 'IPTV UK Prices 2026 – Best Value IPTV UK Plans from £12/Month | Buy IPTV UK',
+    title: 'IPTV UK Prices 2026 – From £12/Month | 2 Free Trials + 30-Day Guarantee',
     description:
-        'Buy IPTV UK from £12/month. Best IPTV UK price in 2026 — Sky Sports, Premier League, 45,000+ UK channels, 4K, 100,000+ VOD. Compare IPTV UK plans. Free trial + 30-day money-back. IPTV UK instant activation.',
+        'Buy IPTV UK from £12/month in 2026. Sky Sports, Premier League & 45,000+ channels in 4K. 2 free IPTV UK trials per user — no card needed. 30-day money-back guarantee. Compare plans & activate instantly.',
     keywords: [...CORE_BUYING_KEYWORDS, 'iptv uk', 'iptv uk price', 'iptv uk subscription', 'iptv uk plans', 'buy iptv uk', 'iptv uk monthly', 'iptv uk cost', 'cheap iptv uk', 'best iptv uk price', 'iptv uk 2026'],
     alternates: {
         canonical: '/pricing/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/pricing/'),
     },
     openGraph: {
-        title: 'IPTV UK Prices 2026 – Best IPTV UK Plans from £12/Month',
-        description: 'Best IPTV UK price 2026. Sky Sports, Premier League, 45,000+ channels. IPTV UK plans from £12. Free trial. 30-day money-back. Buy IPTV UK now.',
+        title: 'IPTV UK Prices 2026 – From £12/Month | 2 Free Trials Per User',
+        description: 'Buy IPTV UK from £12/month — Sky Sports, Premier League & 45,000+ channels in 4K. 2 free trials per user. 30-day money-back. Instant activation.',
         url: 'https://iptv-uk-iptv.co.uk/pricing/',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-pricing-plans-2026.webp',
+                width: 1200,
+                height: 675,
+                alt: 'IPTV UK pricing plans 2026 — from £12/month with 2 free trials and 30-day guarantee',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 

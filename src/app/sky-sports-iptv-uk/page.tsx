@@ -8,18 +8,27 @@ import { buildAlternates } from '@/lib/hreflang';
 import { applySeoFixes } from '@/lib/seo-fixes';
 
 export const metadata: Metadata = applySeoFixes("/sky-sports-iptv-uk/", {
-    title: 'Sky Sports on IPTV UK 2026 – All 10 Channels, No Sky Contract, From £12',
+    title: 'Sky Sports on IPTV UK 2026 – All 10 Channels, No Sky Contract | From £12',
     description:
-        'Watch every Sky Sports channel on IPTV UK — Sky Sports Main Event, Premier League, F1 & all 10 channels. IPTV UK Sky Sports costs a fraction of a Sky contract. No dish. From £12/month.',
+        'Watch all 10 Sky Sports channels on IPTV UK — Premier League, F1, Cricket & more. No Sky dish, no contract. Sky Sports IPTV UK from £12/month. 2 free IPTV UK trials per user. Save £800+/year vs Sky.',
     alternates: {
         canonical: '/sky-sports-iptv-uk/',
         ...buildAlternates('https://iptv-uk-iptv.co.uk/sky-sports-iptv-uk/'),
     },
     openGraph: {
-        title: 'Watch Sky Sports Without Sky 2026 – IPTV UK Alternative',
-        description: 'Watch all 10 Sky Sports channels without Sky TV. IPTV delivers them all for £12/month.',
+        title: 'Sky Sports on IPTV UK 2026 – All 10 Channels Without Sky | 2 Free Trials',
+        description: 'Watch every Sky Sports channel on IPTV UK — Premier League, F1, Cricket & more. No dish, no contract. From £12/month. 2 free IPTV UK trials. Save £800+/year.',
         url: 'https://iptv-uk-iptv.co.uk/sky-sports-iptv-uk/',
         type: 'website',
+        images: [
+            {
+                url: 'https://iptv-uk-iptv.co.uk/images/sky-sports-iptv-uk-premier-league-live.webp',
+                width: 1200,
+                height: 675,
+                alt: 'Sky Sports on IPTV UK 2026 — all 10 Sky Sports channels without a Sky contract',
+                type: 'image/webp',
+            },
+        ],
     },
 });
 
