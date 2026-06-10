@@ -170,10 +170,10 @@ export default function AboutBrandSection() {
                         <p className="text-slate-400 text-sm mt-4">
                             <strong className="text-slate-300">Email:</strong>{' '}
                             <a
-                                href="mailto:contact@iptv-uk-iptv.co.uk"
+                                href="mailto:contact@iptvuk-iptv-uk.store"
                                 className="text-emerald-400 hover:text-emerald-300 transition-colors"
                             >
-                                contact@iptv-uk-iptv.co.uk
+                                contact@iptvuk-iptv-uk.store
                             </a>
                         </p>
                         <p className="text-slate-400 text-sm mt-1">

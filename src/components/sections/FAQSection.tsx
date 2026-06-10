@@ -109,7 +109,7 @@ const faqCategories = [
         faqs: [
             {
                 question: 'How do I contact customer support?',
-                answer: 'Our friendly support team is available 24/7 via WhatsApp (fastest response), email at contact@iptv-uk-iptv.co.uk, and our online contact form. WhatsApp is the quickest way to get help – most queries are resolved within minutes. We provide support in English and can assist with setup, technical issues, billing, and any other questions.',
+                answer: 'Our friendly support team is available 24/7 via WhatsApp (fastest response), email at contact@iptvuk-iptv-uk.store, and our online contact form. WhatsApp is the quickest way to get help – most queries are resolved within minutes. We provide support in English and can assist with setup, technical issues, billing, and any other questions.',
             },
             {
                 question: 'What should I do if I experience buffering?',

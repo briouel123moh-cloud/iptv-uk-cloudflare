@@ -14,15 +14,15 @@ export const metadata: Metadata = applySeoFixes("/faq/", {
         'Got IPTV UK questions? Get expert answers: Is IPTV UK legal? How much does IPTV UK cost? Which devices work? Firestick setup? 25+ IPTV UK FAQs answered — plus how to claim your 2 free trials.',
     alternates: {
         canonical: '/faq/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/faq/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/faq/'),
     },
     openGraph: {
         title: 'IPTV UK FAQ 2026 – Every IPTV UK Question Answered (25+)',
         description: 'Is IPTV UK legal? What does IPTV UK cost? How do I set up on Firestick? 25+ expert answers — plus get 2 free IPTV UK trials. All your IPTV UK questions answered.',
-        url: 'https://iptv-uk-iptv.co.uk/faq/',
+        url: 'https://iptvuk-iptv-uk.store/faq/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-faq-common-questions.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/iptv-uk-faq-common-questions.webp',
                 width: 1200,
                 height: 675,
                 alt: 'IPTV UK FAQ 2026 — 25+ common questions about IPTV UK answered by experts',
@@ -170,7 +170,7 @@ const faqSchema = {
             name: 'How do I contact customer support?',
             acceptedAnswer: {
                 '@type': 'Answer',
-                text: 'Our friendly support team is available 24/7 via WhatsApp (fastest response), email at contact@iptv-uk-iptv.co.uk, and our online contact form. WhatsApp is the quickest way to get help – most queries are resolved within minutes. We provide support in English and can assist with setup, technical issues, billing, and any other questions.',
+                text: 'Our friendly support team is available 24/7 via WhatsApp (fastest response), email at contact@iptvuk-iptv-uk.store, and our online contact form. WhatsApp is the quickest way to get help – most queries are resolved within minutes. We provide support in English and can assist with setup, technical issues, billing, and any other questions.',
             },
         },
         {
@@ -221,8 +221,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://iptv-uk-iptv.co.uk/faq/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+        { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://iptvuk-iptv-uk.store/faq/' },
     ],
 };
 

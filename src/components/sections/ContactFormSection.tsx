@@ -79,8 +79,8 @@ export default function ContactFormSection() {
                             </div>
                             <div>
                                 <p className="text-white font-medium">Email</p>
-                                <a href="mailto:contact@iptv-uk-iptv.co.uk" className="text-emerald-400 hover:text-emerald-300 transition-colors">
-                                    contact@iptv-uk-iptv.co.uk
+                                <a href="mailto:contact@iptvuk-iptv-uk.store" className="text-emerald-400 hover:text-emerald-300 transition-colors">
+                                    contact@iptvuk-iptv-uk.store
                                 </a>
                             </div>
                         </div>

@@ -5,10 +5,8 @@ import { SITE_CONFIG } from '@/lib/site-config';
 import { NextRequest, NextResponse } from 'next/server';
 
 const CANONICAL_HOST = SITE_CONFIG.domain;
-const LEGACY_HOSTS = new Set([
-  'iptv-uk-iptv.co.uk',
-  'primestream-iptvuk.online',
-  'www.primestream-iptvuk.online',
+const HOST_ALIASES = new Set([
+  `www.${CANONICAL_HOST}`,
 ]);
 
 function shouldForceTrailingSlash(pathname: string): boolean {
@@ -20,7 +18,7 @@ function shouldForceTrailingSlash(pathname: string): boolean {
 export function proxy(request: NextRequest) {
   const host = request.headers.get('host') ?? '';
   const bareHost = host.split(':')[0];
-  const shouldForceHost = LEGACY_HOSTS.has(bareHost);
+  const shouldForceHost = HOST_ALIASES.has(bareHost);
   const shouldAddSlash = shouldForceTrailingSlash(request.nextUrl.pathname);
 
   if (shouldForceHost || shouldAddSlash) {

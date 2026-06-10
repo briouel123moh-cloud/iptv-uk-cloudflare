@@ -4,7 +4,7 @@
 import { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import { SITE_CONFIG } from '@/lib/site-config';
-import { CORE_BUYING_KEYWORDS } from '@/lib/seo-keywords';
+import { CORE_BUYING_KEYWORDS, LONG_TAIL_IPTV_UK_KEYWORDS, PRIMARY_KEYWORD } from '@/lib/seo-keywords';
 
 // CWV FIX: Hero loads eagerly — it's above the fold and drives LCP
 import HomeHeroSection from '@/components/sections/HomeHeroSection';
@@ -68,7 +68,7 @@ export const metadata: Metadata = applySeoFixes("/", {
   title: 'IPTV UK | Best IPTV UK Subscription 2026 – 45,000+ Channels, Sky Sports, 2 Free Trials',
   description:
     '#1 IPTV UK service 2026. Get IPTV UK with Sky Sports, Premier League, BBC & 45,000+ live channels from £12/month. 2 free IPTV UK trials per user. Instant activation. 30-day money-back. Try IPTV UK free now.',
-  keywords: [...CORE_BUYING_KEYWORDS, 'iptv uk', 'iptv uk subscription', 'iptv uk channels', 'iptv uk sports', 'iptv uk firestick', 'best iptv uk', 'iptv uk free trial', 'buy iptv uk', 'iptv uk 2026', 'uk iptv'],
+  keywords: [...new Set([PRIMARY_KEYWORD, ...CORE_BUYING_KEYWORDS, ...LONG_TAIL_IPTV_UK_KEYWORDS, 'iptv uk subscription', 'iptv uk channels', 'iptv uk sports', 'best iptv uk 2026', 'uk iptv'])],
   alternates: {
     canonical: '/',
     ...buildAlternates(`${SITE_CONFIG.baseUrl}/`),
@@ -204,6 +204,31 @@ const webPageSchema = {
   }
 };
 
+const homeBreadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'IPTV UK',
+      item: `${SITE_CONFIG.baseUrl}/`,
+    },
+  ],
+};
+
+const keywordItemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'IPTV UK buyer guide shortcuts',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'IPTV UK pricing', url: `${SITE_CONFIG.baseUrl}/pricing/` },
+    { '@type': 'ListItem', position: 2, name: 'IPTV UK Firestick setup', url: `${SITE_CONFIG.baseUrl}/iptv-firestick-uk/` },
+    { '@type': 'ListItem', position: 3, name: 'IPTV UK guide', url: `${SITE_CONFIG.baseUrl}/iptv-uk-guide/` },
+    { '@type': 'ListItem', position: 4, name: 'Sky Sports IPTV UK', url: `${SITE_CONFIG.baseUrl}/sky-sports-iptv-uk/` },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
@@ -221,6 +246,15 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      {/* SEO: Breadcrumb and internal hub schemas */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeBreadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(keywordItemListSchema) }}
       />
       {/* Hero loads eagerly — above the fold */}
       <HomeHeroSection />

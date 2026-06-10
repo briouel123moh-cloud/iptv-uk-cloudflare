@@ -15,15 +15,15 @@ export const metadata: Metadata = applySeoFixes("/bbc-iptv-uk/", {
         'Watch BBC One, Two, Three, Four & CBeebies in HD on IPTV UK — plus 7-day BBC catch-up. No TV licence hassle. IPTV UK BBC channels from £12/month. 2 free IPTV UK trials. No contract, no dish.',
     alternates: {
         canonical: '/bbc-iptv-uk/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/bbc-iptv-uk/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/bbc-iptv-uk/'),
     },
     openGraph: {
         title: 'BBC on IPTV UK 2026 – BBC One, Two, Three & Catch-Up in HD',
         description: 'Watch every BBC channel on IPTV UK in HD — BBC One, Two, Three, Four & CBeebies. 7-day catch-up. From £12/month. 2 free IPTV UK trials. No contract.',
-        url: 'https://iptv-uk-iptv.co.uk/bbc-iptv-uk/',
+        url: 'https://iptvuk-iptv-uk.store/bbc-iptv-uk/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/bbc-iptv-uk-channels-streaming.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/bbc-iptv-uk-channels-streaming.webp',
                 width: 1200,
                 height: 675,
                 alt: 'BBC channels on IPTV UK — BBC One, BBC Two, BBC Three streaming in HD 2026',
@@ -90,13 +90,13 @@ const articleSchema = {
     publisher: {
         '@type': 'Organization',
         name: 'IPTV UK',
-        logo: { '@type': 'ImageObject', url: 'https://iptv-uk-iptv.co.uk/logo.webp' },
+        logo: { '@type': 'ImageObject', url: 'https://iptvuk-iptv-uk.store/logo.webp' },
     },
     datePublished: '2026-01-01',
     dateModified: '2026-03-01',
     mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://iptv-uk-iptv.co.uk/bbc-iptv-uk/',
+        '@id': 'https://iptvuk-iptv-uk.store/bbc-iptv-uk/',
     },
 };
 
@@ -104,8 +104,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'Watch BBC on IPTV UK 2026', item: 'https://iptv-uk-iptv.co.uk/bbc-iptv-uk/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+        { '@type': 'ListItem', position: 2, name: 'Watch BBC on IPTV UK 2026', item: 'https://iptvuk-iptv-uk.store/bbc-iptv-uk/' },
     ],
 };
 

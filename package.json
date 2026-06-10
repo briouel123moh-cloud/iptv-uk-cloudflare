@@ -1,5 +1,5 @@
 {
-  "name": "primestream-iptv-uk",
+  "name": "iptvuk-iptv-uk-store",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "postdeploy": "curl -X POST 'https://www.bing.com/indexnow?url=https://iptv-uk-iptv.co.uk/sitemap.xml&key=c39cbd72-23e7-4a'"
+    "postdeploy": "curl -X POST 'https://www.bing.com/indexnow?url=https://iptvuk-iptv-uk.store/sitemap.xml&key=c39cbd72-23e7-4a'"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

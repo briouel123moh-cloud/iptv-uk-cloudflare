@@ -1,13 +1,19 @@
-# New IPTV Site — 39 Indexed Pages
+# IPTV UK — iptvuk-iptv-uk.store
 
-This folder is a standalone Next.js project containing the **39 pages indexed by Google** from iptv-uk-iptv.co.uk.
-Use it as the basis of a new GitHub repo to deploy on a new domain.
+This is the production Next.js static-export site for **IPTV UK** at **https://iptvuk-iptv-uk.store**.
 
----
+## Project overview
+
+- Canonical domain: `iptvuk-iptv-uk.store`
+- Primary SEO keyword: `iptv uk`
+- Framework: Next.js App Router with static export
+- Sitemap: generated from `src/app/sitemap.ts` and `dynamic_slugs.txt`
+- Robots: generated from `src/app/robots.ts`
 
 ## Pages included
 
-### Static pages (13 + homepage + blog listing)
+### Static pages
+
 | Route | Directory |
 |---|---|
 | `/` | `src/app/page.tsx` |
@@ -25,95 +31,25 @@ Use it as the basis of a new GitHub repo to deploy on a new domain.
 | `/iptv-uk-guide/` | `src/app/iptv-uk-guide/` |
 | `/blog/` | `src/app/blog/page.tsx` |
 
-### Blog posts (22 slugs)
-All served from `src/app/blog/[slug]/page.tsx`:
+### Blog posts
 
-- `iptv-uk-beginners-guide`
-- `is-iptv-legal-uk`
-- `best-iptv-uk-2026`
-- `what-is-epg-guide`
-- `watch-iptv-iphone-ipad-uk`
-- `best-iptv-apps-smart-tv-2026`
-- `free-vs-premium-iptv-risks`
-- `iptv-uk-monthly-cost`
-- `best-iptv-firestick-uk-2026`
-- `iptv-premier-league-uk`
-- `iptv-uk-vs-virgin-media`
-- `spot-fake-iptv-sellers-uk`
-- `iptv-multiple-devices-uk`
-- `resell-iptv-uk-plans`
-- `watch-ufc-ppv-iptv-uk`
-- `tivimate-no-epg-fix`
-- `install-iptv-samsung-tv-2026`
-- `watch-uk-tv-ireland-guide`
-- `how-to-get-a-free-iptv-trial-without-any-commitment-2026`
-- `iptv-firestick-guide-best-apps-setup-safety-in-2026`
-- `how-to-get-a-risk-free-iptv-subscription-in-2026`
-- `smart-tv-iptv-setup-guide-samsung-lg-and-android-tv`
+Blog posts are served from `src/app/blog/[slug]/page.tsx` and supplemented by `dynamic_slugs.txt` for sitemap generation.
 
----
+## SEO maintenance notes
 
-## Setup steps
+- Keep canonical URL, Open Graph URL, sitemap host, robots host, and feed URLs sourced from `src/lib/site-config.ts`.
+- Keep the exact-match phrase `iptv uk` in high-value locations only: title, H1, first paragraph, major section headings, metadata, and relevant internal anchor text.
+- Avoid hardcoded production domains outside config unless the file is static content that requires an absolute URL.
+- Keep internal links trailing-slashed to match the static export configuration.
 
-### 1. Replace the domain
-
-Open `src/lib/site-config.ts` and replace every occurrence of `YOUR-NEW-DOMAIN.com` with your actual new domain:
-
-```ts
-domain: 'www.your-actual-domain.com',
-baseUrl: 'https://www.your-actual-domain.com',
-```
-
-Also update `siteConfig.name` if you want a different brand name.
-
-### 2. Modify content (important for re-indexing)
-
-Before deploying, change the content on each page enough for Google to treat it as a new page:
-- Edit titles, descriptions, and at least a few paragraphs per page
-- Change H1/H2 headings so they differ from the original
-- Update the `date` field in each blog post to today's date
-
-Blog post content is in `src/app/blog/[slug]/page.tsx` in the `blogPosts` object.
-Static page content is in each page's own `src/app/[route]/page.tsx`.
-
-### 3. Install and run locally
+## Install and run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-### 4. Deploy to new domain
-
-1. Create a new GitHub repo from this folder
-2. Deploy to Vercel (or any Next.js host) and point your new domain to it
-3. Submit the new sitemap to Google Search Console
-
----
-
-## Setting up the redirect to iptv-uk-iptv.co.uk
-
-**Only enable the redirect AFTER Google has indexed all 39 pages on the new domain.**
-Enabling it too early will prevent indexing.
-
-Once indexed, add this block to `vercel.json` (inside the top-level JSON object, alongside `"headers"`):
-
-```json
-"redirects": [
-  {
-    "source": "/(.*)",
-    "destination": "https://iptv-uk-iptv.co.uk/$1",
-    "permanent": true,
-    "statusCode": 301
-  }
-]
-```
-
-This sends a 301 redirect from every page on the new domain to the same path on `iptv-uk-iptv.co.uk`.
-
----
-
-## Build & lint
+## Build and lint
 
 ```bash
 npm run lint
