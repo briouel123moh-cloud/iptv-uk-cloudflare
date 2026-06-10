@@ -21,15 +21,15 @@ export const metadata: Metadata = applySeoFixes("/blog/", {
     keywords: [...CORE_BUYING_KEYWORDS, 'iptv uk guides', 'iptv setup tutorials', 'iptv troubleshooting uk'],
     alternates: {
         canonical: '/blog/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/blog/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/blog/'),
     },
     openGraph: {
         title: 'IPTV UK Blog 2026 – Expert Guides, Reviews & Setup Tips',
         description: 'Expert IPTV UK guides, reviews & setup tutorials. Best IPTV UK service 2026, Firestick setup, free trials & more. Read the UK\'s top IPTV blog.',
-        url: 'https://iptv-uk-iptv.co.uk/blog/',
+        url: 'https://iptvuk-iptv-uk.store/blog/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-blog-guides-tips-news.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/iptv-uk-blog-guides-tips-news.webp',
                 width: 1200,
                 height: 675,
                 alt: 'IPTV UK blog 2026 — expert guides, reviews and setup tips for IPTV UK subscribers',
@@ -644,8 +644,8 @@ export default function BlogPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-            { '@type': 'ListItem', position: 2, name: 'IPTV UK Blog', item: 'https://iptv-uk-iptv.co.uk/blog/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+            { '@type': 'ListItem', position: 2, name: 'IPTV UK Blog', item: 'https://iptvuk-iptv-uk.store/blog/' },
         ],
     };
 

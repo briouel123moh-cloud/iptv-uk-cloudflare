@@ -13,15 +13,15 @@ export const metadata: Metadata = applySeoFixes("/contact/", {
         'Contact IPTV UK 24/7 — instant WhatsApp support, usually answered in under 5 minutes. Get help with IPTV UK setup, your free trial, billing or technical issues. We\'re always on.',
     alternates: {
         canonical: '/contact/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/contact/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/contact/'),
     },
     openGraph: {
         title: 'Contact IPTV UK – 24/7 WhatsApp Support, Reply in Minutes',
         description: 'IPTV UK support is available 24/7 via WhatsApp. Get help with setup, free trials, billing or technical issues — most queries answered in minutes.',
-        url: 'https://iptv-uk-iptv.co.uk/contact/',
+        url: 'https://iptvuk-iptv-uk.store/contact/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-whatsapp-support.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/iptv-uk-whatsapp-support.webp',
                 width: 1200,
                 height: 675,
                 alt: 'IPTV UK 24/7 WhatsApp support — get help with your IPTV UK subscription in minutes',
@@ -35,14 +35,14 @@ export const metadata: Metadata = applySeoFixes("/contact/", {
 const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://iptv-uk-iptv.co.uk/#business',
+    '@id': 'https://iptvuk-iptv-uk.store/#business',
     name: 'IPTV UK',
     description:
         'Premium IPTV subscription service for UK customers with 24/7 customer support.',
-    url: 'https://iptv-uk-iptv.co.uk',
-    image: 'https://iptv-uk-iptv.co.uk/og-image.webp',
+    url: 'https://iptvuk-iptv-uk.store',
+    image: 'https://iptvuk-iptv-uk.store/og-image.webp',
     telephone: '+447418316577',
-    email: 'contact@iptv-uk-iptv.co.uk',
+    email: 'contact@iptvuk-iptv-uk.store',
     address: {
         '@type': 'PostalAddress',
         streetAddress: '124 City Road',
@@ -75,8 +75,8 @@ export default function ContactPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-            { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://iptv-uk-iptv.co.uk/contact/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+            { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://iptvuk-iptv-uk.store/contact/' },
         ],
     };
 

@@ -15,12 +15,12 @@ export const metadata: Metadata = applySeoFixes("/dmca/", {
         'IPTV UK DMCA and copyright compliance policy. How to submit a takedown request. Our IPTV UK commitment to intellectual property rights and rightholder cooperation in the UK.',
     alternates: {
         canonical: '/dmca/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/dmca/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/dmca/'),
     },
     openGraph: {
         title: 'DMCA Policy – IPTV UK Copyright Compliance & Takedown Notices',
         description: 'IPTV UK DMCA and copyright compliance policy. How to submit a copyright takedown request and our commitment to intellectual property rights.',
-        url: 'https://iptv-uk-iptv.co.uk/dmca/',
+        url: 'https://iptvuk-iptv-uk.store/dmca/',
         images: [
             {
                 url: `${SITE_CONFIG.baseUrl}/og-image.webp`,
@@ -47,8 +47,8 @@ export default function DMCAPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-            { '@type': 'ListItem', position: 2, name: 'DMCA Policy', item: 'https://iptv-uk-iptv.co.uk/dmca/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+            { '@type': 'ListItem', position: 2, name: 'DMCA Policy', item: 'https://iptvuk-iptv-uk.store/dmca/' },
         ],
     };
 
@@ -109,7 +109,7 @@ export default function DMCAPage() {
                         </p>
                         <div className="bg-slate-900/50 rounded-lg p-6 mb-6">
                             <p className="text-emerald-400 font-mono">
-                                Email: dmca@iptv-uk-iptv.co.uk
+                                Email: dmca@iptvuk-iptv-uk.store
                             </p>
                             <p className="text-slate-400 mt-2">
                                 Please include &quot;DMCA Notice&quot; in the subject line

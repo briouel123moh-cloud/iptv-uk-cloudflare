@@ -15,15 +15,15 @@ export const metadata: Metadata = applySeoFixes("/sky-cinema-iptv/", {
         'Watch all Sky Cinema channels on IPTV UK — Premiere, Action, Comedy, Drama & more — without a Sky subscription. Latest blockbusters in HD/4K. From £12/month. 2 free IPTV UK trials. No commitment.',
     alternates: {
         canonical: '/sky-cinema-iptv/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/sky-cinema-iptv/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/sky-cinema-iptv/'),
     },
     openGraph: {
         title: 'Sky Cinema on IPTV UK 2026 – All Sky Cinema Channels | 2 Free Trials',
         description: 'Stream every Sky Cinema channel on IPTV UK — no Sky contract needed. Latest films, Premiere, Action, Comedy & more in HD/4K. From £12/month. 2 free trials.',
-        url: 'https://iptv-uk-iptv.co.uk/sky-cinema-iptv/',
+        url: 'https://iptvuk-iptv-uk.store/sky-cinema-iptv/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/sky-cinema-iptv-channels-list.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/sky-cinema-iptv-channels-list.webp',
                 width: 1200,
                 height: 675,
                 alt: 'Sky Cinema channels on IPTV UK 2026 — Premiere, Action, Comedy & more without Sky contract',
@@ -90,13 +90,13 @@ const articleSchema = {
     publisher: {
         '@type': 'Organization',
         name: 'IPTV UK',
-        logo: { '@type': 'ImageObject', url: 'https://iptv-uk-iptv.co.uk/logo.webp' },
+        logo: { '@type': 'ImageObject', url: 'https://iptvuk-iptv-uk.store/logo.webp' },
     },
     datePublished: '2026-01-01',
     dateModified: '2026-03-01',
     mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://iptv-uk-iptv.co.uk/sky-cinema-iptv/',
+        '@id': 'https://iptvuk-iptv-uk.store/sky-cinema-iptv/',
     },
 };
 
@@ -104,8 +104,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'Sky Cinema on IPTV UK 2026', item: 'https://iptv-uk-iptv.co.uk/sky-cinema-iptv/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+        { '@type': 'ListItem', position: 2, name: 'Sky Cinema on IPTV UK 2026', item: 'https://iptvuk-iptv-uk.store/sky-cinema-iptv/' },
     ],
 };
 

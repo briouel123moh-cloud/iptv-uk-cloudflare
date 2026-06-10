@@ -14,16 +14,16 @@ export const metadata: Metadata = applySeoFixes("/iptv-firestick-uk/", {
         'Best IPTV UK for Firestick 2026. Set up in 5 minutes — 45,000+ channels, Sky Sports, Premier League & 4K HD. 2 free IPTV UK trials per user, no card needed. From £12/month. 24/7 setup support.',
     alternates: {
         canonical: '/iptv-firestick-uk/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-firestick-uk/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/iptv-firestick-uk/'),
     },
     openGraph: {
         title: 'IPTV UK on Firestick 2026 – 2 Free Trials | Setup in 5 Minutes',
         description: 'Best IPTV UK for Firestick — 45,000+ channels, Sky Sports & 4K. Setup in 5 minutes. 2 free IPTV UK trials per user, no card. From £12/month. 24/7 support.',
-        url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/',
+        url: 'https://iptvuk-iptv-uk.store/iptv-firestick-uk/',
         type: 'website',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/best-iptv-firestick-uk-2026-hero.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/best-iptv-firestick-uk-2026-hero.webp',
                 width: 1200,
                 height: 675,
                 alt: 'Best IPTV UK for Firestick 2026 — setup guide with 2 free trials and 45,000+ channels',
@@ -36,13 +36,13 @@ export const metadata: Metadata = applySeoFixes("/iptv-firestick-uk/", {
 const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/#service',
+    '@id': 'https://iptvuk-iptv-uk.store/iptv-firestick-uk/#service',
     name: 'IPTV Service for Amazon Firestick UK',
     description: 'Premium IPTV subscription for Amazon Firestick UK. 45,000+ live channels in HD and 4K, 100,000+ VOD, 7-day catch-up. Works on all Firestick models.',
     provider: {
         '@type': 'Organization',
         name: 'IPTV UK',
-        '@id': 'https://iptv-uk-iptv.co.uk/#business',
+        '@id': 'https://iptvuk-iptv-uk.store/#business',
     },
     areaServed: { '@type': 'Country', name: 'United Kingdom' },
     serviceType: 'IPTV Streaming Subscription',
@@ -64,10 +64,10 @@ const productSchema = {
     image: PRODUCT_IMAGE,
     brand: { '@type': 'Brand', name: 'IPTV UK' },
     offers: [
-        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://iptvuk-iptv-uk.store/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://iptvuk-iptv-uk.store/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://iptvuk-iptv-uk.store/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://iptvuk-iptv-uk.store/iptv-firestick-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
     ],
 };
 
@@ -75,8 +75,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'IPTV on Firestick UK', item: 'https://iptv-uk-iptv.co.uk/iptv-firestick-uk/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+        { '@type': 'ListItem', position: 2, name: 'IPTV on Firestick UK', item: 'https://iptvuk-iptv-uk.store/iptv-firestick-uk/' },
     ],
 };
 

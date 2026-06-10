@@ -1,5 +1,6 @@
 // Shared schema constants for merchant listings
 // These are required by Google Merchant Center for valid Product listings
+import { SITE_CONFIG } from '@/lib/site-config';
 
 export const MERCHANT_RETURN_POLICY = {
     '@type': 'MerchantReturnPolicy',
@@ -38,5 +39,5 @@ export const OFFER_SHIPPING_DETAILS = {
     },
 } as const;
 
-export const PRODUCT_IMAGE = 'https://iptv-uk-iptv.co.uk/og-image.webp';
+export const PRODUCT_IMAGE = `${SITE_CONFIG.baseUrl}/og-image.webp`;
 export const PRICE_VALID_UNTIL = '2027-12-31';

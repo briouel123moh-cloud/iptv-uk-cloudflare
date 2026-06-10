@@ -29,7 +29,7 @@ export function ProductSchema({
     '@type': 'Product',
     name,
     description,
-    image: image.startsWith('http') ? image : `https://iptv-uk-iptv.co.uk${image}`,
+    image: image.startsWith('http') ? image : `https://iptvuk-iptv-uk.store${image}`,
     brand: {
       '@type': 'Brand',
       name: 'IPTV UK',
@@ -37,7 +37,7 @@ export function ProductSchema({
     sku: sku || name.toLowerCase().replace(/\s+/g, '-'),
     offers: {
       '@type': 'Offer',
-      url: url.startsWith('http') ? url : `https://iptv-uk-iptv.co.uk${url}`,
+      url: url.startsWith('http') ? url : `https://iptvuk-iptv-uk.store${url}`,
       priceCurrency,
       price,
       availability,

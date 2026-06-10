@@ -17,8 +17,8 @@ interface AlternatesConfig {
  *
  * @param pageCanonicalUrl - The full canonical URL for the current page,
  *   including a trailing slash (required by `trailingSlash: true` in next.config.ts).
- *   Example: `"https://iptv-uk-iptv.co.uk/pricing/"`
- *   Exception: the root homepage may omit the slash: `"https://iptv-uk-iptv.co.uk/"`.
+ *   Example: `"https://iptvuk-iptv-uk.store/pricing/"`
+ *   Exception: the root homepage may omit the slash: `"https://iptvuk-iptv-uk.store/"`.
  */
 export function buildAlternates(pageCanonicalUrl: string): AlternatesConfig {
   return {

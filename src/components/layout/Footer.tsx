@@ -90,10 +90,10 @@ export default function Footer() {
                             <p>
                                 <strong className="text-white">Email:</strong>{' '}
                                 <a
-                                    href="mailto:contact@iptv-uk-iptv.co.uk"
+                                    href="mailto:contact@iptvuk-iptv-uk.store"
                                     className="text-emerald-400 hover:text-emerald-300 transition-colors"
                                 >
-                                    contact@iptv-uk-iptv.co.uk
+                                    contact@iptvuk-iptv-uk.store
                                 </a>
                             </p>
                             <p>

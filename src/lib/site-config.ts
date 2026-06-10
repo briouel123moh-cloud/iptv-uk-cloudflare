@@ -2,23 +2,25 @@
 // Import this wherever a domain or full URL is needed — never hardcode URLs.
 export const SITE_CONFIG = {
   /** Canonical domain without www */
-  domain: 'iptv-uk-iptv.co.uk',
+  domain: 'iptvuk-iptv-uk.store',
   /** Canonical base URL without www, no trailing slash */
-  baseUrl: 'https://iptv-uk-iptv.co.uk',
-  /** Official social profiles */
+  baseUrl: 'https://iptvuk-iptv-uk.store',
+  /** Official social profiles for structured data and footer links */
   socialProfiles: {
-    youtube: 'https://www.youtube.com/@GLOBAL_IPTV_HUB',
-    linkedin: 'https://www.linkedin.com/company/iptv-global-hub/',
+    youtube: 'https://www.youtube.com/@IPTVUK_IPTV_UK',
+    linkedin: 'https://www.linkedin.com/company/iptvuk-iptv-uk/',
   },
-  /** Redirect target domain — visitors are sent here after indexing */
-  redirectTarget: 'https://iptv-uk-iptv.co.uk',
+  /** Canonical brand/domain phrases used by SEO metadata */
+  brandName: 'IPTV UK',
+  targetKeyword: 'iptv uk',
+  localMarket: 'United Kingdom',
 } as const;
 
 export const siteConfig = {
   name: 'IPTV UK',
   whatsapp: '+447418316577',
-  email: 'contact@iptv-uk-iptv.co.uk',
-  domain: 'https://iptv-uk-iptv.co.uk',
+  email: 'contact@iptvuk-iptv-uk.store',
+  domain: 'https://iptvuk-iptv-uk.store',
 } as const;
 
 export const getWhatsAppLink = (message: string = 'Hi, I\'m interested in IPTV UK') => {

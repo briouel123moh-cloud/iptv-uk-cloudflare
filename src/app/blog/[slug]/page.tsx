@@ -1975,7 +1975,7 @@ Trial restrictions are another major red flag. If a "trial" hides sports, premiu
 
 ## Why IPTV UK sets the standard for risk-free IPTV
 
-[IPTV UK](https://iptv-uk-iptv.co.uk/) offers a stated 24-hour free trial before payment, with no card required and full-service testing across live TV, VOD, and sports. The subscription is also backed by a stated 30-day money-back guarantee, with support available 24/7 on WhatsApp.
+[IPTV UK](https://iptvuk-iptv-uk.store/) offers a stated 24-hour free trial before payment, with no card required and full-service testing across live TV, VOD, and sports. The subscription is also backed by a stated 30-day money-back guarantee, with support available 24/7 on WhatsApp.
 
 The service is designed for UK viewers and supports Firestick, Samsung and LG Smart TVs, Android boxes, iOS, MAG, and Formuler devices, with HD and 4K streaming options.
 
@@ -2168,7 +2168,7 @@ export async function generateMetadata(
     const heroImagePath = post.heroImage || post.imageSlug
         ? getHeroImagePath(post)
         : '/og-image.webp';
-    const ogImage = `https://iptv-uk-iptv.co.uk${heroImagePath}`;
+    const ogImage = `https://iptvuk-iptv-uk.store${heroImagePath}`;
     const ogImageAlt = getRecommendedImageAlt(
         heroImagePath,
         seoTitle,
@@ -2185,7 +2185,7 @@ export async function generateMetadata(
         alternates: {
             canonical: path,
             languages: {
-                ...buildAlternates(`https://iptv-uk-iptv.co.uk${path}`).languages,
+                ...buildAlternates(`https://iptvuk-iptv-uk.store${path}`).languages,
             },
         },
         robots: { index: true, follow: true },
@@ -2193,10 +2193,10 @@ export async function generateMetadata(
             title: seoFix?.ogTitle ?? seoTitle,
             description: seoFix?.ogDescription ?? seoDescription,
             type: 'article',
-            url: `https://iptv-uk-iptv.co.uk${path}`,
+            url: `https://iptvuk-iptv-uk.store${path}`,
             publishedTime: post.date,
             modifiedTime: dateModified,
-            authors: ['https://iptv-uk-iptv.co.uk/about/'],
+            authors: ['https://iptvuk-iptv-uk.store/about/'],
             images: [
                 {
                     url: ogImage,
@@ -2269,12 +2269,12 @@ export default async function BlogPostPage(
     const articleSchema = {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
-        '@id': `https://iptv-uk-iptv.co.uk/blog/${slug}/`,
+        '@id': `https://iptvuk-iptv-uk.store/blog/${slug}/`,
         headline: post.title,
         description: post.description,
         image: {
             '@type': 'ImageObject',
-            url: `https://iptv-uk-iptv.co.uk${post.heroImage || post.imageSlug ? getHeroImagePath(post) : '/og-image.webp'}`,
+            url: `https://iptvuk-iptv-uk.store${post.heroImage || post.imageSlug ? getHeroImagePath(post) : '/og-image.webp'}`,
             width: 1200,
             height: 675,
         },
@@ -2283,21 +2283,21 @@ export default async function BlogPostPage(
         author: {
             '@type': 'Person',
             name: 'James Carter',
-            url: 'https://iptv-uk-iptv.co.uk/about/',
+            url: 'https://iptvuk-iptv-uk.store/about/',
         },
         publisher: {
             '@type': 'Organization',
             name: 'IPTV UK',
             logo: {
                 '@type': 'ImageObject',
-                url: 'https://iptv-uk-iptv.co.uk/logo.webp',
+                url: 'https://iptvuk-iptv-uk.store/logo.webp',
                 width: 200,
                 height: 60,
             },
         },
         mainEntityOfPage: {
             '@type': 'WebPage',
-            '@id': `https://iptv-uk-iptv.co.uk/blog/${slug}/`,
+            '@id': `https://iptvuk-iptv-uk.store/blog/${slug}/`,
         },
     };
 
@@ -2306,9 +2306,9 @@ export default async function BlogPostPage(
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-            { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://iptv-uk-iptv.co.uk/blog/' },
-            { '@type': 'ListItem', position: 3, name: post.title, item: `https://iptv-uk-iptv.co.uk/blog/${slug}/` },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://iptvuk-iptv-uk.store/blog/' },
+            { '@type': 'ListItem', position: 3, name: post.title, item: `https://iptvuk-iptv-uk.store/blog/${slug}/` },
         ],
     };
 
@@ -2476,9 +2476,9 @@ export default async function BlogPostPage(
                                         const linkMatch = part.match(/\[(.*?)\]\((.*?)\)/);
                                         if (linkMatch) {
                                             const [, label, url] = linkMatch;
-                                            const isInternal = url.startsWith('/') || url.startsWith('https://iptv-uk-iptv.co.uk');
+                                            const isInternal = url.startsWith('/') || url.startsWith('https://iptvuk-iptv-uk.store');
                                             if (isInternal) {
-                                                const finalUrl = url.replace('https://iptv-uk-iptv.co.uk', '');
+                                                const finalUrl = url.replace('https://iptvuk-iptv-uk.store', '');
                                                 if (!isIndexedInternalHref(finalUrl)) {
                                                     return label;
                                                 }
