@@ -5,12 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "next build",
+    "deploy:cloudflare": "npm run build:cloudflare && npx wrangler pages deploy out --project-name=iptvuk-iptv-uk-store",
     "start": "next start",
     "lint": "eslint",
     "postdeploy": "curl -X POST 'https://www.bing.com/indexnow?url=https://iptvuk-iptv-uk.store/sitemap.xml&key=c39cbd72-23e7-4a'"
   },
   "dependencies": {
-    "@vercel/analytics": "^2.0.1",
     "next": "^16.2.4",
     "react": "19.2.3",
     "react-dom": "19.2.3"

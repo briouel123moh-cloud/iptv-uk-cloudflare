@@ -12,7 +12,7 @@ import sys
 from typing import Iterable
 
 BRAND = "IPTV UK"
-WEBSITE = "https://iptv-uk-ten.vercel.app"
+WEBSITE = "https://iptvuk-iptv-uk.store"
 COPYRIGHT = "© 2026 IPTV UK. All rights reserved."
 SOFTWARE = "IPTV UK Metadata Injector"
 CREATOR_TOOL = "ExifTool via scripts/bulk_metadata.py"

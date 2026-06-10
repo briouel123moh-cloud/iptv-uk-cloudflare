@@ -1,0 +1,5 @@
+# Cloudflare Pages configuration for the static Next.js export.
+# `npm run build` generates the `out/` directory because next.config.ts uses output: 'export'.
+name = "iptvuk-iptv-uk-store"
+pages_build_output_dir = "out"
+compatibility_date = "2026-06-10"

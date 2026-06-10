@@ -42,6 +42,26 @@ Blog posts are served from `src/app/blog/[slug]/page.tsx` and supplemented by `d
 - Avoid hardcoded production domains outside config unless the file is static content that requires an absolute URL.
 - Keep internal links trailing-slashed to match the static export configuration.
 
+## Cloudflare Pages deployment
+
+Use these exact settings in **Workers & Pages → your Pages project → Settings → Builds & deployments**:
+
+| Setting | Value |
+|---|---|
+| Framework preset | `Next.js (Static HTML Export)` |
+| Build command | `npm run build` |
+| Build output directory | `out` |
+| Root directory | leave blank / repository root |
+| Production branch | `main` |
+
+The site currently uses `output: 'export'` in `next.config.ts`, so `npm run build` creates static HTML in `out/`. If the Cloudflare build command and output directory are left empty, Cloudflare may upload the repository root instead of the generated site; that root folder does not contain `index.html`, which causes the homepage to return HTTP 404.
+
+This repository also includes `wrangler.toml` with `pages_build_output_dir = "out"` for Cloudflare Pages direct deployments. For a manual deploy after building locally, run:
+
+```bash
+npm run deploy:cloudflare
+```
+
 ## Install and run locally
 
 ```bash
