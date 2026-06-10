@@ -48,7 +48,7 @@ Rather than assembling separate subscriptions for each sport, a single IPTV serv
 
 ### Premier League, F1, UFC, and Champions League for one fixed price
 
-[IPTV UK](https://iptv-uk-iptv.co.uk/sky-sports-iptv/) is an IPTV subscription service starting from £12 a month. According to the provider, the subscription includes access to [Sky Sports channels](https://iptv-uk-iptv.co.uk/sky-sports-iptv/), TNT Sports, and a wide range of live sports content, Premier League coverage, Champions League, F1, UFC, boxing, cricket, and tennis, with no pay-per-view extras on top. The provider claims a channel library of 45,000+ live channels in HD and 4K, delivered via UK-optimised CDN infrastructure. As with any IPTV service, prospective subscribers should verify the provider's licensing arrangements and confirm the service complies with UK law before subscribing.
+[IPTV UK](https://iptvuk-iptv-uk.store/sky-sports-iptv/) is an IPTV subscription service starting from £12 a month. According to the provider, the subscription includes access to [Sky Sports channels](https://iptvuk-iptv-uk.store/sky-sports-iptv/), TNT Sports, and a wide range of live sports content, Premier League coverage, Champions League, F1, UFC, boxing, cricket, and tennis, with no pay-per-view extras on top. The provider claims a channel library of 45,000+ live channels in HD and 4K, delivered via UK-optimised CDN infrastructure. As with any IPTV service, prospective subscribers should verify the provider's licensing arrangements and confirm the service complies with UK law before subscribing.
 
 ### IPTV UK vs. stacking individual services: the cost comparison
 
@@ -85,7 +85,7 @@ Rather than assembling separate subscriptions for each sport, a single IPTV serv
 
 The potential saving here is structural rather than marginal. According to IPTV UK, the service includes a free 24-hour trial before you commit and a 30-day money-back guarantee, so there is no upfront financial risk in testing picture quality and channel depth against what you're currently watching. The provider states that setup takes under 10 minutes on Firestick, Samsung or LG Smart TVs, Android boxes, iOS, and Windows or Mac devices, with 24/7 WhatsApp support available if anything needs troubleshooting.
 
-For pubs and commercial venues, see the [Best IPTV for UK Pubs & Clubs 2026: Commercial Guide](https://iptv-uk-iptv.co.uk/blog/iptv-uk-pubs-clubs-2026/) to understand licensing and deployment considerations for public-facing installs.
+For pubs and commercial venues, see the [Best IPTV for UK Pubs & Clubs 2026: Commercial Guide](https://iptvuk-iptv-uk.store/blog/iptv-uk-pubs-clubs-2026/) to understand licensing and deployment considerations for public-facing installs.
 
 ## Smart tactics to reduce your sports bill even further
 

@@ -103,7 +103,7 @@ def make_image(filename: str, title: str, subtitle: str = "", w: int = 1200, h: 
     strip_h = max(36, h // 14)
     d.rectangle([0, h - strip_h, w, h], fill=EMERALD_D)
     cta_font = get_font_reg(max(13, w // 58))
-    cta_txt  = "iptv-uk-iptv.co.uk  •  45,000+ Channels  •  Free Trial Available"
+    cta_txt  = "iptvuk-iptv-uk.store  •  45,000+ Channels  •  Free Trial Available"
     d.text((bx, h - strip_h + strip_h//4), cta_txt, font=cta_font, fill=EMERALD)
 
     path = os.path.join(OUT, filename)

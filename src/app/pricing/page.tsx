@@ -16,15 +16,15 @@ export const metadata: Metadata = applySeoFixes("/pricing/", {
     keywords: [...CORE_BUYING_KEYWORDS, 'iptv uk', 'iptv uk price', 'iptv uk subscription', 'iptv uk plans', 'buy iptv uk', 'iptv uk monthly', 'iptv uk cost', 'cheap iptv uk', 'best iptv uk price', 'iptv uk 2026'],
     alternates: {
         canonical: '/pricing/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/pricing/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/pricing/'),
     },
     openGraph: {
         title: 'IPTV UK Prices 2026 – From £12/Month | 2 Free Trials Per User',
         description: 'Buy IPTV UK from £12/month — Sky Sports, Premier League & 45,000+ channels in 4K. 2 free trials per user. 30-day money-back. Instant activation.',
-        url: 'https://iptv-uk-iptv.co.uk/pricing/',
+        url: 'https://iptvuk-iptv-uk.store/pricing/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-pricing-plans-2026.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/iptv-uk-pricing-plans-2026.webp',
                 width: 1200,
                 height: 675,
                 alt: 'IPTV UK pricing plans 2026 — from £12/month with 2 free trials and 30-day guarantee',
@@ -55,9 +55,9 @@ const returnPolicy = {
 const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": "https://iptv-uk-iptv.co.uk/pricing/#product",
+    "@id": "https://iptvuk-iptv-uk.store/pricing/#product",
     "name": "IPTV UK Subscription",
-    "image": "https://iptv-uk-iptv.co.uk/og-image.webp",
+    "image": "https://iptvuk-iptv-uk.store/og-image.webp",
     "description": "Premium IPTV UK subscription with 45,000+ live channels, 100,000+ VOD, 4K Ultra HD streaming, 99.9% uptime, and 24/7 WhatsApp support. Choose from 1-month, 3-month, 6-month, or 12-month plans. 30-day money-back guarantee.",
     "brand": { "@type": "Brand", "name": "IPTV UK" },
     "aggregateRating": {
@@ -116,7 +116,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "1 Month Plan",
-            "url": "https://iptv-uk-iptv.co.uk/pricing/",
+            "url": "https://iptvuk-iptv-uk.store/pricing/",
             "priceCurrency": "GBP",
             "price": "12.00",
             "priceValidUntil": "2027-12-31",
@@ -134,7 +134,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "3 Month Plan",
-            "url": "https://iptv-uk-iptv.co.uk/pricing/",
+            "url": "https://iptvuk-iptv-uk.store/pricing/",
             "priceCurrency": "GBP",
             "price": "28.00",
             "priceValidUntil": "2027-12-31",
@@ -152,7 +152,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "6 Month Plan",
-            "url": "https://iptv-uk-iptv.co.uk/pricing/",
+            "url": "https://iptvuk-iptv-uk.store/pricing/",
             "priceCurrency": "GBP",
             "price": "42.00",
             "priceValidUntil": "2027-12-31",
@@ -170,7 +170,7 @@ const productSchema = {
         {
             "@type": "Offer",
             "name": "12 Month Plan",
-            "url": "https://iptv-uk-iptv.co.uk/pricing/",
+            "url": "https://iptvuk-iptv-uk.store/pricing/",
             "priceCurrency": "GBP",
             "price": "55.00",
             "priceValidUntil": "2027-12-31",
@@ -192,8 +192,8 @@ const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iptv-uk-iptv.co.uk/" },
-        { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://iptv-uk-iptv.co.uk/pricing/" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iptvuk-iptv-uk.store/" },
+        { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://iptvuk-iptv-uk.store/pricing/" },
     ],
 };
 

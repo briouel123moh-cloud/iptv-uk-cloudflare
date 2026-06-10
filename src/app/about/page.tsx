@@ -14,15 +14,15 @@ export const metadata: Metadata = applySeoFixes("/about/", {
         "Meet the team behind the UK's top-rated IPTV UK service. London-based since 2019. 10,000+ happy UK customers, 45,000+ channels, 4K streaming & 24/7 WhatsApp support. Our story — and why IPTV UK is different.",
     alternates: {
         canonical: '/about/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/about/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/about/'),
     },
     openGraph: {
         title: "About IPTV UK – UK's Trusted IPTV Provider Since 2019 | 10,000+ Customers",
         description: 'London-based IPTV UK provider since 2019. 10,000+ happy UK customers, 45,000+ channels, 4K streaming & 24/7 WhatsApp support. Meet the team behind IPTV UK.',
-        url: 'https://iptv-uk-iptv.co.uk/about/',
+        url: 'https://iptvuk-iptv-uk.store/about/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-team-about.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/iptv-uk-team-about.webp',
                 width: 1200,
                 height: 675,
                 alt: 'IPTV UK team — London-based UK IPTV service since 2019 with 10,000+ happy customers',
@@ -35,18 +35,18 @@ export const metadata: Metadata = applySeoFixes("/about/", {
 const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://iptv-uk-iptv.co.uk/#organization',
+    '@id': 'https://iptvuk-iptv-uk.store/#organization',
     name: 'IPTV UK',
     legalName: 'IPTV UK',
-    url: 'https://iptv-uk-iptv.co.uk',
-    logo: 'https://iptv-uk-iptv.co.uk/logo.webp',
-    image: 'https://iptv-uk-iptv.co.uk/og-image.webp',
+    url: 'https://iptvuk-iptv-uk.store',
+    logo: 'https://iptvuk-iptv-uk.store/logo.webp',
+    image: 'https://iptvuk-iptv-uk.store/og-image.webp',
     foundingDate: '2019',
     founder: {
         '@type': 'Person',
         name: 'James Carter',
         jobTitle: 'Founder & CEO',
-        url: 'https://iptv-uk-iptv.co.uk/about/',
+        url: 'https://iptvuk-iptv-uk.store/about/',
     },
     address: {
         '@type': 'PostalAddress',
@@ -61,10 +61,10 @@ const organizationSchema = {
             contactType: 'customer support',
             availableLanguage: 'English',
             areaServed: 'GB',
-            email: 'contact@iptv-uk-iptv.co.uk',
+            email: 'contact@iptvuk-iptv-uk.store',
         },
     ],
-    email: 'contact@iptv-uk-iptv.co.uk',
+    email: 'contact@iptvuk-iptv-uk.store',
     areaServed: {
         '@type': 'Country',
         name: 'United Kingdom',
@@ -85,8 +85,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'About', item: 'https://iptv-uk-iptv.co.uk/about/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+        { '@type': 'ListItem', position: 2, name: 'About', item: 'https://iptvuk-iptv-uk.store/about/' },
     ],
 };
 

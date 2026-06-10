@@ -42,7 +42,7 @@
       <body>
         <header>
           <h1>IPTV UK — Sitemap</h1>
-          <p>iptv-uk-iptv.co.uk</p>
+          <p>iptvuk-iptv-uk.store</p>
         </header>
         <main>
           <div class="summary">

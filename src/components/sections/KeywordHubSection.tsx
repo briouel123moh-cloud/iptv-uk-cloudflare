@@ -23,7 +23,7 @@ const freshnessSignals = [
   'Updated IPTV UK homepage copy for 2026 search intent, device compatibility, and faster decision-making.',
   'Clearer IPTV UK trial messaging: no card required, setup guidance included, and WhatsApp activation in minutes.',
   'Expanded internal links for IPTV UK pricing, Firestick setup, iPhone setup, sports guides, legal guidance, and troubleshooting.',
-  'Consistent canonical domain, brand wording, structured data, and contact details for iptv-uk-iptv.co.uk.',
+  'Consistent canonical domain, brand wording, structured data, and contact details for iptvuk-iptv-uk.store.',
 ];
 
 const localSearchClusters = [

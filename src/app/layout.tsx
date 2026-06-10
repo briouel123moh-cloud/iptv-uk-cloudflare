@@ -10,6 +10,7 @@ import { SITE_CONFIG } from '@/lib/site-config';
 // SEO: Global metadata
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.baseUrl),
+  applicationName: SITE_CONFIG.brandName,
   title: {
     default: 'Buy IPTV UK Subscription | Premium UK IPTV Service from £12',
     // Keep template plain to avoid duplicate brand tokens when pages already
@@ -30,7 +31,13 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'IPTV UK' }],
   creator: 'IPTV UK',
-  publisher: 'IPTV UK',
+  publisher: SITE_CONFIG.brandName,
+  category: 'IPTV UK streaming service',
+  formatDetection: {
+    telephone: true,
+    email: true,
+    address: false,
+  },
   robots: {
     index: true,
     follow: true,
@@ -109,7 +116,7 @@ const organizationSchema = {
   foundingDate: '2019',
   priceRange: '£12 – £55',
   telephone: '+447418316577',
-  email: 'contact@iptv-uk-iptv.co.uk',
+  email: 'contact@iptvuk-iptv-uk.store',
   openingHours: 'Mo-Su 00:00-24:00',
   founder: {
     '@type': 'Person',
@@ -129,7 +136,7 @@ const organizationSchema = {
       contactType: 'customer support',
       availableLanguage: 'English',
       areaServed: 'GB',
-      email: 'contact@iptv-uk-iptv.co.uk',
+      email: 'contact@iptvuk-iptv-uk.store',
     },
   ],
   areaServed: {
@@ -149,8 +156,14 @@ const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   '@id': `${SITE_CONFIG.baseUrl}/#website`,
-  name: 'IPTV UK',
+  name: SITE_CONFIG.brandName,
   url: SITE_CONFIG.baseUrl,
+  inLanguage: 'en-GB',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${SITE_CONFIG.baseUrl}/blog/?q={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
 };
 
 // Service schema

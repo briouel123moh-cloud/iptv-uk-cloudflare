@@ -18,15 +18,15 @@ export const metadata: Metadata = applySeoFixes("/iptv-uk-guide/", {
         'The ultimate IPTV UK guide for 2026. Learn what IPTV UK is, how to set it up on any device, which IPTV UK service to choose, legality in the UK, and how to get 2 free IPTV UK trials. Start here.',
     alternates: {
         canonical: '/iptv-uk-guide/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-uk-guide/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/iptv-uk-guide/'),
     },
     openGraph: {
         title: 'IPTV UK Guide 2026 – Complete Setup, Buying & Legal Guide',
         description: 'The ultimate IPTV UK guide 2026. What is IPTV UK, how to set it up, which IPTV UK service to choose, is it legal, and how to get 2 free IPTV UK trials. Everything you need.',
-        url: 'https://iptv-uk-iptv.co.uk/iptv-uk-guide/',
+        url: 'https://iptvuk-iptv-uk.store/iptv-uk-guide/',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-guide-setup-buying-tips.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/iptv-uk-guide-setup-buying-tips.webp',
                 width: 1200,
                 height: 675,
                 alt: 'IPTV UK guide 2026 — complete setup, buying tips and legal guide for UK IPTV',
@@ -45,22 +45,22 @@ const articleSchema = {
         'Comprehensive guide covering everything about IPTV in the United Kingdom including how it works, device compatibility, legal considerations, and tips for choosing the best IPTV provider.',
     image: {
         '@type': 'ImageObject',
-        url: 'https://iptv-uk-iptv.co.uk/images/iptv-uk-guide-setup-buying-tips.webp',
+        url: 'https://iptvuk-iptv-uk.store/images/iptv-uk-guide-setup-buying-tips.webp',
         width: 1200,
         height: 675,
     },
-    url: 'https://iptv-uk-iptv.co.uk/iptv-uk-guide/',
+    url: 'https://iptvuk-iptv-uk.store/iptv-uk-guide/',
     author: {
         '@type': 'Person',
         name: 'James Carter',
-        url: 'https://iptv-uk-iptv.co.uk/about/',
+        url: 'https://iptvuk-iptv-uk.store/about/',
     },
     publisher: {
         '@type': 'Organization',
         name: 'IPTV UK',
         logo: {
             '@type': 'ImageObject',
-            url: 'https://iptv-uk-iptv.co.uk/logo.webp',
+            url: 'https://iptvuk-iptv-uk.store/logo.webp',
             width: 200,
             height: 60,
         },
@@ -69,7 +69,7 @@ const articleSchema = {
     dateModified: '2026-04-01',
     mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://iptv-uk-iptv.co.uk/iptv-uk-guide/',
+        '@id': 'https://iptvuk-iptv-uk.store/iptv-uk-guide/',
     },
 };
 
@@ -77,8 +77,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'IPTV UK Guide', item: 'https://iptv-uk-iptv.co.uk/iptv-uk-guide/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+        { '@type': 'ListItem', position: 2, name: 'IPTV UK Guide', item: 'https://iptvuk-iptv-uk.store/iptv-uk-guide/' },
     ],
 };
 

@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   env: {
-    SITE_URL: 'https://iptv-uk-iptv.co.uk',
+    SITE_URL: 'https://iptvuk-iptv-uk.store',
   },
 };
 

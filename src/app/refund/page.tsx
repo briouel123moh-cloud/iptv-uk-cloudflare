@@ -14,12 +14,12 @@ export const metadata: Metadata = applySeoFixes("/refund/", {
         'Not happy with your IPTV UK subscription? Get a full refund within 30 days, no questions asked. Learn exactly how the IPTV UK 30-day money-back guarantee works and how to claim yours fast.',
     alternates: {
         canonical: '/refund/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/refund/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/refund/'),
     },
     openGraph: {
         title: 'IPTV UK Refund Policy – 30-Day Money-Back Guarantee, No Questions',
         description: 'IPTV UK offers a full 30-day money-back guarantee, no questions asked. Find out exactly how to claim your refund quickly and easily.',
-        url: 'https://iptv-uk-iptv.co.uk/refund/',
+        url: 'https://iptvuk-iptv-uk.store/refund/',
         images: [
             {
                 url: `${SITE_CONFIG.baseUrl}/og-image.webp`,
@@ -46,8 +46,8 @@ export default function RefundPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-            { '@type': 'ListItem', position: 2, name: 'Refund Policy', item: 'https://iptv-uk-iptv.co.uk/refund/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+            { '@type': 'ListItem', position: 2, name: 'Refund Policy', item: 'https://iptvuk-iptv-uk.store/refund/' },
         ],
     };
 
@@ -122,7 +122,7 @@ export default function RefundPage() {
                         <h2 className="text-2xl font-bold text-white mb-4">How to Request a Refund</h2>
                         <p className="leading-relaxed mb-4">Requesting a refund is simple:</p>
                         <ol className="list-decimal pl-6 space-y-2">
-                            <li><strong className="text-white">Contact us via WhatsApp</strong> (fastest method) or email at contact@iptv-uk-iptv.co.uk</li>
+                            <li><strong className="text-white">Contact us via WhatsApp</strong> (fastest method) or email at contact@iptvuk-iptv-uk.store</li>
                             <li><strong className="text-white">Provide your order details</strong> including your email address and payment reference</li>
                             <li><strong className="text-white">State your reason for the refund</strong> (optional, but helps us improve)</li>
                             <li><strong className="text-white">Receive confirmation</strong> of your refund request within 24 hours</li>
@@ -185,7 +185,7 @@ export default function RefundPage() {
                         </p>
                         <ul className="list-disc pl-6 space-y-2">
                             <li><strong className="text-white">WhatsApp:</strong> Available 24/7 (fastest response)</li>
-                            <li><strong className="text-white">Email:</strong> contact@iptv-uk-iptv.co.uk</li>
+                            <li><strong className="text-white">Email:</strong> contact@iptvuk-iptv-uk.store</li>
                         </ul>
                         <p className="leading-relaxed mt-4">
                             We process all legitimate refund requests promptly and aim to resolve any concerns

@@ -16,16 +16,16 @@ export const metadata: Metadata = applySeoFixes("/iptv-iphone-uk/", {
         'Stream IPTV UK on your iPhone or iPad anywhere. Best iOS IPTV UK apps 2026 — IPTV Smarters, GSE & more. Watch 45,000+ channels on the go. 5-minute setup. 2 free IPTV UK trials. From £12/month.',
     alternates: {
         canonical: '/iptv-iphone-uk/',
-        ...buildAlternates('https://iptv-uk-iptv.co.uk/iptv-iphone-uk/'),
+        ...buildAlternates('https://iptvuk-iptv-uk.store/iptv-iphone-uk/'),
     },
     openGraph: {
         title: 'IPTV UK on iPhone & iPad 2026 – Best iOS Apps | 2 Free Trials',
         description: 'Watch IPTV UK on your iPhone or iPad — 45,000+ channels on the go. Best iOS IPTV apps 2026. 2 free IPTV UK trials. 5-min setup. From £12/month.',
-        url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/',
+        url: 'https://iptvuk-iptv-uk.store/iptv-iphone-uk/',
         type: 'website',
         images: [
             {
-                url: 'https://iptv-uk-iptv.co.uk/images/watch-iptv-iphone-ipad-uk-hero.webp',
+                url: 'https://iptvuk-iptv-uk.store/images/watch-iptv-iphone-ipad-uk-hero.webp',
                 width: 1200,
                 height: 675,
                 alt: 'IPTV UK on iPhone and iPad 2026 — stream 45,000+ UK channels on iOS with 2 free trials',
@@ -38,13 +38,13 @@ export const metadata: Metadata = applySeoFixes("/iptv-iphone-uk/", {
 const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/#service',
+    '@id': 'https://iptvuk-iptv-uk.store/iptv-iphone-uk/#service',
     name: 'IPTV Service for iPhone and iPad UK',
     description: 'Premium IPTV subscription for iPhone and iPad in the UK. 45,000+ live channels in HD and 4K via dedicated iOS app.',
     provider: {
         '@type': 'Organization',
         name: 'IPTV UK',
-        '@id': 'https://iptv-uk-iptv.co.uk/#business',
+        '@id': 'https://iptvuk-iptv-uk.store/#business',
     },
     areaServed: { '@type': 'Country', name: 'United Kingdom' },
     serviceType: 'IPTV Streaming Subscription',
@@ -66,10 +66,10 @@ const productSchema = {
     image: PRODUCT_IMAGE,
     brand: { '@type': 'Brand', name: 'IPTV UK' },
     offers: [
-        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
-        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '12.00', priceCurrency: 'GBP', name: '1 Month', url: 'https://iptvuk-iptv-uk.store/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '28.00', priceCurrency: 'GBP', name: '3 Months', url: 'https://iptvuk-iptv-uk.store/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '42.00', priceCurrency: 'GBP', name: '6 Months', url: 'https://iptvuk-iptv-uk.store/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
+        { '@type': 'Offer', price: '55.00', priceCurrency: 'GBP', name: '12 Months', url: 'https://iptvuk-iptv-uk.store/iptv-iphone-uk/', availability: 'https://schema.org/InStock', priceValidUntil: PRICE_VALID_UNTIL, hasMerchantReturnPolicy: MERCHANT_RETURN_POLICY, shippingDetails: OFFER_SHIPPING_DETAILS },
     ],
 };
 
@@ -124,8 +124,8 @@ const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptv-uk-iptv.co.uk/' },
-        { '@type': 'ListItem', position: 2, name: 'IPTV on iPhone & iPad UK', item: 'https://iptv-uk-iptv.co.uk/iptv-iphone-uk/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://iptvuk-iptv-uk.store/' },
+        { '@type': 'ListItem', position: 2, name: 'IPTV on iPhone & iPad UK', item: 'https://iptvuk-iptv-uk.store/iptv-iphone-uk/' },
     ],
 };
 

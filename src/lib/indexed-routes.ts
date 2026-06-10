@@ -54,7 +54,7 @@ const INDEXED_INTERNAL_PATHS = new Set<string>([
 export function normalizeInternalHref(href: string): string | null {
   if (!href) return null;
 
-  const withoutOrigin = href.replace(/^https:\/\/www\.iptv-uk-iptv\.co\.uk/i, '');
+  const withoutOrigin = href.replace(/^https:\/\/(?:www\.)?iptvuk-iptv-uk\.store/i, '');
   if (/^[a-z][a-z0-9+.-]*:/i.test(withoutOrigin) || withoutOrigin.startsWith('//')) {
     return null;
   }
